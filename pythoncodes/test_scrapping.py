@@ -21,6 +21,7 @@ else:
         for elem in elems:
             data = elem.get_attribute('href')
             f.write(data+"\n")
+driver.quit()
 
 driver2 = uc.Chrome(version_main=149)
 with open('data/players_list.txt','r') as file:
