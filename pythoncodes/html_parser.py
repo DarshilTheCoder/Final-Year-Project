@@ -12,9 +12,15 @@ with open(f'data/{file[0]}','r') as f:
     # title = title_row[0]+" " +title_row[1]+" "+title_row[2]
     print(title_row)
     stat_header = soup.find_all('th',class_ = 'ds-bg-fill-content-alternate')
+    required_header_list = []
     for i in range(0,len(stat_header)):
-        print(stat_header[i].get_text())
-
+        text = stat_header[i].get_text(strip=True)
+        required_header_list.append(text)
+    value = required_header_list.index('Tournament')
+    print(required_header_list)
+    print(value)
+    
+    
     # data_rows = soup.find_all('tr',class_='ds-bg-fill-canvas')
     # for row in data_rows:
     #     data = row.find_all('td')
