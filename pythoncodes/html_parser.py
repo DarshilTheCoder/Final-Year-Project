@@ -70,7 +70,7 @@ for fname in file:
     if not fname.endswith('.html'):
         continue
     try:
-        with open(f'{dir_name}/{fname}','r') as f:
+        with open(f'{dir_name}/{fname}','r', encoding='utf-8') as f:
             slug = fname.replace('.html', '')        
             player_id = slug.rsplit('-', 1)[1]
             playerid  = player_id

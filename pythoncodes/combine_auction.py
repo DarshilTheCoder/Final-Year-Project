@@ -22,6 +22,14 @@ RENAME = {
     "team_name": "team", "Team": "team", "Franchise (Team)": "team",
 }
 
+def purse_to_cr(series):
+    """Purse in crores. Handles 'X cr' strings and raw-rupee integers alike."""
+    nums = pd.to_numeric(series.astype(str).str.replace(r"[^\d.]", "", regex=True),
+                         errors="coerce")
+    if nums.notna().any() and nums.median() > 1e4:   # values are raw rupees, not cr
+        nums = nums / 1e7
+    return nums
+
 frames = []
 for path in sorted(Path(INPUT_DIR).glob("ipl_*_auction.csv")):
     year = int(re.search(r"ipl_(\d{4})", path.name).group(1))
@@ -34,9 +42,19 @@ for path in sorted(Path(INPUT_DIR).glob("ipl_*_auction.csv")):
     df["year"] = year
     df["sold_price"] = pd.to_numeric(df["sold_price"], errors="coerce")
     df["sold_price_in_cr"] = df["sold_price"] / 10_000_000        # 1 crore = 1e7 rupees
+    
+    if year >= 2017:
+        df["purse_spent_in_cr"] = purse_to_cr(df["purse_spent"])
+        df["purse_left_in_cr"]  = purse_to_cr(df["purse_left"])
+    else:
+        df["purse_spent_in_cr"] = float("nan")
+        df["purse_left_in_cr"]  = float("nan")
+    df["purse_spent"] = df["purse_spent_in_cr"] * 10_000_000      # back to full rupees
+    df["purse_left"]  = df["purse_left_in_cr"]  * 10_000_000
 
     frames.append(df[["year", "player_id", "player_name", "team",
-                      "sold_price", "sold_price_in_cr"]])
+                      "sold_price", "sold_price_in_cr","purse_spent", "purse_spent_in_cr",
+                      "purse_left", "purse_left_in_cr"]])
 
 auction = pd.concat(frames, ignore_index=True)
 auction = auction.dropna(subset=["player_name"])                 # drop any blank rows
@@ -49,3 +67,4 @@ auction.to_csv(Path(OUTPUT_DIR) / "auction_all.csv", index=False)
 
 print(f"{len(auction)} rows, years {auction.year.min()}-{auction.year.max()}")
 print("rows with no sold price:", int(auction.sold_price.isna().sum()))
+print("years with purse filled:", sorted(auction.loc[auction.purse_spent_in_cr.notna(), "year"].unique()))
