@@ -16,6 +16,7 @@ raw_data/MI_Data
 raw_data/RR_Data
 raw_data/SRH_Data
 raw_data/KKR_Data
+raw_data/RCB_Data
 pythoncodes/CSK_players_data.csv
 pythoncodes/DC_players_data.csv
 pythoncodes/GL_players_data.csv
@@ -30,3 +31,5 @@ pythoncodes/MI_players_data.csv
 pythoncodes/RR_players_data.csv
 pythoncodes/SRH_players_data.csv
 pythoncodes/KKR_players_data.csv
+pythoncodes/auction_data
+pythoncodes/auction_data

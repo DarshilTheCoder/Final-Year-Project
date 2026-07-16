@@ -6,7 +6,7 @@ import time, os
 
 os.makedirs('auction_data', exist_ok=True)
 
-URL = "https://www.cricinfo.com/auction/ipl-2026-auction-1515016"
+URL = "https://www.cricinfo.com/story/list-of-players-sold-and-unsold-at-ipl-auction-2016-969473"
 
 driver = uc.Chrome(version_main=149)
 driver.get(URL)
@@ -23,12 +23,12 @@ if "Access Denied" in driver.page_source:
     print("STILL BLOCKED")
 else:
     WebDriverWait(driver, 15).until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, "table"))
+        EC.presence_of_element_located((By.CSS_SELECTOR, "article"))
     )
     time.sleep(3)   # let the tables render
 
     html = driver.page_source
-    with open('auction_data/ipl-2026-auction.html', 'w', encoding='utf-8') as f:
+    with open('auction_data/ipl-2016-auction.html', 'w', encoding='utf-8') as f:
         f.write(html)
     print("Saved. Page source length:", len(html))
 

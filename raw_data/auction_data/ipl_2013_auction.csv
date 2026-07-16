@@ -1,0 +1,38 @@
+year,team,purse_spent,purse_left,player_id,player_name,player_fullname,country,type,cost_usd,sold_price,sold_price_in_cr,status,transferred,overseas
+2013,Mumbai Indians,,,7133,Ricky Ponting,Ricky Ponting,Australia,,400000,21329520,2.132952,New,FALSE,TRUE
+2013,Royal Challengers Bangalore,,,35280,RP Singh,RP Singh,India,,400000,21329520,2.132952,New,FALSE,FALSE
+2013,Delhi Daredevils,,,44149,Johan Botha,Johan Botha,South Africa,,450000,23995710,2.399571,New,FALSE,TRUE
+2013,Pune Warriors,,,4578,Michael Clarke,Michael Clarke,Australia,,400000,21329520,2.132952,New,FALSE,TRUE
+2013,Kings XI Punjab,,,232284,Luke Pomersbach,Luke Pomersbach,Australia,,300000,15997140,1.599714,New,FALSE,TRUE
+2013,Mumbai Indians,,,272364,Phillip Hughes,Phillip Hughes,Australia,,100000,5332380,0.533238,New,FALSE,TRUE
+2013,Rajasthan Royals,,,270484,James Faulkner,James Faulkner,Australia,,400000,21329520,2.132952,New,FALSE,TRUE
+2013,Mumbai Indians,,,325026,Glenn Maxwell,Glenn Maxwell,Australia,,1000000,53323800,5.33238,New,FALSE,TRUE
+2013,Royal Challengers Bangalore,,,5961,Moises Henriques,Moises Henriques,Australia,,300000,15997140,1.599714,New,FALSE,TRUE
+2013,Pune Warriors,,,32091,Abhishek Nayar,Abhishek Nayar,India,,675000,35993565,3.5993565,New,FALSE,FALSE
+2013,Sunrisers Hyderabad,,,233514,Thisara Perera,Thisara Perera,Sri Lanka,,675000,35993565,3.5993565,New,FALSE,TRUE
+2013,Delhi Daredevils,,,38373,Jesse Ryder,Jesse Ryder,New Zealand,,260000,13864188,1.3864188,New,FALSE,TRUE
+2013,Sunrisers Hyderabad,,,53115,Darren Sammy,Darren Sammy,West Indies,,425000,22662615,2.2662615,New,FALSE,TRUE
+2013,Royal Challengers Bangalore,,,390484,Jaydev Unadkat,Jaydev Unadkat,India,,525000,27994995,2.7994995,New,FALSE,FALSE
+2013,Royal Challengers Bangalore,,,32973,Pankaj Singh,Pankaj Singh,India,,150000,7998570,0.799857,New,FALSE,FALSE
+2013,Royal Challengers Bangalore,,,52912,Ravi Rampaul,Ravi Rampaul,West Indies,,290000,15463902,1.5463902,New,FALSE,TRUE
+2013,Kings XI Punjab,,,317293,Manpreet Gony,Manpreet Gony,India,,500000,26661900,2.66619,New,FALSE,FALSE
+2013,Rajasthan Royals,,,51782,Fidel Edwards,Fidel Edwards,West Indies,,210000,11197998,1.1197998,New,FALSE,TRUE
+2013,Sunrisers Hyderabad,,,317784,Sudeep Tyagi,Sudeep Tyagi,India,,100000,5332380,0.533238,New,FALSE,FALSE
+2013,Chennai Super Kings,,,6981,Dirk Nannes,Dirk Nannes,Australia,,600000,31994280,3.199428,New,FALSE,TRUE
+2013,Sunrisers Hyderabad,,,37749,Nathan McCullum,Nathan McCullum,New Zealand,,100000,5332380,0.533238,New,FALSE,TRUE
+2013,Pune Warriors,,,268739,Ajantha Mendis,Ajantha Mendis,Sri Lanka,,725000,38659755,3.8659755,New,FALSE,TRUE
+2013,Delhi Daredevils,,,49700,Jeevan Mendis,Jeevan Mendis,Sri Lanka,,50000,2666190,0.266619,New,FALSE,TRUE
+2013,Chennai Super Kings,,,439952,Chris Morris,Chris Morris,South Africa,,625000,33327375,3.3327375,New,FALSE,TRUE
+2013,Kolkata Knight Riders,,,273439,Sachithra Senanayake,Sachithra Senanayake,Sri Lanka,,625000,33327375,3.3327375,New,FALSE,TRUE
+2013,Royal Challengers Bangalore,,,330408,Christopher Barnwell,Christopher Barnwell,West Indies,,50000,2666190,0.266619,New,FALSE,TRUE
+2013,Mumbai Indians,,,261354,Nathan Coulter-Nile,Nathan Coulter-Nile,Australia,,450000,23995710,2.399571,New,FALSE,TRUE
+2013,Chennai Super Kings,,,315623,Ben Laughlin,Ben Laughlin,Australia,,20000,1066476,0.1066476,New,FALSE,TRUE
+2013,Pune Warriors,,,272262,Kane Richardson,Kane Richardson,Australia,,700000,37326660,3.732666,New,FALSE,TRUE
+2013,Mumbai Indians,,,38062,Jacob Oram,Jacob Oram,New Zealand,,50000,2666190,0.266619,New,FALSE,TRUE
+2013,Sunrisers Hyderabad,,,379143,Quinton de Kock,Quinton de Kock,South Africa,,20000,1066476,0.1066476,New,FALSE,TRUE
+2013,Royal Challengers Bangalore,,,4864,Dan Christian,Dan Christian,Australia,,100000,5332380,0.533238,New,FALSE,TRUE
+2013,Chennai Super Kings,,,574178,Akila Dananjaya,Akila Dananjaya,Sri Lanka,,20000,1066476,0.1066476,New,FALSE,TRUE
+2013,Sunrisers Hyderabad,,,6903,Clint McKay,Clint McKay,Australia,,100000,5332380,0.533238,New,FALSE,TRUE
+2013,Chennai Super Kings,,,391485,Jason Holder,Jason Holder,West Indies,,20000,1066476,0.1066476,New,FALSE,TRUE
+2013,Kolkata Knight Riders,,,46393,Ryan McLaren,Ryan McLaren,South Africa,,50000,2666190,0.266619,New,FALSE,TRUE
+2013,Rajasthan Royals,,,300631,Kushal Perera,Kushal Perera,Sri Lanka,,20000,1066476,0.1066476,New,FALSE,TRUE

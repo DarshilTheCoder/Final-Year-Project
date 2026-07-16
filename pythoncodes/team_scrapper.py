@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 driver = uc.Chrome(version_main=149)
-driver.get("https://www.espncricinfo.com/records/trophy/averages-batting/indian-premier-league-117?team=5143")
+driver.get("https://www.espncricinfo.com/records/trophy/averages-batting/indian-premier-league-117?team=4340")
 
 # block check — so you KNOW if you're past the wall
 if "Access Denied" in driver.page_source:

@@ -1,0 +1,206 @@
+year,team,purse_spent,purse_left,player_id,player_name,player_fullname,birthdate,type,cost_inr_lakh,cost_usd_000,status,transferred,overseas
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,459257,Tymal Mills,Tymal Mills,,BOW,1200,1791,New,False,True
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,527299,Aniket Choudhary,Aniket Choudhary,,BOW,200,298,New,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,530773,Pawan Negi,Pawan Negi,,AR,100,149,New,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,533042,Billy Stanlake,Billy Stanlake,,BOW,30,44,New,False,True
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,777515,Praveen Dubey,Praveen Dubey,,AR,10,14,New,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,253802,Virat Kohli,Virat Kohli,,BAT,1250,1865,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,27223,Stuart Binny,Stuart Binny,,AR,200,298,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,277237,Iqbal Abdulla,Iqbal Abdulla,,BOW,10,14,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,290632,S Aravind,S Aravind,,BOW,10,14,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,290716,Kedar Jadhav,Kedar Jadhav,,BAT,217,324,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,379145,Tabraiz Shamsi,Tabraiz Shamsi,,BOW,10,14,Retained,False,True
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,390481,Harshal Patel,Harshal Patel,,BOW,40,59,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,398506,Mandeep Singh,Mandeep Singh,,BAT,80,119,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,422108,KL Rahul,KL Rahul,,WK,100,149,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,430246,Yuzvendra Chahal,Yuzvendra Chahal,,BOW,10,14,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,432783,Sachin Baby,Sachin Baby,,BAT,10,14,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,44936,AB de Villiers,AB de Villiers,,BAT,950,1417,Retained,False,True
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,450860,Adam Milne,Adam Milne,,BOW,70,104,Retained,False,True
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,51433,Samuel Badree,Samuel Badree,,BOW,50,74,Retained,False,True
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,51880,Chris Gayle,Chris Gayle,,BAT,750,1119,Retained,False,True
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,530011,Travis Head,Travis Head,,BAT,50,74,Retained,False,True
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,642525,Sarfaraz Khan,Sarfaraz Khan,,BAT,50,74,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,694211,Avesh Khan,Avesh Khan,,BOW,10,14,Retained,False,False
+2017,Royal Challengers Bangalore,63.575 cr,2.425 cr,8180,Shane Watson,Shane Watson,,AR,950,1417,Retained,False,True
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,1048841,Sanjay Yadav,Sanjay Yadav,,AR,10,14,New,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,247235,Chris Woakes,Chris Woakes,,AR,420,626,New,False,True
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,261354,Nathan Coulter-Nile,Nathan Coulter-Nile,,BOW,350,522,New,False,True
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,277472,Darren Bravo,Darren Bravo,,BAT,50,74,New,False,True
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,277912,Trent Boult,Trent Boult,,BOW,500,746,New,False,True
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,279554,Ishank Jaggi,Ishank Jaggi,,BAT,10,14,New,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,290727,Rishi Dhawan,Rishi Dhawan,,AR,55,82,New,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,736413,Sayan Ghosh,Sayan Ghosh,,BOW,10,14,New,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,820351,Rovman Powell,Rovman Powell,,AR,30,44,New,False,True
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,230558,Sunil Narine,Sunil Narine,,BOW,950,1417,Retained,False,True
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,237696,Sheldon Jackson,Sheldon Jackson,,BAT,15,22,Retained,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,276298,Andre Russell,Andre Russell,,AR,60,89,Retained,False,True
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,28763,Gautam Gambhir,Gautam Gambhir,,BAT,1250,1865,Retained,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,290630,Manish Pandey,Manish Pandey,,BAT,170,253,Retained,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,32498,Yusuf Pathan,Yusuf Pathan,,BAT,325,485,Retained,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,326637,Chris Lynn,Chris Lynn,,BAT,130,194,Retained,False,True
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,32966,Piyush Chawla,Piyush Chawla,,BOW,425,634,Retained,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,35582,Robin Uthappa,Robin Uthappa,,WK,500,746,Retained,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,376116,Umesh Yadav,Umesh Yadav,,BOW,260,388,Retained,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,446507,Suryakumar Yadav,Suryakumar Yadav,,BAT,70,104,Retained,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,559235,Kuldeep Yadav,Kuldeep Yadav,,BOW,40,59,Retained,False,False
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,56143,Shakib Al Hasan,Shakib Al Hasan,,AR,280,417,Retained,False,True
+2017,Kolkata Knight Riders,60.6 cr,5.4 cr,591650,Ankit Rajpoot,Ankit Rajpoot,,BOW,150,223,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,226492,Martin Guptill,Martin Guptill,,BAT,50,74,New,False,True
+2017,Kings XI Punjab,52.1 cr,13.9 cr,24598,Eoin Morgan,Eoin Morgan,,BAT,200,298,New,False,True
+2017,Kings XI Punjab,52.1 cr,13.9 cr,360911,Varun Aaron,Varun Aaron,,BOW,280,417,New,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,423838,Rahul Tewatia,Rahul Tewatia,,AR,25,37,New,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,506612,Matt Henry,Matt Henry,,BOW,50,74,New,False,True
+2017,Kings XI Punjab,52.1 cr,13.9 cr,53115,Darren Sammy,Darren Sammy,,AR,30,44,New,False,True
+2017,Kings XI Punjab,52.1 cr,13.9 cr,723105,Rinku Singh,Rinku Singh,,BAT,10,14,New,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,802575,T Natarajan,T Natarajan,,BOW,300,447,New,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,232292,Swapnil Singh,Swapnil Singh,,AR,10,14,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,237095,M Vijay,M Vijay,,BAT,300,447,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,279810,Wriddhiman Saha,Wriddhiman Saha,,WK,220,328,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,321777,David Miller,David Miller,,BAT,1250,1865,Retained,False,True
+2017,Kings XI Punjab,52.1 cr,13.9 cr,325012,Marcus Stoinis,Marcus Stoinis,,AR,55,82,Retained,False,True
+2017,Kings XI Punjab,52.1 cr,13.9 cr,325026,Glenn Maxwell,Glenn Maxwell,,AR,600,895,Retained,False,True
+2017,Kings XI Punjab,52.1 cr,13.9 cr,34155,Pardeep Sahu,Pardeep Sahu,,BOW,10,14,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,376324,Anureet Singh,Anureet Singh,,BOW,20,29,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,438362,Sandeep Sharma,Sandeep Sharma,,BOW,85,126,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,43906,Hashim Amla,Hashim Amla,,BAT,100,149,Retained,False,True
+2017,Kings XI Punjab,52.1 cr,13.9 cr,475281,Shardul Thakur,Shardul Thakur,,BOW,20,29,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,532856,Manan Vohra,Manan Vohra,,BAT,400,597,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,537119,Mohit Sharma,Mohit Sharma,,BOW,650,970,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,537124,Gurkeerat Singh,Gurkeerat Singh,,BAT,130,194,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,554691,Axar Patel,Axar Patel,,AR,75,111,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,554700,Nikhil Naik,Nikhil Naik,,WK,30,44,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,6683,Shaun Marsh,Shaun Marsh,,BAT,220,328,Retained,False,True
+2017,Kings XI Punjab,52.1 cr,13.9 cr,777537,KC Cariappa,KC Cariappa,,BOW,80,119,Retained,False,False
+2017,Kings XI Punjab,52.1 cr,13.9 cr,960369,Armaan Jaffer,Armaan Jaffer,,BAT,10,14,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,277662,Corey Anderson,Corey Anderson,,AR,100,149,New,False,True
+2017,Delhi Daredevils,56.95 cr,9.05 cr,327123,Ankit Bawne,Ankit Bawne,,BAT,10,14,New,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,333904,Aditya Tare,Aditya Tare,,WK,25,37,New,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,377534,Shashank Singh,Shashank Singh,,AR,10,14,New,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,489889,Pat Cummins,Pat Cummins,,BOW,450,671,New,False,True
+2017,Delhi Daredevils,56.95 cr,9.05 cr,49764,Angelo Mathews,Angelo Mathews,,AR,200,298,New,False,True
+2017,Delhi Daredevils,56.95 cr,9.05 cr,528067,M Ashwin,M Ashwin,,BOW,100,149,New,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,550215,Kagiso Rabada,Kagiso Rabada,,BOW,500,746,New,False,True
+2017,Delhi Daredevils,56.95 cr,9.05 cr,700167,Navdeep Saini,Navdeep Saini,,BOW,10,14,New,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,297628,Sam Billings,Sam Billings,,WK,30,44,Retained,False,True
+2017,Delhi Daredevils,56.95 cr,9.05 cr,30102,Zaheer Khan,Zaheer Khan,,BOW,400,597,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,31107,Amit Mishra,Amit Mishra,,BOW,350,522,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,31872,Shahbaz Nadeem,Shahbaz Nadeem,,BOW,85,126,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,379143,Quinton de Kock,Quinton de Kock,,WK,350,522,Retained,False,True
+2017,Delhi Daredevils,56.95 cr,9.05 cr,398439,Karun Nair,Karun Nair,,BAT,400,597,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,425943,Sanju Samson,Sanju Samson,,WK,420,626,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,439952,Chris Morris,Chris Morris,,AR,700,1044,Retained,False,True
+2017,Delhi Daredevils,56.95 cr,9.05 cr,447587,Jayant Yadav,Jayant Yadav,,AR,10,14,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,44932,JP Duminy,JP Duminy,,BAT,220,328,Retained,False,True
+2017,Delhi Daredevils,56.95 cr,9.05 cr,457249,Carlos Brathwaite,Carlos Brathwaite,,AR,420,626,Retained,False,True
+2017,Delhi Daredevils,56.95 cr,9.05 cr,481896,Mohammed Shami,Mohammed Shami,,BOW,425,634,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,604616,Chama Milind,Chama Milind,,BOW,10,14,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,642519,Shreyas Iyer,Shreyas Iyer,,BAT,260,388,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,717205,Pratyush Singh,Pratyush Singh,,BAT,10,14,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,931581,Rishabh Pant,Rishabh Pant,,WK,190,283,Retained,False,False
+2017,Delhi Daredevils,56.95 cr,9.05 cr,942645,Khaleel Ahmed,Khaleel Ahmed,,BOW,10,14,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,1083033,Kulwant Khejroliya,Kulwant Khejroliya,,BOW,10,14,New,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,30288,Karn Sharma,Karn Sharma,,AR,320,477,New,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,35390,Saurabh Tiwary,Saurabh Tiwary,,BAT,30,44,New,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,360456,Asela Gunaratne,Asela Gunaratne,,BAT,30,44,New,False,True
+2017,Mumbai Indians,62.645 cr,3.355 cr,424377,K Gowtham,K Gowtham,,AR,200,298,New,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,6033,Mitchell Johnson,Mitchell Johnson,,BOW,200,298,New,False,True
+2017,Mumbai Indians,62.645 cr,3.355 cr,604302,Nicholas Pooran,Nicholas Pooran,,WK,30,44,New,False,True
+2017,Mumbai Indians,62.645 cr,3.355 cr,230559,Kieron Pollard,Kieron Pollard,,AR,950,1417,Retained,False,True
+2017,Mumbai Indians,62.645 cr,3.355 cr,232364,Tim Southee,Tim Southee,,BOW,250,373,Retained,False,True
+2017,Mumbai Indians,62.645 cr,3.355 cr,29264,Harbhajan Singh,Harbhajan Singh,,BOW,550,820,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,308967,Jos Buttler,Jos Buttler,,WK,380,567,Retained,False,True
+2017,Mumbai Indians,62.645 cr,3.355 cr,319439,Mitchell McClenaghan,Mitchell McClenaghan,,BOW,30,44,Retained,False,True
+2017,Mumbai Indians,62.645 cr,3.355 cr,32242,Parthiv Patel,Parthiv Patel,,WK,140,208,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,33141,Ambati Rayudu,Ambati Rayudu,,BAT,400,597,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,34102,Rohit Sharma,Rohit Sharma,,BAT,1250,1865,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,344580,Shreyas Gopal,Shreyas Gopal,,BOW,10,14,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,35731,Vinay Kumar,Vinay Kumar,,BOW,299,447,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,422342,Siddhesh Lad,Siddhesh Lad,,BAT,10,14,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,471342,Krunal Pandya,Krunal Pandya,,AR,200,298,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,49758,Lasith Malinga,Lasith Malinga,,BOW,750,1119,Retained,False,True
+2017,Mumbai Indians,62.645 cr,3.355 cr,527663,J Suchith,J Suchith,,AR,10,14,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,53116,Lendl Simmons,Lendl Simmons,,BAT,55,82,Retained,False,True
+2017,Mumbai Indians,62.645 cr,3.355 cr,604527,Nitish Rana,Nitish Rana,,BAT,10,14,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,625371,Hardik Pandya,Hardik Pandya,,AR,10,14,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,625383,Jasprit Bumrah,Jasprit Bumrah,,BOW,120,179,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,721867,Jitesh Sharma,Jitesh Sharma,,WK,10,14,Retained,False,False
+2017,Mumbai Indians,62.645 cr,3.355 cr,807791,Deepak Punia,Deepak Punia,,AR,10,14,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,25913,Mohammad Nabi,Mohammad Nabi,,AR,30,44,New,False,True
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,288992,Chris Jordan,Chris Jordan,,AR,50,74,New,False,True
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,315623,Ben Laughlin,Ben Laughlin,,BOW,30,44,New,False,True
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,340841,Eklavya Dwivedi,Eklavya Dwivedi,,WK,75,111,New,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,587152,Pravin Tambe,Pravin Tambe,,BOW,10,14,New,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,792725,Tanmay Agarwal,Tanmay Agarwal,,BAT,10,14,New,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,793463,Rashid Khan,Rashid Khan,,BOW,400,597,New,False,True
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,940973,Mohammed Siraj,Mohammed Siraj,,BOW,260,388,New,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,219889,David Warner,David Warner,,BAT,550,820,Retained,False,True
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,230371,Ben Cutting,Ben Cutting,,AR,50,74,Retained,False,True
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,277906,Kane Williamson,Kane Williamson,,BAT,60,89,Retained,False,True
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,28235,Shikhar Dhawan,Shikhar Dhawan,,BAT,1250,1865,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,310958,Abhimanyu Mithun,Abhimanyu Mithun,,BOW,30,44,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,31820,Ashish Nehra,Ashish Nehra,,BOW,550,820,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,32102,Naman Ojha,Naman Ojha,,WK,50,74,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,326016,Bhuvneshwar Kumar,Bhuvneshwar Kumar,,BOW,425,634,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,326017,Siddarth Kaul,Siddarth Kaul,,BOW,10,14,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,330902,Mustafizur Rahman,Mustafizur Rahman,,BOW,140,208,Retained,False,True
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,35928,Bipul Sharma,Bipul Sharma,,BOW,10,14,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,36084,Yuvraj Singh,Yuvraj Singh,,AR,700,1044,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,477021,Vijay Shankar,Vijay Shankar,,AR,35,52,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,497121,Deepak Hooda,Deepak Hooda,,BAT,420,626,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,537126,Barinder Sran,Barinder Sran,,BOW,120,179,Retained,False,False
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,5961,Moises Henriques,Moises Henriques,,AR,100,149,Retained,False,True
+2017,Sunrisers Hyderabad,53.75 cr,12.25 cr,642531,Ricky Bhui,Ricky Bhui,,BAT,10,14,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,1064812,Rahul Chahar,Rahul Chahar,,BOW,10,14,New,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,311158,Ben Stokes,Ben Stokes,,AR,1450,2164,New,False,True
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,35565,Manoj Tiwary,Manoj Tiwary,,BAT,50,74,New,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,390484,Jaydev Unadkat,Jaydev Unadkat,,BOW,30,44,New,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,446763,Rahul Tripathi,Rahul Tripathi,,AR,10,14,New,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,4864,Dan Christian,Dan Christian,,AR,100,149,New,False,True
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,493773,Lockie Ferguson,Lockie Ferguson,,BOW,50,74,New,False,True
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,627214,Saurabh Kumar,Saurabh Kumar,,BOW,10,14,New,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,969381,Milind Tandon,Milind Tandon,,AR,10,14,New,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,215155,Usman Khawaja,Usman Khawaja,,BAT,100,149,Retained,False,True
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,227712,Ashok Dinda,Ashok Dinda,,BOW,50,74,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,26421,R Ashwin,R Ashwin,,BOW,750,1119,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,267192,Steven Smith,Steven Smith,,BAT,550,820,Retained,False,True
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,26907,Rajat Bhatia,Rajat Bhatia,,BOW,60,89,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,272450,Mitchell Marsh,Mitchell Marsh,,AR,480,716,Retained,False,True
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,277916,Ajinkya Rahane,Ajinkya Rahane,,BAT,950,1417,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,28081,MS Dhoni,MS Dhoni,,WK,1250,1865,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,379504,Adam Zampa,Adam Zampa,,BOW,30,44,Retained,False,True
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,398438,Mayank Agarwal,Mayank Agarwal,,BAT,160,238,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,422992,Ankit Sharma,Ankit Sharma,,BOW,10,14,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,447261,Deepak Chahar,Deepak Chahar,,BOW,10,14,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,447439,Ishwar Pandey,Ishwar Pandey,,BOW,20,29,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,44828,Faf du Plessis,Faf du Plessis,,BAT,400,597,Retained,False,True
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,477071,Baba Aparajith,Baba Aparajith,,BAT,10,14,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,543922,Jaskaran Singh,Jaskaran Singh,,BOW,10,14,Retained,False,False
+2017,Rising Pune Supergiants,65.7 cr,0.3 cr,604534,Ankush Bains,Ankush Bains,,WK,10,14,Retained,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,1079668,Shubham Agarwal,Shubham Agarwal,,AR,10,14,New,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,1082859,Tejas Baroka,Tejas Baroka,,BOW,10,14,New,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,1083464,Pratham Singh,Pratham Singh,,AR,10,14,New,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,298438,Jason Roy,Jason Roy,,BAT,100,149,New,False,True
+2017,Gujarat Lions,55.5 cr,10.5 cr,317293,Manpreet Gony,Manpreet Gony,,BOW,60,89,New,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,32965,Munaf Patel,Munaf Patel,,BOW,30,44,New,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,500360,Akshdeep Nath,Akshdeep Nath,,AR,10,14,New,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,534734,Chirag Suri,Chirag Suri,,BAT,10,14,New,False,True
+2017,Gujarat Lions,55.5 cr,10.5 cr,626295,Shelley Shaurya,Shelley Shaurya,,BOW,10,14,New,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,732291,Basil Thampi,Basil Thampi,,BOW,85,126,New,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,853259,Nathu Singh,Nathu Singh,,BOW,50,74,New,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,234675,Ravindra Jadeja,Ravindra Jadeja,,AR,950,1417,Retained,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,270484,James Faulkner,James Faulkner,,AR,750,1119,Retained,False,True
+2017,Gujarat Lions,55.5 cr,10.5 cr,277955,Dhawal Kulkarni,Dhawal Kulkarni,,BOW,200,298,Retained,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,279545,Pradeep Sangwan,Pradeep Sangwan,,BOW,20,29,Retained,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,29655,Shadab Jakati,Shadab Jakati,,BOW,20,29,Retained,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,30045,Dinesh Karthik,Dinesh Karthik,,WK,230,343,Retained,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,30732,Praveen Kumar,Praveen Kumar,,BOW,350,522,Retained,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,33335,Suresh Raina,Suresh Raina,,BAT,1250,1865,Retained,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,34997,Jaydev Shah,Jaydev Shah,,BAT,20,29,Retained,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,37737,Brendon McCullum,Brendon McCullum,,BAT,550,820,Retained,False,True
+2017,Gujarat Lions,55.5 cr,10.5 cr,459508,Andrew Tye,Andrew Tye,,BOW,50,74,Retained,False,True
+2017,Gujarat Lions,55.5 cr,10.5 cr,51439,Dwayne Bravo,Dwayne Bravo,,AR,400,597,Retained,False,True
+2017,Gujarat Lions,55.5 cr,10.5 cr,53118,Dwayne Smith,Dwayne Smith,,AR,230,343,Retained,False,True
+2017,Gujarat Lions,55.5 cr,10.5 cr,5334,Aaron Finch,Aaron Finch,,BAT,100,149,Retained,False,True
+2017,Gujarat Lions,55.5 cr,10.5 cr,720471,Ishan Kishan,Ishan Kishan,,WK,35,52,Retained,False,False
+2017,Gujarat Lions,55.5 cr,10.5 cr,917213,Shivil Kaushik,Shivil Kaushik,,BOW,10,14,Retained,False,False

@@ -1,0 +1,140 @@
+year,team,purse_spent,purse_left,player_id,player_name,player_fullname,birthdate,country,cost_usd,sold_price,sold_price_in_cr,status,transferred,overseas
+2011,Mumbai Indians,,,35320,Sachin Tendulkar,Sachin Tendulkar,,India,1800000,81666000,8.1666,Retained,FALSE,FALSE
+2011,Mumbai Indians,,,29264,Harbhajan Singh,Harbhajan Singh,,India,1300000,58981000,5.8981,Retained,FALSE,FALSE
+2011,Mumbai Indians,,,230559,Kieron Pollard,Kieron Pollard,,West Indies,900000,40833000,4.0833,Retained,FALSE,TRUE
+2011,Mumbai Indians,,,49758,Lasith Malinga,Lasith Malinga,,Sri Lanka,500000,22685000,2.2685,Retained,FALSE,TRUE
+2011,Chennai Super Kings,,,28081,MS Dhoni,MS Dhoni,,India,1800000,81666000,8.1666,Retained,FALSE,FALSE
+2011,Chennai Super Kings,,,33335,Suresh Raina,Suresh Raina,,India,1300000,58981000,5.8981,Retained,FALSE,FALSE
+2011,Chennai Super Kings,,,237095,M Vijay,M Vijay,,India,900000,40833000,4.0833,Retained,FALSE,FALSE
+2011,Chennai Super Kings,,,46248,Albie Morkel,Albie Morkel,,South Africa,500000,22685000,2.2685,Retained,FALSE,TRUE
+2011,Rajasthan Royals,,,8166,Shane Warne,Shane Warne,,Australia,1800000,81666000,8.1666,Retained,FALSE,TRUE
+2011,Rajasthan Royals,,,8180,Shane Watson,Shane Watson,,Australia,1300000,58981000,5.8981,Retained,FALSE,TRUE
+2011,Delhi Daredevils,,,35263,Virender Sehwag,Virender Sehwag,,India,1800000,81666000,8.1666,Retained,FALSE,FALSE
+2011,Royal Challengers Bangalore,,,253802,Virat Kohli,Virat Kohli,,India,1800000,81666000,8.1666,Retained,FALSE,FALSE
+2011,Kolkata Knight Riders,,,28763,Gautam Gambhir,Gautam Gambhir,,India,2400000,108888000,10.8888,New,FALSE,FALSE
+2011,Royal Challengers Bangalore,,,48472,Tillakaratne Dilshan,Tillakaratne Dilshan,,Sri Lanka,650000,29490500,2.94905,New,FALSE,TRUE
+2011,Kolkata Knight Riders,,,32498,Yusuf Khan Pathan,Yusuf Pathan,,India,2100000,95277000,9.5277,New,FALSE,FALSE
+2011,Royal Challengers Bangalore,,,30102,Zaheer Khan,Zaheer Khan,,India,900000,40833000,4.0833,New,FALSE,FALSE
+2011,Royal Challengers Bangalore,,,44936,AB de Villiers,AB de Villiers,,South Africa,1100000,49907000,4.9907,New,FALSE,TRUE
+2011,Rajasthan Royals,,,38699,Ross Taylor,Ross Taylor,,New Zealand,1000000,45370000,4.537,New,FALSE,TRUE
+2011,Deccan Chargers,,,19296,Kevin Pietersen,Kevin Pietersen,,England,650000,29490500,2.94905,New,FALSE,TRUE
+2011,Pune Warriors,,,36084,Yuvraj Singh,Yuvraj Singh,,India,1800000,81666000,8.1666,New,FALSE,FALSE
+2011,Kochi,,,49289,Mahela Jayawardene,Mahela Jayawardene,,Sri Lanka,1500000,68055000,6.8055,New,FALSE,TRUE
+2011,Royal Challengers Bangalore,,,38710,Daniel Vettori,Daniel Vettori,,New Zealand,550000,24953500,2.49535,New,FALSE,TRUE
+2011,Kings XI Punjab,,,5390,Adam Gilchrist,Adam Gilchrist,,Australia,900000,40833000,4.0833,New,FALSE,TRUE
+2011,Kolkata Knight Riders,,,45789,Jacques Kallis,Jacques Kallis,,South Africa,1100000,49907000,4.9907,New,FALSE,TRUE
+2011,Delhi Daredevils,,,32685,Irfan Pathan,Irfan Pathan,,India,1900000,86203000,8.6203,New,FALSE,FALSE
+2011,Rajasthan Royals,,,28114,Rahul Dravid,Rahul Dravid,,India,500000,22685000,2.2685,New,FALSE,FALSE
+2011,Rajasthan Royals,,,44149,Johan Botha,Johan Botha,,South Africa,950000,43101500,4.31015,New,FALSE,TRUE
+2011,Mumbai Indians,,,34102,Rohit Sharma,Rohit Sharma,,India,2000000,90740000,9.074,New,FALSE,FALSE
+2011,Mumbai Indians,,,7702,Andrew Symonds,Andrew Symonds,,Australia,850000,38564500,3.85645,New,FALSE,TRUE
+2011,Deccan Chargers,,,8291,Cameron White,Cameron White,,Australia,1100000,49907000,4.9907,New,FALSE,TRUE
+2011,Deccan Chargers,,,50710,Kumar Sangakkara,Kumar Sangakkara,,Sri Lanka,700000,31759000,3.1759,New,FALSE,TRUE
+2011,Pune Warriors,,,47270,Graeme Smith,Graeme Smith,,South Africa,500000,22685000,2.2685,New,FALSE,TRUE
+2011,Pune Warriors,,,35582,Robin Uthappa,Robin Uthappa,,India,2100000,95277000,9.5277,New,FALSE,FALSE
+2011,Kochi,,,30750,VVS Laxman,VVS Laxman,,India,400000,18148000,1.8148,New,FALSE,FALSE
+2011,Kochi,,,37737,Brendon McCullum,Brendon McCullum,,New Zealand,475000,21550750,2.155075,New,FALSE,TRUE
+2011,Kochi,,,34274,Sreesanth,Sreesanth,,India,900000,40833000,4.0833,New,FALSE,FALSE
+2011,Kochi,,,35280,RP Singh,RP Singh,,India,500000,22685000,2.2685,New,FALSE,FALSE
+2011,Chennai Super Kings,,,5939,Michael Hussey,Michael Hussey,,Australia,425000,19282250,1.928225,New,FALSE,TRUE
+2011,Kings XI Punjab,,,6683,Shaun Marsh,Shaun Marsh,,Australia,400000,18148000,1.8148,New,FALSE,TRUE
+2011,Deccan Chargers,,,44932,JP Duminy,JP Duminy,,South Africa,300000,13611000,1.3611,New,FALSE,TRUE
+2011,Deccan Chargers,,,28235,Shikhar Dhawan,Shikhar Dhawan,,India,300000,13611000,1.3611,New,FALSE,FALSE
+2011,Royal Challengers Bangalore,,,35390,Saurabh Tiwary,Saurabh Tiwary,,India,1600000,72592000,7.2592,New,FALSE,FALSE
+2011,Kings XI Punjab,,,5766,David Hussey,David Hussey,,Australia,1400000,63518000,6.3518,New,FALSE,TRUE
+2011,Delhi Daredevils,,,219889,David Warner,David Warner,,Australia,750000,34027500,3.40275,New,FALSE,TRUE
+2011,Kochi,,,32242,Parthiv Patel,Parthiv Patel,,India,290000,13157300,1.31573,New,FALSE,FALSE
+2011,Chennai Super Kings,,,279810,Wriddhiman Saha,Wriddhiman Saha,,India,100000,4537000,0.4537,New,FALSE,FALSE
+2011,Kings XI Punjab,,,30045,Dinesh Karthik,Dinesh Karthik,,India,900000,40833000,4.0833,New,FALSE,FALSE
+2011,Delhi Daredevils,,,32102,Naman Ojha,Naman Ojha,,India,270000,12249900,1.22499,New,FALSE,FALSE
+2011,Kolkata Knight Riders,,,5560,Brad Haddin,Brad Haddin,,Australia,325000,14745250,1.474525,New,FALSE,TRUE
+2011,Pune Warriors,,,7252,Tim Paine,Tim Paine,,Australia,270000,12249900,1.22499,New,FALSE,TRUE
+2011,Mumbai Indians,,,45782,Davy Jacobs,Davy Jacobs,,South Africa,190000,8620300,0.86203,New,FALSE,TRUE
+2011,Delhi Daredevils,,,5702,James Hopes,James Hopes,,Australia,350000,15879500,1.58795,New,FALSE,TRUE
+2011,Kochi,,,234675,Ravindra Jadeja,Ravindra Jadeja,,India,950000,43101500,4.31015,New,FALSE,FALSE
+2011,Kolkata Knight Riders,,,56143,Shakib Al Hasan,Shakib Al Hasan,,Bangladesh,425000,19282250,1.928225,New,FALSE,TRUE
+2011,Kings XI Punjab,,,10617,Stuart Broad,Stuart Broad,,England,400000,18148000,1.8148,New,FALSE,TRUE
+2011,Kings XI Punjab,,,32091,Abhishek Nayar,Abhishek Nayar,,India,800000,36296000,3.6296,New,FALSE,FALSE
+2011,Pune Warriors,,,49764,Angelo Mathews,Angelo Mathews,,Sri Lanka,950000,43101500,4.31015,New,FALSE,TRUE
+2011,Chennai Super Kings,,,51439,Dwayne Bravo,Dwayne Bravo,,West Indies,200000,9074000,0.9074,New,FALSE,TRUE
+2011,Kochi,,,267192,Steven Smith,Steven Smith,,Australia,200000,9074000,0.9074,New,FALSE,TRUE
+2011,Mumbai Indians,,,37004,James Franklin,James Franklin,,New Zealand,100000,4537000,0.4537,New,FALSE,TRUE
+2011,Deccan Chargers,,,236779,Ishant Sharma,Ishant Sharma,,India,450000,20416500,2.04165,New,FALSE,FALSE
+2011,Kings XI Punjab,,,30732,Praveen Kumar,Praveen Kumar,,India,800000,36296000,3.6296,New,FALSE,FALSE
+2011,Pune Warriors,,,31820,Ashish Nehra,Ashish Nehra,,India,850000,38564500,3.85645,New,FALSE,FALSE
+2011,Kolkata Knight Riders,,,6278,Brett Lee,Brett Lee,,Australia,400000,18148000,1.8148,New,FALSE,TRUE
+2011,Delhi Daredevils,,,46538,Morne Morkel,Morne Morkel,,South Africa,475000,21550750,2.155075,New,FALSE,TRUE
+2011,Deccan Chargers,,,47492,Dale Steyn,Dale Steyn,,South Africa,1200000,54444000,5.4444,New,FALSE,TRUE
+2011,Kings XI Punjab,,,5779,Ryan Harris,Ryan Harris,,Australia,325000,14745250,1.474525,New,FALSE,TRUE
+2011,Royal Challengers Bangalore,,,6981,Dirk Nannes,Dirk Nannes,,Australia,650000,29490500,2.94905,New,FALSE,TRUE
+2011,Chennai Super Kings,,,4508,Doug Bollinger,Doug Bollinger,,Australia,700000,31759000,3.1759,New,FALSE,TRUE
+2011,Kochi,,,49636,Muttiah Muralitharan,Muttiah Muralitharan,,Sri Lanka,1100000,49907000,4.9907,New,FALSE,TRUE
+2011,Kings XI Punjab,,,32966,Piyush Chawla,Piyush Chawla,,India,900000,40833000,4.0833,New,FALSE,FALSE
+2011,Chennai Super Kings,,,26421,R Ashwin,R Ashwin,,India,850000,38564500,3.85645,New,FALSE,FALSE
+2011,Deccan Chargers,,,32130,Pragyan Ojha,Pragyan Ojha,,India,500000,22685000,2.2685,New,FALSE,FALSE
+2011,Deccan Chargers,,,31107,Amit Mishra,Amit Mishra,,India,300000,13611000,1.3611,New,FALSE,FALSE
+2011,Pune Warriors,,,37749,Nathan McCullum,Nathan McCullum,,New Zealand,100000,4537000,0.4537,New,FALSE,TRUE
+2011,Kochi,,,32391,Ramesh Powar,Ramesh Powar,,India,180000,8166600,0.81666,New,FALSE,FALSE
+2011,Delhi Daredevils,,,5334,Aaron Finch,Aaron Finch,,Australia,300000,13611000,1.3611,New,FALSE,TRUE
+2011,Kolkata Knight Riders,,,24598,Eoin Morgan,Eoin Morgan,,England,350000,15879500,1.58795,New,FALSE,TRUE
+2011,Kochi,,,5674,Brad Hodge,Brad Hodge,,Australia,425000,19282250,1.928225,New,FALSE,TRUE
+2011,Pune Warriors,,,5236,Callum Ferguson,Callum Ferguson,,Australia,300000,13611000,1.3611,New,FALSE,TRUE
+2011,Kolkata Knight Riders,,,35565,Manoj Tiwary,Manoj Tiwary,,India,475000,21550750,2.155075,New,FALSE,FALSE
+2011,Royal Challengers Bangalore,,,32540,Cheteshwar Pujara,Cheteshwar Pujara,,India,700000,31759000,3.1759,New,FALSE,FALSE
+2011,Chennai Super Kings,,,26806,S Badrinath,S Badrinath,,India,850000,38564500,3.85645,New,FALSE,FALSE
+2011,Rajasthan Royals,,,10772,Paul Collingwood,Paul Collingwood,,England,250000,11342500,1.13425,New,FALSE,TRUE
+2011,Delhi Daredevils,,,230193,Matthew Wade,Matthew Wade,,Australia,100000,4537000,0.4537,New,FALSE,TRUE
+2011,Deccan Chargers,,,4864,Dan Christian,Dan Christian,,Australia,900000,40833000,4.0833,New,FALSE,TRUE
+2011,Kochi,,,233514,Thisara Perera,Thisara Perera,,Sri Lanka,80000,3629600,0.36296,New,FALSE,TRUE
+2011,Delhi Daredevils,,,26184,Ajit Agarkar,Ajit Agarkar,,India,210000,9527700,0.95277,New,FALSE,FALSE
+2011,Royal Challengers Bangalore,,,45963,Charl Langeveldt,Charl Langeveldt,,South Africa,140000,6351800,0.63518,New,FALSE,TRUE
+2011,Kochi,,,35731,Vinay Kumar,Vinay Kumar,,India,475000,21550750,2.155075,New,FALSE,FALSE
+2011,Delhi Daredevils,,,227712,Ashok Dinda,Ashok Dinda,,India,375000,17013750,1.701375,New,FALSE,FALSE
+2011,Mumbai Indians,,,32965,Munaf Patel,Munaf Patel,,India,700000,31759000,3.1759,New,FALSE,FALSE
+2011,Rajasthan Royals,,,8076,Shaun Tait,Shaun Tait,,Australia,300000,13611000,1.3611,New,FALSE,TRUE
+2011,Delhi Daredevils,,,376116,Umesh Yadav,Umesh Yadav,,India,750000,34027500,3.40275,New,FALSE,FALSE
+2011,Mumbai Indians,,,6903,Clint McKay,Clint McKay,,Australia,110000,4990700,0.49907,New,FALSE,TRUE
+2011,Kolkata Knight Riders,,,26829,L Balaji,L Balaji,,India,500000,22685000,2.2685,New,FALSE,FALSE
+2011,Delhi Daredevils,,,47850,Roelof van der Merwe,Roelof van der Merwe,,South Africa,50000,2268500,0.22685,New,FALSE,TRUE
+2011,Kochi,,,7069,Steve O'Keefe,Steve O'Keefe,,Australia,20000,907400,0.09074,New,FALSE,TRUE
+2011,Royal Challengers Bangalore,,,232284,Luke Pomersbasch,Luke Pomersbasch,,Australia,50000,2268500,0.22685,New,FALSE,TRUE
+2011,Delhi Daredevils,,,35805,Venugopal Rao,Venugopal Rao,,India,700000,31759000,3.1759,New,FALSE,FALSE
+2011,Chennai Super Kings,,,38407,Scott Styris,Scott Styris,,New Zealand,200000,9074000,0.9074,New,FALSE,TRUE
+2011,Chennai Super Kings,,,5941,Ben Hilfenhaus,Ben Hilfenhaus,,Australia,100000,4537000,0.4537,New,FALSE,TRUE
+2011,Kolkata Knight Riders,,,390484,Jaidev Unadkat,Jaidev Unadkat,,India,250000,11342500,1.13425,New,FALSE,FALSE
+2011,Deccan Chargers,,,317293,Manpreet Gony,Manpreet Gony,,India,290000,13157300,1.31573,New,FALSE,FALSE
+2011,Chennai Super Kings,,,29976,Joginder Sharma,Joginder Sharma,,India,150000,6805500,0.68055,New,FALSE,FALSE
+2011,Pune Warriors,,,265564,Wayne Parnell,Wayne Parnell,,South Africa,160000,7259200,0.72592,New,FALSE,TRUE
+2011,Royal Challengers Bangalore,,,310958,Abhimanyu Mithun,Abhimanyu Mithun,,India,260000,11796200,1.17962,New,FALSE,FALSE
+2011,Chennai Super Kings,,,49535,Nuwan Kulasekara,Nuwan Kulasekara,,Sri Lanka,100000,4537000,0.4537,New,FALSE,TRUE
+2011,Chennai Super Kings,,,317784,Sudeep Tyagi,Sudeep Tyagi,,India,240000,10888800,1.08888,New,FALSE,FALSE
+2011,Chennai Super Kings,,,50438,Suraj Randiv,Suraj Randiv,,Sri Lanka,80000,3629600,0.36296,New,FALSE,TRUE
+2011,Kochi,,,20123,Owais Shah,Owais Shah,,England,200000,9074000,0.9074,New,FALSE,TRUE
+2011,Kochi,,,6161,Michael Klinger,Michael Klinger,,Australia,75000,3402750,0.340275,New,FALSE,TRUE
+2011,Kolkata Knight Riders,,,47660,Ryan ten Doeschate,Ryan ten Doeschate,,Netherlands,150000,6805500,0.68055,New,FALSE,TRUE
+2011,Pune Warriors,,,272450,Mitchell Marsh,Mitchell Marsh,,Australia,290000,13157300,1.31573,New,FALSE,TRUE
+2011,Delhi Daredevils,,,6553,Andrew McDonald,Andrew McDonald,,Australia,80000,3629600,0.36296,New,FALSE,TRUE
+2011,Kochi,,,228622,John Hastings,John Hastings,,Australia,20000,907400,0.09074,New,FALSE,TRUE
+2011,Rajasthan Royals,,,32973,Pankaj Singh,Pankaj Singh,,India,95000,4310150,0.431015,New,FALSE,FALSE
+2011,Royal Challengers Bangalore,,,47693,Johan van der Wath,Johan van der Wath,,South Africa,50000,2268500,0.22685,New,FALSE,TRUE
+2011,Pune Warriors,,,53191,Jerome Taylor,Jerome Taylor,,West Indies,100000,4537000,0.4537,New,FALSE,TRUE
+2011,Kolkata Knight Riders,,,272465,James Pattinson,James Pattinson,,Australia,100000,4537000,0.4537,New,FALSE,TRUE
+2011,Pune Warriors,,,47569,Alfonso Thomas,Alfonso Thomas,,South Africa,100000,4537000,0.4537,New,FALSE,TRUE
+2011,Chennai Super Kings,,,4451,George Bailey,George Bailey,,Australia,50000,2268500,0.22685,New,FALSE,TRUE
+2011,Royal Challengers Bangalore,,,318845,Rilee Rossouw,Rilee Rossouw,,South Africa,20000,907400,0.09074,New,FALSE,TRUE
+2011,Royal Challengers Bangalore,,,324358,Nuwan Pradeep,Nuwan Pradeep,,Sri Lanka,20000,907400,0.09074,New,FALSE,TRUE
+2011,Deccan Chargers,,,326637,Chris Lynn,Chris Lynn,,Australia,20000,907400,0.09074,New,FALSE,TRUE
+2011,Chennai Super Kings,,,44828,Faf du Plessis,Faf du Plessis,,South Africa,120000,5444400,0.54444,New,FALSE,TRUE
+2011,Pune Warriors,,,38373,Jesse Ryder,Jesse Ryder,,New Zealand,150000,6805500,0.68055,New,FALSE,TRUE
+2011,Pune Warriors,,,30049,Murali Kartik,Murali Kartik,,India,400000,18148000,1.8148,New,FALSE,FALSE
+2011,Deccan Chargers,,,223642,Rusty Theron,Rusty Theron,,South Africa,85000,3856450,0.385645,New,FALSE,TRUE
+2011,Delhi Daredevils,,,4292,Travis Birt,Travis Birt,,Australia,20000,907400,0.09074,New,FALSE,TRUE
+2011,Kings XI Punjab,,,16932,Dmitri Mascarenhas,Dmitri Mascarenhas,,England,100000,4537000,0.4537,New,FALSE,TRUE
+2011,Royal Challengers Bangalore,,,285687,Jonathan Vandiar,Jonathan Vandiar,,South Africa,20000,907400,0.09074,New,FALSE,TRUE
+2011,Mumbai Indians,,,5961,Moises Henriques,Moises Henriques,,Australia,50000,2268500,0.22685,New,FALSE,TRUE
+2011,Delhi Daredevils,,,45705,Colin Ingram,Colin Ingram,,South Africa,100000,4537000,0.4537,New,FALSE,TRUE
+2011,Deccan Chargers,,,16406,Michael Lumb,Michael Lumb,,England,80000,3629600,0.36296,New,FALSE,TRUE
+2011,Kings XI Punjab,,,7443,Nathan Rimmington,Nathan Rimmington,,Australia,20000,907400,0.09074,New,FALSE,TRUE
+2011,Delhi Daredevils,,,45204,Robert Frylinck,Robert Frylinck,,South Africa,20000,907400,0.09074,New,FALSE,TRUE
+2011,Mumbai Indians,,,4498,Aiden Blizzard,Aiden Blizzard,,Australia,20000,907400,0.09074,New,FALSE,TRUE
+2011,Royal Challengers Bangalore,,,29990,Mohammad Kaif,Mohammad Kaif,,India,130000,5898100,0.58981,New,FALSE,FALSE

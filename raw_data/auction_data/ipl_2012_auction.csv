@@ -1,0 +1,93 @@
+year,section,player_name,player_id,team,sold_usd,base_usd,detail_raw,needs_review
+2012,Bought,Brendon McCullum,37737,Kolkata Knight Riders,"900,000","400,000","- $900,000 to Kolkata Knight Riders (base price $400,000)",FALSE
+2012,Bought,Ravindra Jadeja,234675,,,,"- Maximum purse of $2 million bid by Chennai Super Kings and Deccan Chargers. It goes to a tiebreaker. Bought by Chennai Super Kings for an undisclosed amount (base price $100,000).",TRUE
+2012,Bought,Muttiah Muralitharan,49636,Royal Challengers Bangalore,"220,000","200,000","- $220,000 to Royal Challengers Bangalore (base price $200,000)",FALSE
+2012,Bought,Mahela Jayawardene,49289,,,,"- $1.4 million to Delhi Daredevils (base price $300,000)",TRUE
+2012,Bought,Herschelle Gibbs,45224,Mumbai Indians,"50,000","50,000","- $50,000 to Mumbai Indians (base price $50,000)",FALSE
+2012,Bought,Brad Hodge,5674,Rajasthan Royals,"475,000","200,000","- $475,000 to Rajasthan Royals (base price $200,000)",FALSE
+2012,Bought,Parthiv Patel,32242,Deccan Chargers,"650,000","200,000","- $650,000 to Deccan Chargers (base price $200,000)",FALSE
+2012,Bought,Dinesh Chandimal,300628,Rajasthan Royals,"50,000","50,000","- $50,000 to Rajasthan Royals (base price $50,000)",FALSE
+2012,Bought,Andre Russell,276298,Delhi Daredevils,"450,000","50,000","- $450,000 to Delhi Daredevils (base price $50,000)",FALSE
+2012,Bought,Mitchell Johnson,6033,Mumbai Indians,"300,000","300,000","- $300,000 to Mumbai Indians (base price $300,000)",FALSE
+2012,Bought,RP Singh,35280,Mumbai Indians,"600,000","200,000","- $600,000 to Mumbai Indians (base price $200,000)",FALSE
+2012,Bought,Vinay Kumar,35731,,,,"- $1 million to Royal Challengers Bangalore (base price $100,000)",TRUE
+2012,Bought,Sreesanth,34274,Rajasthan Royals,"400,000","400,000","- $400,000 to Rajasthan Royals (base price $400,000)",FALSE
+2012,Bought,Ramesh Powar,32391,Kings XI Punjab,"160,000","100,000","- $160,000 to Kings XI Punjab (base price $100,000)",FALSE
+2012,Bought,Brad Hogg,5681,Rajasthan Royals,"180,000","100,000","- $180,000 to Rajasthan Royals (base price $100,000)",FALSE
+2012,Bought,Sunil Narine,230558,Kolkata Knight Riders,"700,000","50,000","- $700,000 to Kolkata Knight Riders (base price $50,000)",FALSE
+2012,Bought,Robin Peterson,46750,Mumbai Indians,"100,000","100,000","- $100,000 to Mumbai Indians (base price $100,000)",FALSE
+2012,Bought,Daniel Harris,5583,,,,"- $70,000 to Deccan Chargers (base price 50,000)",TRUE
+2012,Bought,Kevon Cooper,371814,,,,"- $50,000 to Rajasthan Royals (base price 50,000)",TRUE
+2012,Bought,James Faulkner,270484,Kings XI Punjab,"190,000","100,000","- $190,000 to Kings XI Punjab (base price $100,000)",FALSE
+2012,Bought,Azhar Mahmood,39024,Kings XI Punjab,"200,000","100,000","- $200,000 to Kings XI Punjab (base price $100,000)",FALSE
+2012,Bought,Thisara Perera,233514,Mumbai Indians,"650,000","50,000","- $650,000 to Mumbai Indians (base price $50,000)",FALSE
+2012,Bought,Marchant de Lange,393279,Kolkata Knight Riders,"50,000","50,000","- $50,000 to Kolkata Knight Riders (base price $50,000)",FALSE
+2012,Bought,Darren Bravo,277472,Deccan Chargers,"100,000","100,000","- $100,000 to Deccan Chargers (base price $100,000)",FALSE
+2012,Bought,Doug Bracewell,362541,Delhi Daredevils,"50,000","50,000","- $50,000 to Delhi Daredevils (base price $50,000)",FALSE
+2012,Retained,Chris Gayle,,Royal Challengers Bangalore,"550,000",,"- Royal Challengers Bangalore, $550,000",FALSE
+2012,Retained,Sourav Ganguly,,Pune Warriors,"400,000",,"- Pune Warriors, $400,000",FALSE
+2012,Retained,David Miller,,Kings XI Punjab,"100,000",,"- Kings XI Punjab, $100,000",FALSE
+2012,Transferred,Kevin Pietersen,,Deccan Chargers to Delhi Daredevils,,,#NAME?,FALSE
+2012,Transferred,Andrew McDonald,,Delhi Daredevils to Royal Challengers Bangalore,,,#NAME?,FALSE
+2012,Transferred,Dinesh Karthik,,Kings XI Punjab to Mumbai Indians,,,#NAME?,FALSE
+2012,Transferred,Pragyan Ojha,,Deccan Chargers to Mumbai Indians,,,#NAME?,FALSE
+2012,Transferred,R Sathish,,Mumbai Indians to Kings XI Punjab,,,#NAME?,FALSE
+2012,Transferred,Harmeet Singh,,Deccan Chargers to Kings XI Punjab,,,#NAME?,FALSE
+2012,Unsold,James Anderson,,,,"300,000","- base price $300,000",FALSE
+2012,Unsold,Tamim Iqbal,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,Adrian Barath,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,Ramnaresh Sarwan,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Ian Bell,,,,"200,000","- base price $200,000",FALSE
+2012,Unsold,Owais Shah,,,,"200,000","- base price $200,000",FALSE
+2012,Unsold,Upul Tharanga,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,VVS Laxman,,,,"400,000","- base price $400,000",FALSE
+2012,Unsold,Matt Prior,,,,"200,000","- base price $200,000",FALSE
+2012,Unsold,Brendan Taylor,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Mark Boucher,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Justin Kemp,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Marlon Samuels,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Steven Smith,,,,"200,000","- base price $200,000",FALSE
+2012,Unsold,Ravi Bopara,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Luke Wright,,,,"200,000","- base price $200,000",FALSE
+2012,Unsold,Kevin O'Brien,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,Dwayne Smith,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Lonwabo Tsotsobe,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,VRV Singh,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Vernon Philander,,,,"200,000","- base price $200,000",FALSE
+2012,Unsold,Fidel Edwards,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Ravi Rampaul,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Peter Siddle,,,,"200,000","- base price $200,000",FALSE
+2012,Unsold,Tim Southee,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Graeme Swann,,,,"400,000","- base price $400,000",FALSE
+2012,Unsold,Rangana Herath,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,Ajantha Mendis,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,Steve O'Keefe,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Xavier Doherty,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Michael Klinger,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,Richard Levi,,,,"50,000","base price $50,000",FALSE
+2012,Unsold,Alviro Petersen,,,,"100,000","base price $100,000",FALSE
+2012,Unsold,Lendl Simmons,,,,"50,000","base price $50,000",FALSE
+2012,Unsold,Farveez Maharoof,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,Jacob Oram,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Moises Henriques,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,Ben Laughlin,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,Ryan McLaren,,,,"100,000","- base price $100,000",FALSE
+2012,Unsold,Nicky Boje,,,,"200,000","- base price $200,000",FALSE
+2012,Unsold,Jacques Rudolph,,,,"20,000","- base price $20,000",FALSE
+2012,Unsold,Andy McKay,,,,"50,000","- base price $50,000",FALSE
+2012,Unsold,Alister McDermott,,,,"20,000","- base price $20,000",FALSE
+2012,Unsold,Michael Neser,,,,"50,000","- base price $50,000 For the full list of players who had registered for the auction, click here .",FALSE
+2012,Unsold,India,,,,,,TRUE
+2012,Unsold,Indian Premier League,,,,,,TRUE
+2012,Unsold,Sponsored,,,,,,TRUE
+2012,Unsold,Sponsored,,,,,,TRUE
+2012,Unsold,Promoted Links,,,,,,TRUE
+2012,Unsold,Promoted Links,,,,,,TRUE
+2012,Unsold,You May Like,,,,,Top 15 Most Beautiful Women in the World,TRUE
+2012,Unsold,Topgentlemen.com,,,,,,TRUE
+2012,Unsold,Undo,,,,,Ireland: Calculator Shows The Value Of Your Home Instantly!,TRUE
+2012,Unsold,Home Value,,,,,,TRUE
+2012,Unsold,Learn More,,,,,,TRUE
+2012,Unsold,Undo,,,,,Cats That Headbutt Their Owners Are Actually Trying To Give Them An Important Message,TRUE
+2012,Unsold,Novelodge,,,,,,TRUE
+2012,Unsold,Undo,,,,,,TRUE
