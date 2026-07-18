@@ -46,15 +46,21 @@ for path in sorted(Path(INPUT_DIR).glob("ipl_*_auction.csv")):
     if year >= 2017:
         df["purse_spent_in_cr"] = purse_to_cr(df["purse_spent"])
         df["purse_left_in_cr"]  = purse_to_cr(df["purse_left"])
+        # df['status'] = df['status']
+        # df['transferred'] = df['transferred']
+        # df['overseas'] = df['overseas']
     else:
         df["purse_spent_in_cr"] = float("nan")
         df["purse_left_in_cr"]  = float("nan")
+        df['status'] = float('nan')
+        df['transferred'] = float('nan')
+        df['overseas'] = float('nan')
     df["purse_spent"] = df["purse_spent_in_cr"] * 10_000_000      # back to full rupees
     df["purse_left"]  = df["purse_left_in_cr"]  * 10_000_000
 
     frames.append(df[["year", "player_id", "player_name", "team",
                       "sold_price", "sold_price_in_cr","purse_spent", "purse_spent_in_cr",
-                      "purse_left", "purse_left_in_cr"]])
+                      "purse_left", "purse_left_in_cr",'status','transferred','overseas']])
 
 auction = pd.concat(frames, ignore_index=True)
 auction = auction.dropna(subset=["player_name"])                 # drop any blank rows
@@ -63,7 +69,7 @@ auction["sold_price"] = auction["sold_price"].round().astype("Int64")
 auction = auction.sort_values(["year", "team", "player_name"]).reset_index(drop=True)
 
 Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
-auction.to_csv(Path(OUTPUT_DIR) / "auction_all.csv", index=False)
+auction.to_csv(Path(OUTPUT_DIR) / "with_status_auction_all.csv", index=False)
 
 print(f"{len(auction)} rows, years {auction.year.min()}-{auction.year.max()}")
 print("rows with no sold price:", int(auction.sold_price.isna().sum()))

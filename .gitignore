@@ -17,6 +17,9 @@ raw_data/RR_Data
 raw_data/SRH_Data
 raw_data/KKR_Data
 raw_data/RCB_Data
+raw_data/SKIP_Data
+raw_data/skipped_data_html_pages
+raw_data/auction_html_pages
 pythoncodes/CSK_players_data.csv
 pythoncodes/DC_players_data.csv
 pythoncodes/data
