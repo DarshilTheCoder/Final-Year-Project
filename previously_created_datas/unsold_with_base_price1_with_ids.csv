@@ -1,0 +1,788 @@
+year,player_name,player_id,base_price_in_cr,base_price,status,id_source
+2023,Shakib Al Hasan,56143,1.5,15000000,sold,already had id
+2023,Joe Root,303669,1,10000000,sold,already had id
+2023,Abdul Basith,1287067,0.2,2000000,sold,already had id
+2023,Raghav Goyal,1350770,0.2,2000000,sold,already had id
+2023,Yudhvir Singh,1206052,0.2,2000000,sold,already had id
+2023,Naveen-Ul-Haq,793447,0.5,5000000,sold,already had id
+2023,Akash Vasisht,722597,0.2,2000000,sold,already had id
+2023,Mandeep Singh,398506,0.5,5000000,sold,already had id
+2023,M Ashwin,528067,0.2,2000000,sold,already had id
+2023,KM Asif,1083030,0.3,3000000,sold,already had id
+2023,Anmolpreet Singh,851261,0.2,2000000,sold,already had id
+2023,Adam Zampa,379504,1.5,15000000,sold,already had id
+2023,Akeal Hosein,530812,1,10000000,sold,already had id
+2023,Litton Das,536936,0.5,5000000,sold,already had id
+2023,Rilee Rossouw,318845,2,20000000,sold,already had id
+2023,Shivam Singh,1273859,0.2,2000000,sold,already had id
+2023,Bhagath Varma,1252050,0.2,2000000,sold,already had id
+2023,Nehal Wadhera,1151273,0.2,2000000,sold,already had id
+2023,Mohit Rathee,1349361,0.2,2000000,sold,already had id
+2023,Ajay Mandal,1059570,0.2,2000000,sold,already had id
+2023,Kulwant Khejroliya,1083033,0.2,2000000,sold,already had id
+2023,Sonu Yadav,1048867,0.2,2000000,sold,already had id
+2023,Kunal Rathore,1339031,0.2,2000000,sold,already had id
+2023,Avinash Singh,1346364,0.2,2000000,sold,already had id
+2023,Nitish Kumar Reddy,1175496,0.2,2000000,sold,already had id
+2023,David Wiese,232292,0.2,2000000,sold,already had id
+2023,Shams Mulani,1131607,0.2,2000000,sold,already had id
+2023,Swapnil Singh,232292,0.2,2000000,sold,already had id
+2023,Mohit Sharma,928067,0.5,5000000,sold,already had id
+2023,Josh Little,928067,0.5,5000000,sold,already had id
+2023,Suyash Sharma,1350792,0.2,2000000,sold,already had id
+2023,Rajan Kumar,1339027,0.2,2000000,sold,already had id
+2023,Vidwath Kaverappa,1155262,0.2,2000000,sold,already had id
+2023,Vishnu Vinod,732293,0.2,2000000,sold,already had id
+2023,Urvil Patel,1131570,0.2,2000000,sold,already had id
+2023,Donovan Ferreira,698315,0.2,2000000,sold,already had id
+2023,Prerak Mankad,956871,0.2,2000000,sold,already had id
+2023,Duan Jansen,595954,0.2,2000000,sold,already had id
+2023,Mayank Dagar,942367,0.2,2000000,sold,already had id
+2023,Manoj Bhandage,1057399,0.2,2000000,sold,already had id
+2023,Harpreet Bhatia,340854,0.2,2000000,sold,already had id
+2023,Amit Mishra,31107,0.5,5000000,sold,already had id
+2023,Piyush Chawla,32966,0.5,5000000,sold,already had id
+2023,Kylie Jamieson,625960,1,10000000,sold,already had id
+2023,Daniel Sams,826901,0.75,7500000,sold,already had id
+2023,Romario Shepherd,677077,0.5,5000000,sold,already had id
+2023,Will Jacks,897549,1.5,15000000,sold,already had id
+2023,Manish Pandey,290630,1,10000000,sold,already had id
+2023,Himanshu Sharma,1350761,0.2,2000000,sold,already had id
+2023,Mukesh Kumar,926851,0.2,2000000,sold,already had id
+2023,Shivam Mavi,1079848,0.4,4000000,sold,already had id
+2023,Yash Thakur,1070196,0.2,2000000,sold,already had id
+2023,Vaibhav Arora,1209292,0.2,2000000,sold,already had id
+2023,Upendra Yadav,732269,0.2,2000000,sold,already had id
+2023,KS Bharat,529436,0.2,2000000,sold,already had id
+2023,N Jagadeesan,1048813,0.2,2000000,sold,already had id
+2023,Nishant Sindhu,1292506,0.2,2000000,sold,already had id
+2023,Sanvir Singh,1132219,0.2,2000000,sold,already had id
+2023,Samarth Vyas,853859,0.2,2000000,sold,already had id
+2023,Vivrant Sharma,1252370,0.2,2000000,sold,already had id
+2023,Shaik Rasheed,1292497,0.2,2000000,sold,already had id
+2023,Mayank Markande,1081442,0.5,5000000,sold,already had id
+2023,Adil Rashid,244497,2,20000000,sold,already had id
+2023,Ishant Sharma,236779,0.5,5000000,sold,already had id
+2023,Jhye Richardson,774223,1.5,15000000,sold,already had id
+2023,Jaydev Unadkat,390484,0.5,5000000,sold,already had id
+2023,Reece Topley,461632,0.75,7500000,sold,already had id
+2023,Phil Salt,669365,2,20000000,sold,already had id
+2023,Heinrich Klaasen,436757,1,10000000,sold,already had id
+2023,Nicholas Pooran,604302,2,20000000,sold,already had id
+2023,Ben Stokes,311158,2,20000000,sold,already had id
+2023,Cameron Green,1076713,2,20000000,sold,already had id
+2023,Jason Holder,391485,2,20000000,sold,already had id
+2023,Sikandar Raza,299572,0.5,5000000,sold,already had id
+2023,Odean Smith,8206916,0.5,5000000,sold,already had id
+2023,Sam Curran,6629738,2,20000000,sold,already had id
+2023,Ajinkya Rahane,277916,0.5,5000000,sold,already had id
+2023,Mayank Agarwal,398438,1,10000000,sold,already had id
+2023,Harry Brook,911707,1.5,15000000,sold,already had id
+2023,Kane Williamson,277906,2,20000000,sold,already had id
+2023,Ekant Sen,977815,0.2,2000000,unsold,already had id
+2023,Prashant Chopra,500135,0.2,2000000,unsold,already had id
+2023,Luke Wood,573170,1,10000000,unsold,already had id
+2023,Johnson Charles,333066,0.5,5000000,unsold,already had id
+2023,Dilshan Madushanka,793007,0.5,5000000,unsold,already had id
+2023,Tom Curran,550235,0.75,7500000,unsold,already had id
+2023,Rehan Ahmed,1263691,0.5,5000000,unsold,already had id
+2023,G Ajitesh,1320758,0.2,2000000,unsold,already had id
+2023,Sanjay Yadav,1048841,0.2,2000000,unsold,already had id
+2023,Sumeet Verma,390724,0.2,2000000,unsold,already had id
+2023,Himanshu Bisht,1175434,0.2,2000000,unsold,already had id
+2023,Shubhang Hegde,1119008,0.2,2000000,unsold,already had id
+2023,Deepesh Nailwal,1350777,0.2,2000000,unsold,already had id
+2023,Trilok Nag,1048807,0.2,2000000,unsold,already had id
+2023,Shubham Kapse,1126969,0.2,2000000,unsold,already had id
+2023,Utkarsh Singh,1081437,0.2,2000000,unsold,already had id
+2023,Jitendar Pal,1209347,0.2,2000000,unsold,already had id
+2023,B Surya,1320753,0.2,2000000,unsold,already had id
+2023,R Sanjay,807657,0.2,2000000,unsold,already had id
+2023,Priyank Panchal,340062,0.2,2000000,unsold,already had id
+2023,Varun Aaron,360911,0.5,5000000,unsold,already had id
+2023,Richard Gleeson,473191,0.5,5000000,unsold,already had id
+2023,Jamie Overton,510530,2,20000000,unsold,already had id
+2023,Yuvraj Chudasama,969367,0.2,2000000,unsold,already had id
+2023,Tejas Baroka,1082859,0.2,2000000,unsold,already had id
+2023,Paul van Meekeren,348109,0.2,2000000,unsold,already had id
+2023,Akash Singh,1175458,0.2,2000000,unsold,already had id
+2023,Karan Shinde,956035,0.2,2000000,unsold,already had id
+2023,B Indrajith,477069,0.2,2000000,unsold,already had id
+2023,J Suchith,527663,0.2,2000000,unsold,already had id
+2023,Suryansh Shedge,1339698,0.2,2000000,unsold,already had id
+2023,Wayne Parnell,265564,0.75,7500000,unsold,already had id
+2023,Will Smeed,1099224,0.4,4000000,unsold,already had id
+2023,Blessing Muzarabani,827051,0.5,5000000,unsold,already had id
+2023,Dushmanth Chameera,552152,0.5,5000000,unsold,already had id
+2023,Taskin Ahmed,538506,0.5,5000000,unsold,already had id
+2023,Sandeep Sharma,438362,0.5,5000000,unsold,already had id
+2023,Riley Meredith,961713,1.5,15000000,unsold,already had id
+2023,Dasun Shanaka,437316,0.5,5000000,unsold,already had id
+2023,Jimmy Neesham,355269,2,20000000,unsold,already had id
+2023,Mohammad Nabi,25913,1,10000000,unsold,already had id
+2023,Daryl Mitchell,381743,1,10000000,unsold,already had id
+2023,Dawid Malan,236489,1.5,15000000,unsold,already had id
+2023,Travis Head,530011,2,20000000,unsold,already had id
+2023,Sherfane Rutherford,914541,1.5,15000000,unsold,already had id
+2023,Rassie van der Dussen,337790,2,20000000,unsold,already had id
+2023,Paul Stirling,303427,0.5,5000000,unsold,already had id
+2023,S Midhun,1131619,0.2,2000000,unsold,already had id
+2023,Shreyas Gopal,344580,0.2,2000000,unsold,already had id
+2023,Izharulhaq Naveed,1076473,0.2,2000000,unsold,already had id
+2023,Chintal Gandhi,1246531,0.2,2000000,unsold,already had id
+2023,Lance Morris,1125317,0.3,3000000,unsold,already had id
+2023,Mujtaba Yousuf,1175484,0.2,2000000,unsold,already had id
+2023,Mohammed Azharuddeen,940733,0.2,2000000,unsold,already had id
+2023,Dinesh Bana,1292500,0.2,2000000,unsold,already had id
+2023,Sumit Kumar,820393,0.2,2000000,unsold,already had id
+2023,Shashank Singh,377534,0.2,2000000,unsold,already had id
+2023,Abhimanyu Easwaran,699491,0.2,2000000,unsold,already had id
+2023,Corbin Bosch,805235,0.2,2000000,unsold,already had id
+2023,Saurabh Kumar,627214,0.2,2000000,unsold,already had id
+2023,Priyam Garg,1070180,0.2,2000000,unsold,already had id
+2023,Himmat Singh,805235,0.2,2000000,unsold,already had id
+2023,Rohan Kunnummal,10793828,0.2,2000000,unsold,already had id
+2023,Shubham Khajuria,543078,0.2,2000000,unsold,already had id
+2023,LR Chethan,1197718,0.2,2000000,unsold,already had id
+2023,Mujeeb Ur Rahman,974109,1,10000000,unsold,already had id
+2023,Tabraiz Shamsi,379145,1,10000000,unsold,already had id
+2023,Kusal Mendis,629074,0.5,5000000,unsold,already had id
+2023,Tom Banton,8770518,2,20000000,unsold,already had id
+2023,Chris Jordan,288992,2,20000000,unsold,already had id
+2023,Adam Milne,450860,2,20000000,unsold,already had id
+2012,Brendon McCullum,37737,1.95856,19585600,bought,already had id
+2012,Ravindra Jadeja,234675,,,bought,already had id
+2012,Muttiah Muralitharan,49636,0.97928,9792800,bought,already had id
+2012,Mahela Jayawardene,49289,1.46892,14689200,bought,already had id
+2012,Herschelle Gibbs,45224,0.24482,2448200,bought,already had id
+2012,Brad Hodge,5674,0.97928,9792800,bought,already had id
+2012,Parthiv Patel,32242,0.97928,9792800,bought,already had id
+2012,Dinesh Chandimal,300628,0.24482,2448200,bought,already had id
+2012,Andre Russell,276298,0.24482,2448200,bought,already had id
+2012,Mitchell Johnson,6033,1.46892,14689200,bought,already had id
+2012,RP Singh,35280,0.97928,9792800,bought,already had id
+2012,Vinay Kumar,35731,0.48964,4896400,bought,already had id
+2012,Sreesanth,34274,1.95856,19585600,bought,already had id
+2012,Ramesh Powar,32391,0.48964,4896400,bought,already had id
+2012,Brad Hogg,5681,0.48964,4896400,bought,already had id
+2012,Sunil Narine,230558,0.24482,2448200,bought,already had id
+2012,Robin Peterson,46750,0.48964,4896400,bought,already had id
+2012,Daniel Harris,5583,0.24482,2448200,bought,already had id
+2012,Kevon Cooper,371814,0.24482,2448200,bought,already had id
+2012,James Faulkner,270484,0.48964,4896400,bought,already had id
+2012,Azhar Mahmood,39024,0.48964,4896400,bought,already had id
+2012,Thisara Perera,233514,0.24482,2448200,bought,already had id
+2012,Marchant de Lange,393279,0.24482,2448200,bought,already had id
+2012,Darren Bravo,277472,0.48964,4896400,bought,already had id
+2012,Doug Bracewell,362541,0.24482,2448200,bought,already had id
+2012,Chris Gayle,51880,,,retained,name match
+2012,Sourav Ganguly,28779,,,retained,name match
+2012,David Miller,321777,,,retained,name match
+2012,Kevin Pietersen,19296,,,transferred,name match
+2012,Andrew McDonald,6553,,,transferred,name match
+2012,Dinesh Karthik,30045,,,transferred,name match
+2012,Pragyan Ojha,32130,,,transferred,name match
+2012,R Sathish,33870,,,transferred,name match
+2012,Harmeet Singh,391128,,,transferred,name match
+2012,James Anderson,not found,1.46892,14689200,unsold,not found - add manually
+2012,Tamim Iqbal,56194,0.24482,2448200,unsold,not found - add manually
+2012,Adrian Barath,274926,0.24482,2448200,unsold,not found - add manually
+2012,Ramnaresh Sarwan,52969,0.48964,4896400,unsold,name match
+2012,Ian Bell,9062,0.97928,9792800,unsold,not found - add manually
+2012,Owais Shah,20123,0.24482,2448200,unsold,name match
+2012,Upul Tharanga,50747,0.24482,2448200,unsold,not found - add manually
+2012,VVS Laxman,30750,1.95856,19585600,unsold,name match
+2012,Matt Prior,18675,0.97928,9792800,unsold,not found - add manually
+2012,Brendan Taylor,55814,0.48964,4896400,unsold,initial match
+2012,Mark Boucher,44111,0.48964,4896400,unsold,name match
+2012,Justin Kemp,45797,0.48964,4896400,unsold,name match
+2012,Marlon Samuels,52983,0.48964,4896400,unsold,not found - add manually
+2012,Steven Smith,267192,0.97928,9792800,unsold,name match
+2012,Ravi Bopara,10582,0.48964,4896400,unsold,name match
+2012,Luke Wright,23460,0.97928,9792800,unsold,not found - add manually
+2012,Kevin O'Brien,24605,0.24482,2448200,unsold,not found - add manually
+2012,Dwayne Smith,53118,0.48964,4896400,unsold,name match
+2012,Lonwabo Tsotsobe,47666,0.24482,2448200,unsold,not found - add manually
+2012,VRV Singh,35281,0.48964,4896400,unsold,ambiguous initial
+2012,Vernon Philander,46945,0.97928,9792800,unsold,not found - add manually
+2012,Fidel Edwards,51782,0.48964,4896400,unsold,name match
+2012,Ravi Rampaul,52912,0.48964,4896400,unsold,name match
+2012,Peter Siddle,7898,0.97928,9792800,unsold,not found - add manually
+2012,Tim Southee,232364,0.48964,4896400,unsold,name match
+2012,Graeme Swann,20431,1.95856,19585600,unsold,not found - add manually
+2012,Rangana Herath,49178,0.24482,2448200,unsold,not found - add manually
+2012,Ajantha Mendis,268739,0.24482,2448200,unsold,name match
+2012,Steve O'Keefe,7069,0.48964,4896400,unsold,name match
+2012,Xavier Doherty,5017,0.48964,4896400,unsold,not found - add manually
+2012,Michael Klinger,6161,0.24482,2448200,unsold,name match
+2012,Richard Levi,46148,0.24482,2448200,unsold,not found - add manually
+2012,Alviro Petersen,46934,0.48964,4896400,unsold,not found - add manually
+2012,Lendl Simmons,53116,0.24482,2448200,unsold,name match
+2012,Farveez Maharoof,49638,0.24482,2448200,unsold,name match
+2012,Jacob Oram,38062,0.48964,4896400,unsold,name match
+2012,Moises Henriques,5961,0.24482,2448200,unsold,name match
+2012,Ben Laughlin,315623,0.24482,2448200,unsold,name match
+2012,Ryan McLaren,46393,0.48964,4896400,unsold,name match
+2012,Nicky Boje,44091,0.97928,9792800,unsold,not found - add manually
+2012,Jacques Rudolph,47015,0.097928,979280,unsold,not found - add manually
+2012,Andy McKay,38005,0.24482,2448200,unsold,not found - add manually
+2012,Alister McDermott,333810,0.097928,979280,unsold,not found - add manually
+2012,Michael Neser,376169,0.24482,2448200,unsold,not found - add manually
+2022,Aman Khan,1119011,0.2,2000000,sold,already had id
+2022,David Willey,308251,2,20000000,sold,already had id
+2022,Fabian Allen,670013,0.75,7500000,sold,already had id
+2022,Luvnith Sisodia,1155253,0.2,2000000,sold,already had id
+2022,Aryan Juyal,1130300,0.2,2000000,sold,already had id
+2022,B Sai Sudharsan,1151288,0.2,2000000,sold,already had id
+2022,Siddarth Kaul,326017,0.75,7500000,sold,already had id
+2022,Daryl Mitchell,381743,0.75,7500000,sold,already had id
+2022,Rassie van der Dussen,337790,1,10000000,sold,already had id
+2022,Vicky Ostwal,1292520,0.2,2000000,sold,already had id
+2022,Nathan Coulter-Nile,261354,2,20000000,sold,already had id
+2022,Jimmy Neesham,355269,1.5,15000000,sold,already had id
+2022,Umesh Yadav,376116,2,20000000,sold,already had id
+2022,Mohammad Nabi,25913,1,10000000,sold,already had id
+2022,Shubham Garhwal,1287019,0.2,2000000,sold,already had id
+2022,Arjun Tendulkar,1148776,0.2,2000000,sold,already had id
+2022,K Bhagath Varma,1252050,0.2,2000000,sold,already had id
+2022,Hrithik Shokeen,1175423,0.2,2000000,sold,already had id
+2022,Ramesh Kumar,1299848,0.2,2000000,sold,already had id
+2022,Varun Aaron,360911,0.5,5000000,sold,already had id
+2022,Kuldip Yadav,1206495,0.2,2000000,sold,already had id
+2022,Benny Howell,211748,0.4,4000000,sold,already had id
+2022,Rahul Buddhi,1212693,0.2,2000000,sold,already had id
+2022,Tim Southee,232364,1.5,15000000,sold,already had id
+2022,Gurkeerat Singh,537124,0.5,5000000,sold,already had id
+2022,Bhanuka Rajapaksa,342619,0.5,5000000,sold,already had id
+2022,Tejas Baroka,1082859,0.2,2000000,sold,already had id
+2022,Mayank Yadav,1292563,0.2,2000000,sold,already had id
+2022,Dhruv Jurel,1175488,0.2,2000000,sold,already had id
+2022,Atharva Taide,1125958,0.2,2000000,sold,already had id
+2022,Ramandeep Singh,1079470,0.2,2000000,sold,already had id
+2022,Fazalhaq Farooqi,974175,0.5,5000000,sold,already had id
+2022,Nathan Ellis,826915,0.75,7500000,sold,already had id
+2022,Tim Seifert,625964,0.5,5000000,sold,already had id
+2022,Glenn Phillips,823509,1.5,15000000,sold,already had id
+2022,Karun Nair,398439,0.5,5000000,sold,already had id
+2022,Evin Lewis,431901,2,20000000,sold,already had id
+2022,Alex Hales,249866,1.5,15000000,sold,already had id
+2022,Kuldeep Sen,1163695,0.2,2000000,sold,already had id
+2022,Karn Sharma,30288,0.5,5000000,sold,already had id
+2022,Lungi Ngidi,542023,0.5,5000000,sold,already had id
+2022,Chris Jordan,288992,2,20000000,sold,already had id
+2022,Vishnu Vinod,732293,0.2,2000000,sold,already had id
+2022,N Jagadeesan,1048813,0.2,2000000,sold,already had id
+2022,Anmolpreet Singh,851261,0.2,2000000,sold,already had id
+2022,C Hari Nishaanth,1048847,0.2,2000000,sold,already had id
+2022,Matthew Wade,230193,2,20000000,sold,already had id
+2022,Wriddhiman Saha,279810,1,10000000,sold,already had id
+2022,Sam Billings,297628,2,20000000,sold,already had id
+2022,David Miller,321777,1,10000000,sold,already had id
+2022,Anunay Singh,1159816,0.2,2000000,sold,already had id
+2022,Ashok Sharma,1299879,0.2,2000000,sold,already had id
+2022,Ansh Patel,1216149,0.2,2000000,sold,already had id
+2022,Mohammad Arshad Khan,1244751,0.2,2000000,sold,already had id
+2022,Saurabh Dubey,1206492,0.2,2000000,sold,already had id
+2022,Baltej Dhanda,527292,0.2,2000000,sold,already had id
+2022,Karan Sharma,1246518,0.2,2000000,sold,already had id
+2022,Kyle Mayers,348056,0.5,5000000,sold,already had id
+2022,Shashank Singh,377534,0.2,2000000,sold,already had id
+2022,Pratham Singh,1083464,0.2,2000000,sold,already had id
+2022,Writtick Chatterjee,699493,0.2,2000000,sold,already had id
+2022,Pradeep Sangwan,279545,0.2,2000000,sold,already had id
+2022,Abhijeet Tomar,1081183,0.2,2000000,sold,already had id
+2022,R Samarth,474512,0.2,2000000,sold,already had id
+2022,Chamika Karunaratne,623695,0.5,5000000,sold,already had id
+2022,Baba Indrajith,477069,0.2,2000000,sold,already had id
+2022,Aneeshwar Gautam,1292513,0.2,2000000,sold,already had id
+2022,Ayush Badoni,1151270,0.2,2000000,sold,already had id
+2022,Riley Meredith,961713,1,10000000,sold,already had id
+2022,Alzarri Joseph,670031,0.75,7500000,sold,already had id
+2022,Sean Abbott,398666,0.75,7500000,sold,already had id
+2022,Prashant Solanki,1252337,0.2,2000000,sold,already had id
+2022,Chama Milind,604616,0.2,2000000,sold,already had id
+2022,Mohsin Khan,1132005,0.2,2000000,sold,already had id
+2022,Rasikh Salam Dar,1161489,0.2,2000000,sold,already had id
+2022,Mukesh Choudhary,1125688,0.2,2000000,sold,already had id
+2022,Vaibhav Arora,1209292,0.2,2000000,sold,already had id
+2022,Suyash Prabhudessai,1083851,0.2,2000000,sold,already had id
+2022,Prerak Mankad,956871,0.2,2000000,sold,already had id
+2022,Praveen Dubey,777515,0.2,2000000,sold,already had id
+2022,Tim David,892749,0.4,4000000,sold,already had id
+2022,Subhranshu Senapati,1059577,0.2,2000000,sold,already had id
+2022,Adam Milne,450860,1.5,15000000,sold,already had id
+2022,Tymal Mills,459257,1,10000000,sold,already had id
+2022,Obed McCoy,906783,0.75,7500000,sold,already had id
+2022,Jason Behrendorff,272477,0.75,7500000,sold,already had id
+2022,Romario Shepherd,677077,0.75,7500000,sold,already had id
+2022,Mitchell Santner,502714,1,10000000,sold,already had id
+2022,Daniel Sams,826901,1,10000000,sold,already had id
+2022,Sherfane Rutherford,914541,1,10000000,sold,already had id
+2022,Dwaine Pretorius,327830,0.5,5000000,sold,already had id
+2022,Rishi Dhawan,290727,0.5,5000000,sold,already had id
+2022,Jofra Archer,669855,2,20000000,sold,already had id
+2022,Rovman Powell,820351,0.75,7500000,sold,already had id
+2022,Devon Conway,379140,1,10000000,sold,already had id
+2022,Finn Allen,959759,0.5,5000000,sold,already had id
+2022,Simarjeet Singh,1159722,0.2,2000000,sold,already had id
+2022,Yash Dayal,1159720,0.2,2000000,sold,already had id
+2022,Rajvardhan Hangargekar,1175429,0.3,3000000,sold,already had id
+2022,Raj Bawa,1292502,0.2,2000000,sold,already had id
+2022,Sanjay Yadav,1048841,0.2,2000000,sold,already had id
+2022,Darshan Nalkande,1111917,0.2,2000000,sold,already had id
+2022,Anukul Roy,1079839,0.2,2000000,sold,already had id
+2022,Mahipal Lomror,853265,0.4,4000000,sold,already had id
+2022,Tilak Varma,1170265,0.2,2000000,sold,already had id
+2022,Yash Dhull,1292498,0.2,2000000,sold,already had id
+2022,Ripal Patel,1201520,0.2,2000000,sold,already had id
+2022,Lalit Yadav,930189,0.2,2000000,sold,already had id
+2022,Manan Vohra,532856,0.2,2000000,sold,already had id
+2022,Rinku Singh,723105,0.2,2000000,sold,already had id
+2022,Maheesh Theekshana,1138316,0.5,5000000,sold,already had id
+2022,Shahbaz Nadeem,31872,0.5,5000000,sold,already had id
+2022,Mayank Markande,1081442,0.5,5000000,sold,already had id
+2022,Jaydev Unadkat,390484,0.75,7500000,sold,already had id
+2022,Navdeep Saini,700167,0.75,7500000,sold,already had id
+2022,Sandeep Sharma,438362,0.5,5000000,sold,already had id
+2022,Chetan Sakariya,1131754,0.5,5000000,sold,already had id
+2022,Dushmantha Chameera,552152,0.5,5000000,sold,already had id
+2022,Khaleel Ahmed,942645,0.5,5000000,sold,already had id
+2022,Krishnappa Gowtham,424377,0.5,5000000,sold,already had id
+2022,Shivam Dube,714451,0.5,5000000,sold,already had id
+2022,Marco Jansen,696401,0.5,5000000,sold,already had id
+2022,Odean Smith,820691,1,10000000,sold,already had id
+2022,Vijay Shankar,477021,0.5,5000000,sold,already had id
+2022,Jayant Yadav,447587,1,10000000,sold,already had id
+2022,Dominic Drakes,906749,0.75,7500000,sold,already had id
+2022,Liam Livingstone,403902,1,10000000,sold,already had id
+2022,Mandeep Singh,398506,0.5,5000000,sold,already had id
+2022,Ajinkya Rahane,277916,1,10000000,sold,already had id
+2022,Aiden Markram,600498,1,10000000,sold,already had id
+2022,R Sai Kishore,1048739,0.2,2000000,sold,already had id
+2022,Jagadeesha Suchith,527663,0.2,2000000,sold,already had id
+2022,Shreyas Gopal,344580,0.2,2000000,sold,already had id
+2022,KC Cariappa,777537,0.2,2000000,sold,already had id
+2022,Murugan Ashwin,528067,0.2,2000000,sold,already had id
+2022,Noor Ahmad,1182529,0.3,3000000,sold,already had id
+2022,Ankit Rajpoot,591650,0.2,2000000,sold,already had id
+2022,Tushar Deshpande,822553,0.2,2000000,sold,already had id
+2022,Ishan Porel,967603,0.2,2000000,sold,already had id
+2022,Avesh Khan,694211,0.2,2000000,sold,already had id
+2022,KM Asif,1083030,0.2,2000000,sold,already had id
+2022,Akash Deep,1176959,0.2,2000000,sold,already had id
+2022,Kartik Tyagi,1122918,0.2,2000000,sold,already had id
+2022,Basil Thampi,732291,0.3,3000000,sold,already had id
+2022,Jitesh Sharma,721867,0.2,2000000,sold,already had id
+2022,Sheldon Jackson,237696,0.3,3000000,sold,already had id
+2022,Prabhsimran Singh,1161024,0.2,2000000,sold,already had id
+2022,Anuj Rawat,1123073,0.2,2000000,sold,already had id
+2022,KS Bharat,529436,0.2,2000000,sold,already had id
+2022,Shahbaz Ahmed,1159711,0.3,3000000,sold,already had id
+2022,Harpreet Brar,1168641,0.2,2000000,sold,already had id
+2022,Kamlesh Nagarkoti,1070188,0.4,4000000,sold,already had id
+2022,Rahul Tewatia,423838,0.4,4000000,sold,already had id
+2022,Shivam Mavi,1079848,0.4,4000000,sold,already had id
+2022,Shahrukh Khan,719719,0.4,4000000,sold,already had id
+2022,Sarfaraz Khan,642525,0.2,2000000,sold,already had id
+2022,Abhishek Sharma,1070183,0.2,2000000,sold,already had id
+2022,Riyan Parag,1079434,0.3,3000000,sold,already had id
+2022,Rahul Tripathi,446763,0.4,4000000,sold,already had id
+2022,Ashwin Hebbar,801019,0.2,2000000,sold,already had id
+2022,Dewald Brevis,1070665,0.2,2000000,sold,already had id
+2022,Abhinav Manohar,778963,0.2,2000000,sold,already had id
+2022,Priyam Garg,1070180,0.2,2000000,sold,already had id
+2022,Yuzvendra Chahal,430246,2,20000000,sold,already had id
+2022,Rahul Chahar,1064812,0.75,7500000,sold,already had id
+2022,Kuldeep Yadav,559235,1,10000000,sold,already had id
+2022,Mustafizur Rahman,330902,2,20000000,sold,already had id
+2022,Shardul Thakur,475281,2,20000000,sold,already had id
+2022,Bhuvneshwar Kumar,326016,2,20000000,sold,already had id
+2022,Mark Wood,351588,2,20000000,sold,already had id
+2022,Josh Hazlewood,288284,2,20000000,sold,already had id
+2022,Lockie Ferguson,493773,2,20000000,sold,already had id
+2022,Prasidh Krishna,917159,1,10000000,sold,already had id
+2022,Deepak Chahar,447261,2,20000000,sold,already had id
+2022,T Natarajan,802575,1,10000000,sold,already had id
+2022,Nicholas Pooran,604302,1.5,15000000,sold,already had id
+2022,Dinesh Karthik,30045,2,20000000,sold,already had id
+2022,Jonny Bairstow,297433,1.5,15000000,sold,already had id
+2022,Ishan Kishan,720471,2,20000000,sold,already had id
+2022,Ambati Rayudu,33141,2,20000000,sold,already had id
+2022,Mitchell Marsh,272450,2,20000000,sold,already had id
+2022,Krunal Pandya,471342,2,20000000,sold,already had id
+2022,Washington Sundar,719715,1.5,15000000,sold,already had id
+2022,Wanindu Hasaranga,784379,1,10000000,sold,already had id
+2022,Deepak Hooda,497121,0.75,7500000,sold,already had id
+2022,Harshal Patel,390481,2,20000000,sold,already had id
+2022,Jason Holder,391485,1.5,15000000,sold,already had id
+2022,Nitish Rana,604527,1,10000000,sold,already had id
+2022,Dwayne Bravo,51439,2,20000000,sold,already had id
+2022,Devdutt Padikkal,1119026,2,20000000,sold,already had id
+2022,Jason Roy,298438,2,20000000,sold,already had id
+2022,Robin Uthappa,35582,2,20000000,sold,already had id
+2022,Shimron Hetmyer,670025,1.5,15000000,sold,already had id
+2022,Manish Pandey,290630,1,10000000,sold,already had id
+2022,David Warner,219889,2,20000000,sold,already had id
+2022,Quinton de Kock,379143,2,20000000,sold,already had id
+2022,Faf du Plessis,44828,2,20000000,sold,already had id
+2022,Mohammed Shami,481896,2,20000000,sold,already had id
+2022,Shreyas Iyer,642519,2,20000000,sold,already had id
+2022,Trent Boult,277912,2,20000000,sold,already had id
+2022,Kagiso Rabada,550215,2,20000000,sold,already had id
+2022,Pat Cummins,489889,2,20000000,sold,already had id
+2022,R Ashwin,26421,2,20000000,sold,already had id
+2022,Shikhar Dhawan,28235,2,20000000,sold,already had id
+2022,Akash Madhwal,1206039,0.2,2000000,unsold,already had id
+2022,Kulwant Khejroliya,1083033,0.2,2000000,unsold,already had id
+2022,Rohan Kadam,777739,0.2,2000000,unsold,already had id
+2022,Khizer Dafedar,1083110,0.2,2000000,unsold,already had id
+2022,Rohan Rana,1300768,0.2,2000000,unsold,already had id
+2022,Duan Jansen,595954,0.2,2000000,unsold,already had id
+2022,Chinntla  Readdi,1246438,0.2,2000000,unsold,already had id
+2022,Bharat Sharma,1246449,0.2,2000000,unsold,already had id
+2022,Pratyush Singh,717205,0.2,2000000,unsold,already had id
+2022,Shubham Sharma,680045,0.2,2000000,unsold,already had id
+2022,Gerald Coetzee,596010,0.2,2000000,unsold,already had id
+2022,Shivank Vashisht,1164186,0.2,2000000,unsold,already had id
+2022,Colin Munro,232359,1.5,15000000,unsold,already had id
+2022,Matheesha Pathirana,1194795,0.2,2000000,unsold,already had id
+2022,Utkarsh Singh,1081437,0.2,2000000,unsold,already had id
+2022,Scott Kuggeleijn,539548,0.75,7500000,unsold,already had id
+2022,Moises Henriques,5961,1,10000000,unsold,already had id
+2022,Akeal Hosein,530812,0.5,5000000,unsold,already had id
+2022,Ashutosh Sharma,1131978,0.2,2000000,unsold,already had id
+2022,Lalit Yadav,1060363,0.2,2000000,unsold,already had id
+2022,Amit Ali,1252346,0.2,2000000,unsold,already had id
+2022,Ninad Rathva,1126213,0.2,2000000,unsold,already had id
+2022,Kaushal Tambe,1292512,0.2,2000000,unsold,already had id
+2022,Mukesh Kumar,926851,0.2,2000000,unsold,already had id
+2022,Blessing Muzarabani,827051,0.5,5000000,unsold,already had id
+2022,Sushant Mishra,1175457,0.2,2000000,unsold,already had id
+2022,BR Sharath,917231,0.2,2000000,unsold,already had id
+2022,Kennar Lewis,537319,0.4,4000000,unsold,already had id
+2022,Shams Mulani,1131607,0.2,2000000,unsold,already had id
+2022,Dhruv Patel,1126179,0.2,2000000,unsold,already had id
+2022,David Wiese,221140,0.5,5000000,unsold,already had id
+2022,Atit Sheth,652361,0.2,2000000,unsold,already had id
+2022,Saurabh Kumar,627214,0.2,2000000,unsold,already had id
+2022,Hayden Kerr,1163855,0.2,2000000,unsold,already had id
+2022,Kane Richardson,272262,1.5,15000000,unsold,already had id
+2022,Dhawal Kulkarni,277955,0.75,7500000,unsold,already had id
+2022,Pawan Negi,530773,0.5,5000000,unsold,already had id
+2022,Roston Chase,391832,1,10000000,unsold,already had id
+2022,Ben Cutting,230371,0.75,7500000,unsold,already had id
+2022,Martin Guptill,226492,0.75,7500000,unsold,already had id
+2022,Midhun Sudhesan,1131619,0.2,2000000,unsold,already had id
+2022,Pankaj Jaiswal,652359,0.2,2000000,unsold,already had id
+2022,Ben Dwarshuis,679567,0.3,3000000,unsold,already had id
+2022,Prashant Chopra,500135,0.2,2000000,unsold,already had id
+2022,Atharva Ankolekar,1175467,0.2,2000000,unsold,already had id
+2022,Apoorv Wankhade,505773,0.2,2000000,unsold,already had id
+2022,Sameer Rizvi,1175489,0.2,2000000,unsold,already had id
+2022,Tom Kohler-Cadmore,470633,0.4,4000000,unsold,already had id
+2022,Tanmay Agarwal,792725,0.2,2000000,unsold,already had id
+2022,Sandeep Warrier,592735,0.5,5000000,unsold,already had id
+2022,Reece Topley,461632,0.75,7500000,unsold,already had id
+2022,Andrew Tye,459508,1,10000000,unsold,already had id
+2022,Ben McDermott,603410,0.5,5000000,unsold,already had id
+2022,Rahmanullah Gurbaz,974087,0.5,5000000,unsold,already had id
+2022,George Garton,643433,0.5,5000000,unsold,already had id
+2022,Charith Asalanka,784367,0.5,5000000,unsold,already had id
+2022,Akash Singh,1175458,0.2,2000000,unsold,already had id
+2022,Mujtaba Yousuf,1175484,0.2,2000000,unsold,already had id
+2022,Arzan Nagwaswalla,1136213,0.2,2000000,unsold,already had id
+2022,Vasu Vats,1292515,0.2,2000000,unsold,already had id
+2022,Yash Thakur,1070196,0.2,2000000,unsold,already had id
+2022,Ricky Bhui,642531,0.2,2000000,unsold,already had id
+2022,Himanshu Rana,816599,0.2,2000000,unsold,already had id
+2022,Harnoor Singh,1292496,0.2,2000000,unsold,already had id
+2022,Sachin Baby,432783,0.2,2000000,unsold,already had id
+2022,Himmat Singh,805235,0.2,2000000,unsold,already had id
+2022,Virat Singh,720465,0.2,2000000,unsold,already had id
+2022,Piyush Chawla,32966,1,10000000,unsold,already had id
+2022,Ish Sodhi,559066,0.5,5000000,unsold,already had id
+2022,Qais Ahmad,914171,0.5,5000000,unsold,already had id
+2022,Tabraiz Shamsi,379145,1,10000000,unsold,already had id
+2022,Sheldon Cottrell,495551,0.75,7500000,unsold,already had id
+2022,Ishant Sharma,236779,1.5,15000000,unsold,already had id
+2022,Cheteshwar Pujara,32540,0.5,5000000,unsold,already had id
+2022,Aaron Finch,5334,1.5,15000000,unsold,already had id
+2022,Saurabh Tiwary,35390,0.5,5000000,unsold,already had id
+2022,Eoin Morgan,24598,1.5,15000000,unsold,already had id
+2022,Marnus Labuschagne,787987,1,10000000,unsold,already had id
+2022,Dawid Malan,236489,1.5,15000000,unsold,already had id
+2022,Sandeep Lamichhane,960361,0.4,4000000,unsold,already had id
+2022,Manimaran Siddharth,1151286,0.2,2000000,unsold,already had id
+2022,Vishnu Solanki,604593,0.2,2000000,unsold,already had id
+2022,Mohammed Azharuddeen,940733,0.2,2000000,unsold,already had id
+2022,Rajat Patidar,823703,0.2,2000000,unsold,already had id
+2022,Amit Mishra,31107,1.5,15000000,unsold,already had id
+2022,Adam Zampa,379504,2,20000000,unsold,already had id
+2022,Imran Tahir,40618,2,20000000,unsold,already had id
+2022,Mujeeb Ur Rahman,974109,2,20000000,unsold,already had id
+2022,Adil Rashid,244497,2,20000000,unsold,already had id
+2022,Shakib Al Hasan,56143,2,20000000,unsold,already had id
+2022,Steven Smith,267192,2,20000000,unsold,already had id
+2022,Suresh Raina,33335,2,20000000,unsold,already had id
+2013,Aaron Finch,5334,0.97928,9792800,unsold,name match
+2013,Upul Tharanga,50747,0.533238,5332380,unsold,not found - add manually
+2013,Martin Guptill,226492,0.48964,4896400,unsold,name match
+2013,Darren Bravo,277472,0.48964,4896400,unsold,name match
+2013,Herschelle Gibbs,45224,0.97928,9792800,unsold,name match
+2013,Adam Voges,8119,0.48964,4896400,unsold,name match
+2013,Matthew Wade,230193,0.97928,9792800,unsold,name match
+2013,Tim Paine,7252,0.48964,4896400,unsold,name match
+2013,Matt Prior,18675,1.066476,10664760,unsold,not found - add manually
+2013,Kaushal Silva,50482,0.1066476,1066476,unsold,not found - add manually
+2013,Prasanna Jayawardene,49236,0.266619,2666190,unsold,not found - add manually
+2013,Dane Vilas,262456,0.1066476,1066476,unsold,not found - add manually
+2013,Denesh Ramdin,52917,0.266619,2666190,unsold,not found - add manually
+2013,Dinesh Chandimal,300628,0.48964,4896400,unsold,name match
+2013,Ravi Bopara,10582,0.48964,4896400,unsold,name match
+2013,James Hopes,5702,0.48964,4896400,unsold,name match
+2013,Vernon Philander,46945,0.533238,5332380,unsold,not found - add manually
+2013,Doug Bollinger,4508,0.1066476,1066476,unsold,name match
+2013,Cameron Boyce,326625,0.1066476,1066476,unsold,not found - add manually
+2013,Veerasammy Permaul,274921,0.1066476,1066476,unsold,not found - add manually
+2013,Suraj Randiv,50438,0.1066476,1066476,unsold,name match
+2013,Devendra Bishoo,341593,0.266619,1066476,unsold,not found - add manually
+2013,Steve O'Keefe,7069,0.48964,4896400,unsold,name match
+2013,Paul Harris,45568,0.1066476,1066476,unsold,not found - add manually
+2013,Rangana Herath,49178,0.533238,5332380,unsold,not found - add manually
+2013,Sulieman Benn,51248,0.1066476,1066476,unsold,not found - add manually
+2013,Aaron Phangiso,46942,0.1066476,1066476,unsold,not found - add manually
+2013,Farveez Maharoof,49638,0.1066476,1066476,unsold,name match
+2013,Scott Styris,38407,0.266619,2666190,unsold,name match
+2013,Ben Cutting,230371,0.266619,2666190,unsold,name match
+2013,Josh Hazlewood,288284,0.266619,2666190,unsold,name match
+2013,Travis Birt,4292,0.48964,4896400,unsold,name match
+2013,Henry Davids,44752,0.1066476,1066476,unsold,not found - add manually
+2013,Ben Rohrer,7547,0.266619,2666190,unsold,not found - add manually
+2013,Rilee Rossouw,318845,0.097928,979280,unsold,name match
+2013,Kevin O'Brien,24605,0.266619,2666190,unsold,not found - add manually
+2013,Rory Kleinveldt,45949,0.266619,2666190,unsold,not found - add manually
+2016,Kevin Pietersen,19296,2,20000000,sold,already had id
+2016,Dwayne Smith,53118,0.5,5000000,sold,already had id
+2016,Ishant Sharma,236779,2,20000000,sold,already had id
+2016,Shane Watson,8180,2,20000000,sold,already had id
+2016,Ashish Nehra,31820,2,20000000,sold,already had id
+2016,Yuvraj Singh,36084,2,20000000,sold,already had id
+2016,Dale Steyn,47492,1.5,15000000,sold,already had id
+2016,Sanju Samson,425943,2,20000000,sold,already had id
+2016,Jos Buttler,308967,1.5,15000000,sold,already had id
+2016,Dinesh Karthik,30045,2,20000000,sold,already had id
+2016,Irfan Pathan,32685,1,10000000,sold,already had id
+2016,Chris Morris,439952,0.5,5000000,sold,already had id
+2016,Colin Munro,232359,0.3,3000000,sold,already had id
+2016,Stuart Binny,27223,2,20000000,sold,already had id
+2016,Mitchell Marsh,272450,2,20000000,sold,already had id
+2016,Dhawal Kulkarni,277955,2,20000000,sold,already had id
+2016,John Hastings,228622,1,10000000,sold,already had id
+2016,Praveen Kumar,30732,0.5,5000000,sold,already had id
+2016,Tim Southee,232364,1,10000000,sold,already had id
+2016,Mohit Sharma,537119,1.5,15000000,sold,already had id
+2016,Carlos Brathwaite,457249,0.3,3000000,sold,already had id
+2016,Marcus Stoinis,325012,0.3,3000000,sold,already had id
+2016,Mustafizur Rahman,330902,0.5,5000000,sold,already had id
+2016,Jaydev Unadkat,390484,0.3,3000000,sold,already had id
+2016,Kyle Abbott,297583,0.3,3000000,sold,already had id
+2016,Barinder Sran,537126,0.5,5000000,sold,already had id
+2016,Abhimanyu Mithun,310958,0.3,3000000,sold,already had id
+2016,RP Singh,35280,0.3,3000000,sold,already had id
+2016,Travis Head,530011,0.3,3000000,sold,already had id
+2016,Sachin Baby,432783,0.1,1000000,sold,already had id
+2016,Karun Nair,398439,0.1,1000000,sold,already had id
+2016,Paras Dogra,28160,0.1,1000000,sold,already had id
+2016,Ishan Kishan,720471,0.1,1000000,sold,already had id
+2016,Rishabh Pant,931581,0.1,1000000,sold,already had id
+2016,Eklavya Dwivedi,340841,0.2,2000000,sold,already had id
+2016,Aditya Tare,333904,0.2,2000000,sold,already had id
+2016,Iqbal Abdulla,277237,0.1,1000000,sold,already had id
+2016,Deepak Hooda,497121,0.1,1000000,sold,already had id
+2016,Ankit Sharma,422992,0.1,1000000,sold,already had id
+2016,Pawan Negi,530773,0.3,3000000,sold,already had id
+2016,Rajat Bhatia,26907,0.3,3000000,sold,already had id
+2016,Pradeep Sangwan,279545,0.2,2000000,sold,already had id
+2016,Nathu Singh,853259,0.1,1000000,sold,already had id
+2016,Ishwar Pandey,447439,0.2,2000000,sold,already had id
+2016,Ankit Rajpoot,591650,0.1,1000000,sold,already had id
+2016,Pravin Tambe,587152,0.1,1000000,sold,already had id
+2016,Shivil Kaushik,917213,0.1,1000000,sold,already had id
+2016,Sarabjit Ladda,317292,0.1,1000000,sold,already had id
+2016,M Ashwin,528067,0.1,1000000,sold,already had id
+2016,KC Cariappa,777537,0.1,1000000,sold,already had id
+2016,Aaron Finch,5334,1,10000000,sold,already had id
+2016,Sam Billings,297628,0.3,3000000,sold,already had id
+2016,Suman,34281,0.1,1000000,sold,already had id
+2016,Ankush Bains,604534,0.1,1000000,sold,already had id
+2016,Umang Sharma,596945,0.1,1000000,sold,already had id
+2016,Peter Handscomb,334337,0.3,3000000,sold,already had id
+2016,Jitesh Sharma,721867,0.1,1000000,sold,already had id
+2016,Armaan Jaffer,960369,0.1,1000000,sold,already had id
+2016,Jason Holder,391485,0.5,5000000,sold,already had id
+2016,Thisara Perera,233514,1,10000000,sold,already had id
+2016,Ben Cutting,230371,0.5,5000000,sold,already had id
+2016,Andrew Tye,459508,0.3,3000000,sold,already had id
+2016,Praveen Dubey,777515,0.1,1000000,sold,already had id
+2016,R Sathish,33870,0.2,2000000,sold,already had id
+2016,Vijay Shankar,477021,0.1,1000000,sold,already had id
+2016,Shadab Jakati,29655,0.2,2000000,sold,already had id
+2016,Akshay Karnewar,528730,0.1,1000000,sold,already had id
+2016,Akshdeep Nath,500360,0.1,1000000,sold,already had id
+2016,Manan Sharma,339955,0.1,1000000,sold,already had id
+2016,Baba Aparajith,477071,0.1,1000000,sold,already had id
+2016,Deepak Chahar,447261,0.1,1000000,sold,already had id
+2016,Kishore Kamath,919241,0.1,1000000,sold,already had id
+2016,Pardeep Sahu,34155,0.1,1000000,sold,already had id
+2016,Krunal Pandya,471342,0.1,1000000,sold,already had id
+2016,Deepak Punia,807791,0.1,1000000,sold,already had id
+2016,Swapnil Singh,232292,0.1,1000000,sold,already had id
+2016,Khaleel Ahmed,942645,0.1,1000000,sold,already had id
+2016,Jaydev Shah,34997,0.2,2000000,sold,already had id
+2016,Pratyush Singh,717205,0.1,1000000,sold,already had id
+2016,Ashok Dinda,227712,0.5,5000000,sold,already had id
+2016,Kane Richardson,272262,2,20000000,sold,already had id
+2016,Samuel Badree,51433,0.5,5000000,sold,already had id
+2016,Joel Paris,501012,0.3,3000000,sold,already had id
+2016,Scott Boland,446548,0.5,5000000,sold,already had id
+2016,Vikramjeet Malik,31738,0.2,2000000,sold,already had id
+2016,Pawan Suyal,431213,0.1,1000000,sold,already had id
+2016,Adam Zampa,379504,0.3,3000000,sold,already had id
+2016,Amit Mishra,604550,0.1,1000000,sold,already had id
+2016,Jaskaran Singh,376102,0.1,1000000,sold,already had id
+2016,Chama Milind,604616,0.1,1000000,sold,already had id
+2016,Vikas Tokas,474519,0.1,1000000,sold,already had id
+2016,Farhaan Behardien,44410,0.3,3000000,sold,already had id
+2016,Akhil Herwadkar,532851,0.1,1000000,sold,already had id
+2016,Mahipal Lomror,853265,0.1,1000000,sold,already had id
+2016,Martin Guptill,226492,0.5,5000000,unsold,name match
+2016,Rilee Rossouw,318845,1,10000000,unsold,name match
+2016,Cheteshwar Pujara,32540,0.5,5000000,unsold,name match
+2016,Hashim Amla,43906,1,10000000,unsold,name match
+2016,George Bailey,4451,1,10000000,unsold,name match
+2016,S Badrinath,26806,0.5,5000000,unsold,name match
+2016,Mahela Jayawardene,49289,1.5,15000000,unsold,name match
+2016,Michael Hussey,5939,2,20000000,unsold,name match
+2016,Usman Khawaja,215155,1,10000000,unsold,name match
+2016,Shane Dowrich,431905,0.3,3000000,unsold,not found - add manually
+2016,Mushfiqur Rahim,56029,0.3,3000000,unsold,not found - add manually
+2016,Johnson Charles,333066,0.3,3000000,unsold,not found - add manually
+2016,Brad Haddin,5560,1.5,15000000,unsold,name match
+2016,Morne van Wyk,47711,0.3,3000000,unsold,not found - add manually
+2016,Ben Dunk,388678,0.3,3000000,unsold,initial match
+2016,Cameron Bancroft,501011,0.1,1000000,unsold,not found - add manually
+2016,Manoj Tiwary,35565,1,10000000,unsold,name match
+2016,Ravi Bopara,10582,1,10000000,unsold,name match
+2016,Tillakaratne Dilshan,48472,1.5,15000000,unsold,name match
+2016,Darren Sammy,53115,0.5,5000000,unsold,name match
+2016,Sachithra Senanayake,273439,0.5,5000000,unsold,name match
+2016,Veerasammy Permaul,274921,0.3,3000000,unsold,not found - add manually
+2016,Nathan Lyon,272279,1,10000000,unsold,not found - add manually
+2016,Devendra Bishoo,341593,0.3,3000000,unsold,not found - add manually
+2016,Michael Beer,307495,0.3,3000000,unsold,not found - add manually
+2016,Ajantha Mendis,268739,0.5,5000000,unsold,name match
+2016,Sulieman Benn,51248,0.3,3000000,unsold,not found - add manually
+2016,Rahul Sharma,272994,0.3,3000000,unsold,name match
+2016,Cameron Boyce,326625,0.5,5000000,unsold,not found - add manually
+2016,Pragyan Ojha,32130,0.5,5000000,unsold,name match
+2016,Joe Burns,326632,1,10000000,unsold,not found - add manually
+2016,David Hussey,5766,1,10000000,unsold,name match
+2016,Darren Bravo,277472,0.5,5000000,unsold,name match
+2016,Adam Voges,8119,1,10000000,unsold,name match
+2016,Nic Maddinson,333780,0.5,5000000,unsold,initial match
+2016,Owais Shah,20123,1,10000000,unsold,name match
+2016,Abhinav Mukund,302582,0.3,3000000,unsold,not found - add manually
+2016,Doug Bracewell,362541,0.3,3000000,unsold,name match
+2016,Chris Jordan,288992,1,10000000,unsold,name match
+2016,Wayne Parnell,265564,0.5,5000000,unsold,name match
+2016,Grant Elliott,44956,0.3,3000000,unsold,not found - add manually
+2016,James Neesham,355269,0.5,5000000,unsold,name match
+2016,Sean Abbott,398666,0.5,5000000,unsold,name match
+2016,Abhishek Nayar,32091,0.3,3000000,unsold,name match
+2016,Munaf Patel,32965,0.5,5000000,unsold,name match
+2016,Beuran Hendricks,379927,0.3,3000000,unsold,initial match
+2016,Lahiru Thirimanne,301236,0.3,3000000,unsold,not found - add manually
+2016,Richard Levi,46148,0.5,5000000,unsold,not found - add manually
+2016,Cameron White,8291,1.5,15000000,unsold,name match
+2016,Tamim Iqbal,56194,0.5,5000000,unsold,not found - add manually
+2016,Marlon Samuels,52983,0.5,5000000,unsold,not found - add manually
+2016,Dean Elgar,230852,0.3,3000000,unsold,not found - add manually
+2016,Reeza Hendricks,269280,0.3,3000000,unsold,not found - add manually
+2016,Nathan McCullum,37749,0.5,5000000,unsold,name match
+2016,Jeevan Mendis,49700,0.5,5000000,unsold,name match
+2016,Vernon Philander,46945,0.5,5000000,unsold,not found - add manually
+2016,Rusty Theron,223642,0.3,3000000,unsold,name match
+2016,Shehan Jayasuriya,49209,0.3,3000000,unsold,initial match
+2016,Rayad Emrit,51784,0.3,3000000,unsold,not found - add manually
+2016,Anton Devcich,36948,0.3,3000000,unsold,not found - add manually
+2016,Johan Botha,44149,0.5,5000000,unsold,name match
+2016,Ashton Agar,505120,0.5,5000000,unsold,not found - add manually
+2016,Robin Peterson,46750,0.5,5000000,unsold,name match
+2016,Fidel Edwards,51782,0.5,5000000,unsold,name match
+2016,Jerome Taylor,53191,0.5,5000000,unsold,name match
+2016,Parvinder Awana,323131,0.3,3000000,unsold,initial match
+2016,Sudeep Tyagi,317784,0.3,3000000,unsold,name match
+2016,Shaun Tait,8076,1.5,15000000,unsold,name match
+2016,Pankaj Singh,32973,0.3,3000000,unsold,name match
+2016,Nuwan Kulasekara,49535,0.5,5000000,unsold,name match
+2016,Ben Laughlin,315623,0.3,3000000,unsold,name match
+2016,Krishmar Santokie,314622,0.3,3000000,unsold,initial match
+2016,Isuru Udana,328026,0.3,3000000,unsold,name match
+2016,Soumya Sarkar,436677,0.3,3000000,unsold,not found - add manually
+2016,Dilruwan Perera,49920,0.5,5000000,unsold,not found - add manually
+2016,Narsingh Deonarine,51659,0.3,3000000,unsold,not found - add manually
+2016,Henry Davids,44752,0.5,5000000,unsold,not found - add manually
+2016,Milinda Siriwardana,222354,0.3,3000000,unsold,not found - add manually
+2016,Dilshan Munaweera,304735,0.3,3000000,unsold,not found - add manually
+2016,Christopher Barnwell,330408,0.3,3000000,unsold,name match
+2016,Seekuge Prasanna,not found,0.3,3000000,unsold,not found - add manually
+2016,George Worker,277911,0.3,3000000,unsold,not found - add manually
+2016,Dasun Shanaka,437316,0.3,3000000,unsold,not found - add manually
+2016,Taskin Ahmed,538506,0.3,3000000,unsold,not found - add manually
+2016,Shannon Gabriel,446101,0.5,5000000,unsold,not found - add manually
+2016,Dushmantha Chameera,552152,0.3,3000000,unsold,name match
+2016,Hardus Viljoen,375126,0.3,3000000,unsold,name match
+2016,Mthokozisi Shezi,230860,1,10000000,unsold,not found - add manually
+2016,Tino Best,51436,0.3,3000000,unsold,not found - add manually
+2016,Jackson Bird,215152,0.5,5000000,unsold,not found - add manually
+2016,Mithun Manhas,31001,0.3,3000000,unsold,initial match
+2016,Ankit Bawne,327123,0.1,1000000,unsold,name match
+2016,Himanshu Rana,1312645,0.1,1000000,unsold,initial match
+2016,Debabrata Das,328163,0.1,1000000,unsold,initial match
+2016,Aiden Blizzard,4498,0.3,3000000,unsold,name match
+2016,Pinal Shah,34282,0.1,1000000,unsold,not found - add manually
+2016,CM Gautam,302208,0.2,2000000,unsold,name match
+2016,Dishank Yagnik,36071,0.1,1000000,unsold,initial match
+2016,Manvinder Bisla,27280,0.1,1000000,unsold,initial match
+2016,Padmanabhan Prasanth,32211,0.1,1000000,unsold,name match
+2016,Kevin O'Brien,24605,0.3,3000000,unsold,not found - add manually
+2016,Kevon Cooper,371814,0.3,3000000,unsold,name match
+2016,C Stephen,not found,0.1,1000000,unsold,not found - add manually
+2016,Domnic Muthuswami,528985,0.1,1000000,unsold,not found - add manually
+2016,Veer Pratap Singh,528967,0.1,1000000,unsold,ambiguous initial
+2016,Harmeet Singh,391128,0.1,1000000,unsold,name match
+2016,Aswin Crist,679595,0.1,1000000,unsold,not found - add manually
+2016,Rahul Shukla,390547,0.1,1000000,unsold,initial match
+2016,Siddharth Trivedi,856285,0.1,1000000,unsold,initial match
+2016,KK Jiyas,857781,0.1,1000000,unsold,not found - add manually
+2016,Hardik Patel,390481,0.1,1000000,unsold,initial match
+2016,Rahil Shah,477161,0.1,1000000,unsold,not found - add manually
+2016,Bharghav Bhatt,not found,0.1,1000000,unsold,not found - add manually
+2016,Karanveer Singh,322535,0.1,1000000,unsold,name match
+2016,Arun Karthik,319745,0.1,1000000,unsold,not found - add manually
+2016,Evin Lewis,431901,0.2,2000000,unsold,name match
+2016,Alex Ross,333624,0.2,2000000,unsold,not found - add manually
+2016,Apoorv Wankhade,505773,0.1,1000000,unsold,name match
+2016,Prashant Gupta,377536,0.1,1000000,unsold,not found - add manually
+2016,Rahul Tewatia,423838,0.1,1000000,unsold,name match
+2016,Rohan Prem,32486,0.1,1000000,unsold,not found - add manually
+2016,Dinesh Salunkhe,278482,0.1,1000000,unsold,name match
+2016,Ravi Jangid,323223,0.1,1000000,unsold,not found - add manually
+2016,Gurinder Singh,500164,0.1,1000000,unsold,ambiguous initial
+2016,James Pattinson,272465,1.5,15000000,unsold,name match
+2016,Pankaj Jaswal,652359,0.1,1000000,unsold,not found - add manually
+2016,Navdeep Saini,700167,0.1,1000000,unsold,name match
+2016,Saurabh Kumar,627214,0.1,1000000,unsold,name match
+2016,Rishi Arothe,642539,0.1,1000000,unsold,not found - add manually
+2016,Baltej Singh,527292,0.1,1000000,unsold,name match
+2016,Kshitiz Sharma,625380,0.1,1000000,unsold,name match

@@ -1,10 +1,15 @@
-import re, pandas as pd
+"""This python file is used to scrap the 2014 auction data"""
+
+import re
+import pandas as pd
 from bs4 import BeautifulSoup
 
-def parse_auction_2014_format(html_path, year=None):
-    soup = BeautifulSoup(open(html_path, encoding='utf-8').read(), 'html.parser')
+def parse_auction_2014_format(html_path):
+    file = open(html_path, encoding='utf-8').read()
+    soup = BeautifulSoup(file.read(), 'html.parser')
+    
     at = soup.select_one('#auction_table')
-    year = (at.get('data-year') if at and at.get('data-year') else year)
+    year = at.get('data-year') if at else None
 
     rows = []
     for team in soup.select("div[id^='team_']"):
@@ -22,8 +27,10 @@ def parse_auction_2014_format(html_path, year=None):
 
         for li in team.select('ul.table > li'):
             a = li.select_one('a[href*="player"]')          # link WRAPS span.name here
-            if not a:
+            if not a or not a.get('href'):
                 continue
+            
+            #regex is used to get the id of the player from the player link
             m = re.search(r'/player/(\d+)', a['href'])
             player_id   = m.group(1) if m else None
             name_span   = li.select_one('span.name')

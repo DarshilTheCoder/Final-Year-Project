@@ -1,3 +1,5 @@
+"""This auction_scrapper is used to scrap auction data of 2014/17/18/19/20/21/22/23/24"""
+
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -20,7 +22,6 @@ except:
 if "Access Denied" in driver.page_source:
     print("STILL BLOCKED")
 else:
-    # wait for the old-style auction table, not a generic <table>
     WebDriverWait(driver, 15).until(
         EC.presence_of_element_located((By.CLASS_NAME, "table table-hover mb-0"))
     )
@@ -32,10 +33,10 @@ else:
         f.write(html)
     print("Saved. Length:", len(html))
 
-    # quick self-check: how many team blocks made it into the saved HTML?
-    from bs4 import BeautifulSoup
-    soup = BeautifulSoup(html, 'html.parser')
-    teams = soup.select("div[id^='team_']")
-    print(f"Team blocks captured: {len(teams)}")   # want 10
+    # # quick self-check: how many team blocks made it into the saved HTML?
+    # from bs4 import BeautifulSoup
+    # soup = BeautifulSoup(html, 'html.parser')
+    # teams = soup.select("div[id^='team_']")
+    # print(f"Team blocks captured: {len(teams)}")   # want 10
 
 driver.quit()

@@ -1,51 +1,47 @@
+"""player_data_combining file is used to to combine all team players data which then get stored inside the players_data folder inside the processed data, as it was the data processed and extracted from the raw html pages. Also, aftetr combining all players I tried to do bit of data transformation and cleaning in-order to get proper combined_players_data """
+
 import glob
 import numpy as np
 import pandas as pd
 from pathlib import Path
 
-# ---- EDIT THESE ----------------------------------------------------------
-# Folder that holds the *_players_data.csv team files (NOT your code folder).
+
 INPUT_DIR  = r"D:\DataEngineering\Final Year Project\processed_data\players_data"
 OUTPUT_DIR = r"D:\DataEngineering\Final Year Project\processed_data\players_data"
-# --------------------------------------------------------------------------
 
-# ============================ stats cleaning ==============================
-MONTHS = ("January|February|March|April|May|June|July|August|September|"
-          "October|November|December")
-NUMERIC = ["matches", "innings", "no", "runs", "highestscore", "batting_average",
-           "bf", "strikerate", "100s", "50s", "4s", "6s", "Ct", "St", "wickets",
-           "economy", "balls", "bowl_ave", "sr", "4w", "5w", "10w"]
+
+
+MONTHS = ("January|February|March|April|May|June|July|August|September|October|November|December")
+NUMERIC = ["matches", "innings", "no", "runs", "highestscore", "batting_average","bf", "strikerate", "100s", "50s", "4s", "6s", "Ct", "St", "wickets","economy", "balls", "bowl_ave", "sr", "4w", "5w", "10w"]
 DATES = ["birthdate", "t20_start", "t20_end", "odi_start", "odi_end"]
 
-
-def parse_dateish(series):
+#this funciton is used to extract the date from the players csv file, example t20 start date, end date, birthdate. This function is also written with the help of an AI, as it was difficult to extract dates from string
+def parse_date(series):
     """Pull 'Month DD, YYYY' from anywhere (clean dates OR full match
     descriptions) and return it as YYYY-MM-DD."""
     ext = series.str.extract(rf"({MONTHS})\s+(\d{{1,2}})(?:\s*-\s*\d{{1,2}})?,?\s+(\d{{4}})")
     combo = ext[0] + " " + ext[1] + ", " + ext[2]
-    return pd.to_datetime(combo, format="%B %d, %Y", errors="coerce").dt.strftime("%Y-%m-%d")
+    new_date = pd.to_datetime(combo, format="%B %d, %Y", errors="coerce").dt.strftime("%Y-%m-%d")
+    return new_date
 
-
+#clean_stats is the function which do some basic cleaning before after like replace '-' with empty cell, then removing * mark from highest score, otherwise it becomes a string
 def clean_stats(s):
-    s = s.replace(r"^\s*-\s*$", np.nan, regex=True)          # "-"  -> empty
-    s["highestscore"] = s["highestscore"].str.replace("*", "", regex=False)  # drop the *
+    s = s.replace(r"^\s*-\s*$", np.nan, regex=True)         
+    s["highestscore"] = s["highestscore"].str.replace("*", "", regex=False) 
 
-    # bbi/bbm: KEEP the readable "4/17" string, and ALSO add numeric wkts/runs
-    # for the model. (Want string only? delete these 4 lines. Want numbers only?
-    # keep them and add:  s = s.drop(columns=["bbi", "bbm"]) )
+    #bbi/bbm are the best bowling figures (i.e wickets/run) for an inning(bbi) and for a match(bbm), but it gets converted into date format in the excel, so I just split them into wickets and runs. As for T20 matches or IPL type leagues both bbi and bbm are same. 
     for col in ["bbi", "bbm"]:
         parts = s[col].str.split("/", expand=True)
         s[f"{col}_wkts"] = pd.to_numeric(parts[0], errors="coerce")
         s[f"{col}_runs"] = pd.to_numeric(parts[1], errors="coerce")
 
-    for col in DATES:                                        # dates only, ISO format
-        s[col] = parse_dateish(s[col])
-    for col in NUMERIC:                                      # text -> real numbers
+    for col in DATES:                                    
+        s[col] = parse_date(s[col])
+    for col in NUMERIC:
         s[col] = pd.to_numeric(s[col], errors="coerce")
     return s
 
 
-# ======================= combine the 15 team files ========================
 in_dir = Path(INPUT_DIR)
 
 # 1. gather the 15 team files from players_data (exclude the stray
@@ -72,5 +68,5 @@ players['player_id'] = pd.to_numeric(players['player_id'], errors='coerce').asty
 
 out_dir = Path(OUTPUT_DIR)
 out_dir.mkdir(parents=True, exist_ok=True)
-players.to_csv(out_dir / 'new_all_players_combined.csv', index=False)
-print(f"Cleaned & saved -> {out_dir / 'new_all_players_combined.csv'}")
+players.to_csv(out_dir / 'new_players_combined.csv', index=False)
+print(f"Cleaned & saved -> {out_dir / 'new_players_combined.csv'}")

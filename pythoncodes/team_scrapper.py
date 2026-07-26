@@ -1,3 +1,7 @@
+"""team_scrapper is the file which is used to scrap the each team players link from the ESPN website. 
+"""
+
+
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -5,9 +9,9 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 driver = uc.Chrome(version_main=149)
-driver.get("https://www.espncricinfo.com/records/trophy/averages-batting/indian-premier-league-117?team=4340")
+driver.get("https://www.espncricinfo.com/records/trophy/averages-batting/indian-premier-league-117?team=6904")
 
-# block check — so you KNOW if you're past the wall
+# JUST TO CHECK WHETHER I GET BLOCKED BY BLOCKER OR NOT
 if "Access Denied" in driver.page_source:
     print("STILL BLOCKED")
 else:

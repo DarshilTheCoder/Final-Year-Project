@@ -1,11 +1,15 @@
-import re, pandas as pd
+"""This python file is used to scrap from 2017 to 2024 auction data, as it was on proper table format, it was bit easy to scrap the data. """
+
+import re
+import pandas as pd
 from bs4 import BeautifulSoup
 
 def parse_auction_old_format(html_path):
-    soup = BeautifulSoup(open(html_path, encoding='utf-8').read(), 'html.parser')
+    file = open(html_path, encoding='utf-8').read()
+    soup = BeautifulSoup(file, 'html.parser')
 
     at = soup.select_one('#auction_table')
-    year = at.get('data-year') if at else None      # e.g. "2024"
+    year = at.get('data-year') if at else None      
 
     rows = []
     for team in soup.select("div[id^='team_']"):
@@ -19,8 +23,10 @@ def parse_auction_old_format(html_path):
             if len(spans) >= 2:
                 label = spans[0].get_text(strip=True).lower()
                 value = spans[1].get_text(strip=True)
-                if 'spent' in label:       purse_spent = value
-                elif 'available' in label: purse_left = value
+                if 'spent' in label:       
+                    purse_spent = value
+                elif 'available' in label: 
+                    purse_left = value
 
         for li in team.select('ul.table > li'):
             a = li.select_one('span.name a')

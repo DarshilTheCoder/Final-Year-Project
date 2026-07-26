@@ -8,8 +8,8 @@ import pandas as pd
 from pathlib import Path
 
 # ---- EDIT THESE ----------------------------------------------------------
-AUCTION_CSV = r"D:\DataEngineering\Final Year Project\processed_data\auction_data\auction_all.csv"
-MERGED_CSV  = r"D:\DataEngineering\Final Year Project\processed_data\auction_with_prior_stats.csv"
+AUCTION_CSV = r"D:\DataEngineering\Final Year Project\processed_data\auction_data\auction_all_with_base_price.csv"
+MERGED_CSV  = r"D:\DataEngineering\Final Year Project\processed_data\final_with_status_auction_with_prior_stats.csv"
 # --------------------------------------------------------------------------
 
 auc = pd.read_csv(AUCTION_CSV)

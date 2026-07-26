@@ -1,14 +1,18 @@
-import re, pandas as pd
+"""This python file is used to parse the 2016 auction html file, here I used lot of AI to write the code, as the data was not in any structured format. Everything was written in line by line form and not in any table form"""
+import re
+import pandas as pd
 from bs4 import BeautifulSoup
 
 def parse_auction_prose_2016(html_path):
-    soup = BeautifulSoup(open(html_path, encoding='utf-8').read(), 'html.parser')
+    file = open(html_path, encoding='utf-8').read()
+    soup = BeautifulSoup(file, 'html.parser')
     article = soup.select_one('article.ci-story') or soup.find('article')
 
     link_ids = {}
     for a in article.select('a[href*="/player/"]'):
         m = re.search(r'/player/(\d+)', a['href'])
-        if m: link_ids[a.get_text(strip=True)] = m.group(1)
+        if m: 
+            link_ids[a.get_text(strip=True)] = m.group(1)
 
     parts = re.split(r'\n(Sold players|Unsold players)\n', article.get_text('\n', strip=True))
 

@@ -1,8 +1,11 @@
-import re, pandas as pd
+""""""
+import re
+import pandas as pd
 from bs4 import BeautifulSoup
 
 def parse_auction_prose_2015(html_path, year=None):
-    soup = BeautifulSoup(open(html_path, encoding='utf-8').read(), 'html.parser')
+    file = open(html_path, encoding='utf-8').read()
+    soup = BeautifulSoup(file, 'html.parser')
     article = soup.select_one('article.ci-story') or soup.find('article')
 
     link_ids = {}

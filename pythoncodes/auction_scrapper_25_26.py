@@ -1,3 +1,5 @@
+"""This auction scrapper is used to scrap auction data of year 2011/12/13/15/16 and 25/26. 2008 is scrapped using Kaggle, 2010 and 2009 I think made it manually as no such proper data available"""
+
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -11,7 +13,7 @@ URL = "https://www.cricinfo.com/story/list-of-players-sold-and-unsold-at-ipl-auc
 driver = uc.Chrome(version_main=149)
 driver.get(URL)
 
-# dismiss cookie banner if it appears
+"onetrust-accept-btn-handler is because whenever first time my request will go then some cookies will come in return when browser gets closed, due to which I was unable to perform click event."
 try:
     WebDriverWait(driver, 5).until(
         EC.element_to_be_clickable((By.ID, "onetrust-accept-btn-handler"))
@@ -25,7 +27,7 @@ else:
     WebDriverWait(driver, 15).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, "article"))
     )
-    time.sleep(3)   # let the tables render
+    time.sleep(3) #sleeping timer such that website will be allowed to load the article class 
 
     html = driver.page_source
     with open('auction_data/ipl-2016-auction.html', 'w', encoding='utf-8') as f:

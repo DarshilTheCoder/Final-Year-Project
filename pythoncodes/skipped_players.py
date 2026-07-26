@@ -1,21 +1,10 @@
-import os,pandas as pd
+import os
+import pandas as pd
 from bs4 import BeautifulSoup
 import json,re
 
-dir_name = 'skipped_data'
-file = os.listdir(dir_name)
-print(file)
 
-with open(f'{dir_name}/{file[0]}','r') as f:
-    slug = file[0].replace('.html', '')        
-    player_id = slug.rsplit('-', 1)[1]
-    print(player_id)
-    print(slug)
-    playerid  = player_id            
-    html_doc = f.read()
-    soup = BeautifulSoup(html_doc, 'html.parser')
-
-    def parse_table(table):
+def parse_table(table):
     #   headers: gives the table header
         headers = [th.get_text(strip=True) for th in table.find_all('th')]
         print(headers)
@@ -37,28 +26,20 @@ with open(f'{dir_name}/{file[0]}','r') as f:
             season_dict[year] = row_dict
         return season_dict
     
-    def bio_value(soup, label):
+def bio_value(soup, label):
         p = soup.find('p', string=label)      # the label <p>
         return p.find_next_sibling().get_text(" ", strip=True) if p else None
-
-    born = bio_value(soup, 'Born')   # "July 07, 1981, Ranchi, Bihar (now Jharkhand)"
-    age  = bio_value(soup, 'Age')    # "44y 357d"
-    player_name = bio_value(soup, 'Full Name')
-    role = bio_value(soup,'Playing Role')
-    print(role)
-    # print(full_name)
-    # print(born)
-    # print(age)
-
-    for tag in soup.find_all('script', type='application/ld+json'):
-        data = json.loads(tag.string)
-        nodes = data.get('@graph', [data])          # sometimes a list, sometimes one object
-        for n in nodes:
-            if n.get('@type') == 'Person':
-                nationality = n['nationality']['name']
-    # print(nationality)
     
-    def format_debut_last(format_label):
+#intl_career function is just to get players' international career data, which is available on players profile
+def intl_career(soup):
+        node = soup.find(string=re.compile('INTL CAREER'))
+        if not node:
+            return '-'  #if player don't have international history                                   
+        value =  node.replace('INTL CAREER:', '').strip() 
+        # print(value) 
+        return value
+
+def format_debut_last(format_label):
         """Return (debut_str, last_str) for a format heading like 'ODI Matches'."""
         heading = soup.find(string=re.compile(r'^\s*' + re.escape(format_label) + r'\s*$'))
         if not heading:
@@ -74,13 +55,47 @@ with open(f'{dir_name}/{file[0]}','r') as f:
             block = block.parent
         return None, None
 
-    def tail_date(match_str):
+def tail_date(match_str):
         if not match_str:
             return None
         # last ' - ' splits ground info from the date portion
         # return match_str.rsplit(' - ', 1)[-2].strip()
         m = re.search(r'([A-Z][a-z]+ \d{1,2}, \d{4})', match_str)
         return m.group(1) if m else match_str
+
+dir_name = 'skipped_data'
+file = os.listdir(dir_name)
+print(file)
+
+with open(f'{dir_name}/{file[0]}','r') as f:
+    slug = file[0].replace('.html', '')        
+    player_id = slug.rsplit('-', 1)[1]
+    print(player_id)
+    print(slug)
+    playerid  = player_id            
+    html_doc = f.read()
+    soup = BeautifulSoup(html_doc, 'html.parser')
+
+    born = bio_value(soup, 'Born')   
+    age  = bio_value(soup, 'Age')    
+    player_name = bio_value(soup, 'Full Name')
+    role = bio_value(soup,'Playing Role')
+    bat_style = bio_value(soup,'Batting Style')
+    bowl_style = bio_value(soup,'Bowling Style')
+    intl = intl_career(soup)
+    # print(role)
+    # print(full_name)
+    # print(born)
+    # print(age)
+
+    for tag in soup.find_all('script', type='application/ld+json'):
+        data = json.loads(tag.string)
+        nodes = data.get('@graph', [data])          # sometimes a list, sometimes one object
+        for n in nodes:
+            if n.get('@type') == 'Person':
+                nationality = n['nationality']['name']
+    # print(nationality)
+    
 
     odi_debut, odi_last = format_debut_last('ODI Matches')
     odi_debut_date = tail_date(odi_debut)
@@ -102,12 +117,11 @@ with open(f'{dir_name}/{file[0]}','r') as f:
     tables = t20_section.find_all('table')   # [batting, bowling]
     batting = parse_table(tables[0])
     bowling = parse_table(tables[1])
-    record = {'player_id':playerid,'name':player_name,"batting": batting, "bowling": bowling, "birthdate":born,'age':age,'nationality':nationality, 'odi_debut_date':odi_debut_date, 'odi_last_date':odi_last_date,'t20i_debut_date':t20i_debut_date,'t20i_last_date':t20i_last_date,'player_role':role}
+    record = {'player_id':playerid,'name':player_name,"batting": batting, "bowling": bowling, "birthdate":born,'age':age,'nationality':nationality, 'odi_debut_date':odi_debut_date, 'odi_last_date':odi_last_date,'t20i_debut_date':t20i_debut_date,'t20i_last_date':t20i_last_date,'player_role':role, 'batting_style':bat_style,'bowling_style':bowl_style,'international_career':intl}
     # print(record)
     # print(len(tables))
     # print(f'BATTING TABLE = {tables[0]}')
     # print(f'BOWLING TABLE = {tables[1]}')
-    import pandas as pd
 
 rows = []
 for year, bat in record['batting'].items():
@@ -119,6 +133,9 @@ for year, bat in record['batting'].items():
         'age':         record['age'],
         'nationality': record['nationality'],
         'player_role': record['player_role'],
+        'batting_style':record['batting_style'],
+        'bowling_style':record['bowling_style'],
+        'international_career':record['international_career'],
         'year':        year,
         'tournament':  bat.get('Tournament'),
         'team':        bat.get('Teams'),
