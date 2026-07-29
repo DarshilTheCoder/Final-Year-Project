@@ -1,36 +1,36 @@
-year,section,player_name,player_id,team,sold_usd,sold_price,sold_price_in_cr,base_usd
-2012,Bought,Brendon McCullum,37737,Kolkata Knight Riders,"900,000",44067600,4.41,"400,000"
-2012,Bought,Ravindra Jadeja,234675,Chennai Super Kings,2000000,97928000,9.79,100000
-2012,Bought,Muttiah Muralitharan,49636,Royal Challengers Bangalore,"220,000",10772080,1.08,"200,000"
-2012,Bought,Mahela Jayawardene,49289,Delhi Daredevils,1400000,68549600,6.85,300000
-2012,Bought,Herschelle Gibbs,45224,Mumbai Indians,"50,000",2448200,0.24,"50,000"
-2012,Bought,Brad Hodge,5674,Rajasthan Royals,"475,000",23257900,2.33,"200,000"
-2012,Bought,Parthiv Patel,32242,Deccan Chargers,"650,000",31826600,3.18,"200,000"
-2012,Bought,Dinesh Chandimal,300628,Rajasthan Royals,"50,000",2448200,0.24,"50,000"
-2012,Bought,Andre Russell,276298,Delhi Daredevils,"450,000",22033800,2.20,"50,000"
-2012,Bought,Mitchell Johnson,6033,Mumbai Indians,"300,000",14689200,1.47,"300,000"
-2012,Bought,RP Singh,35280,Mumbai Indians,"600,000",29378400,2.94,"200,000"
-2012,Bought,Vinay Kumar,35731,Royal Challengers Bangalore,"1,000,000",48964000,4.90,"100,000"
-2012,Bought,Sreesanth,34274,Rajasthan Royals,"400,000",19585600,1.96,"400,000"
-2012,Bought,Ramesh Powar,32391,Kings XI Punjab,"160,000",7834240,0.78,"100,000"
-2012,Bought,Brad Hogg,5681,Rajasthan Royals,"180,000",8813520,0.88,"100,000"
-2012,Bought,Sunil Narine,230558,Kolkata Knight Riders,"700,000",34274800,3.43,"50,000"
-2012,Bought,Robin Peterson,46750,Mumbai Indians,"100,000",4896400,0.49,"100,000"
-2012,Bought,Daniel Harris,5583,Deccan Chargers,"70,000",3427480,0.34,"50,000"
-2012,Bought,Kevon Cooper,371814,Rajasthan Royals,"50,000",2448200,0.24,"50,000"
-2012,Bought,James Faulkner,270484,Kings XI Punjab,"190,000",9303160,0.93,"100,000"
-2012,Bought,Azhar Mahmood,39024,Kings XI Punjab,"200,000",9792800,0.98,"100,000"
-2012,Bought,Thisara Perera,233514,Mumbai Indians,"650,000",31826600,3.18,"50,000"
-2012,Bought,Marchant de Lange,393279,Kolkata Knight Riders,"50,000",2448200,0.24,"50,000"
-2012,Bought,Darren Bravo,277472,Deccan Chargers,"100,000",4896400,0.49,"100,000"
-2012,Bought,Doug Bracewell,362541,Delhi Daredevils,"50,000",2448200,0.24,"50,000"
-2012,Retained,Chris Gayle,51880,Royal Challengers Bangalore,"550,000",26930200,2.69,
-2012,Retained,Sourav Ganguly,28779,Pune Warriors,"400,000",19585600,1.96,
-2012,Retained,David Miller,321777,Kings XI Punjab,"100,000",4896400,0.49,
-2012,Transferred,Kevin Pietersen,19296,Delhi Daredevils,,,,
-2012,Transferred,Andrew McDonald,6553,Royal Challengers Bangalore,,,,
-2012,Transferred,Dinesh Karthik,30045,Mumbai Indians,,,,
-2012,Transferred,Pragyan Ojha,32130,Mumbai Indians,,,,
-2012,Transferred,R Sathish,33870,Kings XI Punjab,,,,
-2012,Transferred,Harmeet Singh,391128,Kings XI Punjab,,,,
-,,,,,,,,
+year,section,player_name,player_id,team,cost_usd,sold_price,sold_price_in_cr,base_price_in_usd,nationality,overseas
+2012,Bought,Brendon McCullum,37737,Kolkata Knight Riders,900000,44067600,4.40676,"400,000",New Zealand,TRUE
+2012,Bought,Ravindra Jadeja,234675,Chennai Super Kings,2000000,92000000,9.2,100000,India,FALSE
+2012,Bought,Muttiah Muralitharan,49636,Royal Challengers Bangalore,220000,10772080,1.077208,"200,000",Sri Lanka,TRUE
+2012,Bought,Mahela Jayawardene,49289,Delhi Daredevils,1400000,68549600,6.85496,300000,Sri Lanka,TRUE
+2012,Bought,Herschelle Gibbs,45224,Mumbai Indians,50000,2448200,0.24482,"50,000",South Africa,TRUE
+2012,Bought,Brad Hodge,5674,Rajasthan Royals,475000,23257900,2.32579,"200,000",Australia,TRUE
+2012,Bought,Parthiv Patel,32242,Deccan Chargers,650000,29900000,2.99,"200,000",India,FALSE
+2012,Bought,Dinesh Chandimal,300628,Rajasthan Royals,50000,2300000,0.23,"50,000",Sri Lanka,FALSE
+2012,Bought,Andre Russell,276298,Delhi Daredevils,450000,22033800,2.20338,"50,000",West Indies,TRUE
+2012,Bought,Mitchell Johnson,6033,Mumbai Indians,300000,14689200,1.46892,"300,000",Australia,TRUE
+2012,Bought,RP Singh,35280,Mumbai Indians,600000,27600000,2.76,"200,000",India,FALSE
+2012,Bought,Vinay Kumar,35731,Royal Challengers Bangalore,1000000,46000000,4.6,"100,000",India,FALSE
+2012,Bought,Sreesanth,34274,Rajasthan Royals,400000,18400000,1.84,"400,000",India,FALSE
+2012,Bought,Ramesh Powar,32391,Kings XI Punjab,160000,7360000,0.736,"100,000",India,FALSE
+2012,Bought,Brad Hogg,5681,Rajasthan Royals,180000,8813520,0.881352,"100,000",Australia,TRUE
+2012,Bought,Sunil Narine,230558,Kolkata Knight Riders,700000,34274800,3.42748,"50,000",West Indies,TRUE
+2012,Bought,Robin Peterson,46750,Mumbai Indians,100000,4896400,0.48964,"100,000",South Africa,TRUE
+2012,Bought,Daniel Harris,5583,Deccan Chargers,70000,3427480,0.342748,"50,000",Australia,TRUE
+2012,Bought,Kevon Cooper,371814,Rajasthan Royals,50000,2448200,0.24482,"50,000",West Indies,TRUE
+2012,Bought,James Faulkner,270484,Kings XI Punjab,190000,9303160,0.930316,"100,000",Australia,TRUE
+2012,Bought,Azhar Mahmood,39024,Kings XI Punjab,200000,9792800,0.97928,"100,000",Pakistan,TRUE
+2012,Bought,Thisara Perera,233514,Mumbai Indians,650000,31826600,3.18266,"50,000",Sri Lanka,TRUE
+2012,Bought,Marchant de Lange,393279,Kolkata Knight Riders,50000,2448200,0.24482,"50,000",South Africa,TRUE
+2012,Bought,Darren Bravo,277472,Deccan Chargers,100000,4896400,0.48964,"100,000",West Indies,TRUE
+2012,Bought,Doug Bracewell,362541,Delhi Daredevils,50000,2448200,0.24482,"50,000",New Zealand,TRUE
+2012,Retained,Chris Gayle,51880,Royal Challengers Bangalore,550000,26930200,2.69302,,West Indies,TRUE
+2012,Retained,Sourav Ganguly,28779,Pune Warriors,400000,18400000,1.84,,India,FALSE
+2012,Retained,David Miller,321777,Kings XI Punjab,100000,4896400,0.48964,,South Africa,TRUE
+2012,Transferred,Kevin Pietersen,19296,Delhi Daredevils,,,,,England,TRUE
+2012,Transferred,Andrew McDonald,6553,Royal Challengers Bangalore,,,,,Australia,TRUE
+2012,Transferred,Dinesh Karthik,30045,Mumbai Indians,,,,,India,FALSE
+2012,Transferred,Pragyan Ojha,32130,Mumbai Indians,,,,,India,FALSE
+2012,Transferred,R Sathish,33870,Kings XI Punjab,,,,,India,FALSE
+2012,Transferred,Harmeet Singh,391128,Kings XI Punjab,,,,,India,FALSE
+,,,,,,,,,India,TRUE

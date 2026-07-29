@@ -1,18 +1,18 @@
-year,id,Player,Team,sold_price,sold_price_in_cr,base_price,base_price_in_cr,purse_spent_in_cr,purse_left_in_cr
-2009,19296,Kevin Pietersen,Royal Challengers Bangalore,74400000,7.44,64800000,6.48,,
-2009,12856,Andrew Flintoff,Chennai Super Kings,74400000,7.44,45600000,4.56,,
-2009,44932,JP Duminy,Mumbai Indians,45600000,4.56,14400000,1.44,,
-2009,45434,Tyron Henderson,Rajasthan Royals,31200000,3.12,4800000,0.48,,
-2009,10582,Ravi Bopara,Punjab Kings,21600000,2.16,7200000,0.72,,
-2009,8076,Shaun Tait,Rajasthan Royals,18000000,1.8,12000000,1.2,,
-2009,20123,Owais Shah,Delhi Capitals,13200000,1.32,7200000,0.72,,
-2009,10772,Paul Collingwood,Delhi Capitals,13200000,1.32,12000000,1.2,,
-2009,38373,Jesse Ryder,Royal Challengers Bangalore,7680000,0.768,4800000,0.48,,
-2009,51782,Fidel Edwards,Deccan Chargers,7200000,0.72,7200000,0.72,,
-2009,37740,Kyle Mills,Mumbai Indians,7200000,0.72,7200000,0.72,,
-2009,53191,Jerome Taylor,Punjab Kings,7200000,0.72,7200000,0.72,,
-2009,49677,Thilan Thushara,Chennai Super Kings,6720000,0.672,4800000,0.48,,
-2009,53118,Dwayne Smith,Deccan Chargers,4800000,0.48,4800000,0.48,,
-2009,55988,Mohammad Ashraful,Mumbai Indians,3600000,0.36,3600000,0.36,,
-2009,4451,George Bailey,Chennai Super Kings,2400000,0.24,2400000,0.24,,
-2009,56007,Mashrafe Bin Mortaza,Kolkata Knight Riders,28800000,2.88,2400000,0.24,,
+year,id,Player,Team,cost_usd,base_price_in_usd,sold_price,sold_price_in_cr,base_price,base_price_in_cr
+2009,19296,Kevin Pietersen,Royal Challengers Bangalore,1550000,1350000,75531500,7.55315,65785500,6.57855
+2009,12856,Andrew Flintoff,Chennai Super Kings,1550000,950000,75531500,7.55315,46293500,4.62935
+2009,44932,JP Duminy,Mumbai Indians,950000,300000,46293500,4.62935,14619000,1.4619
+2009,45434,Tyron Henderson,Rajasthan Royals,650000,100000,31674500,3.16745,4873000,0.4873
+2009,10582,Ravi Bopara,Punjab Kings,450000,150000,21928500,2.19285,7309500,0.73095
+2009,8076,Shaun Tait,Rajasthan Royals,375000,250000,18273750,1.827375,12182500,1.21825
+2009,20123,Owais Shah,Delhi Capitals,275000,150000,13400750,1.340075,7309500,0.73095
+2009,10772,Paul Collingwood,Delhi Capitals,275000,250000,13400750,1.340075,12182500,1.21825
+2009,38373,Jesse Ryder,Royal Challengers Bangalore,160000,100000,7796800,0.77968,4873000,0.4873
+2009,51782,Fidel Edwards,Deccan Chargers,150000,150000,7309500,0.73095,7309500,0.73095
+2009,37740,Kyle Mills,Mumbai Indians,150000,150000,7309500,0.73095,7309500,0.73095
+2009,53191,Jerome Taylor,Punjab Kings,150000,150000,7309500,0.73095,7309500,0.73095
+2009,49677,Thilan Thushara,Chennai Super Kings,140000,100000,6822200,0.68222,4873000,0.4873
+2009,53118,Dwayne Smith,Deccan Chargers,100000,100000,4873000,0.4873,4873000,0.4873
+2009,55988,Mohammad Ashraful,Mumbai Indians,75000,75000,3654750,0.365475,3654750,0.365475
+2009,4451,George Bailey,Chennai Super Kings,50000,50000,2436500,0.24365,2436500,0.24365
+2009,56007,Mashrafe Bin Mortaza,Kolkata Knight Riders,600000,50000,29238000,2.9238,2436500,0.24365

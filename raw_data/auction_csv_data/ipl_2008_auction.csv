@@ -1,76 +1,78 @@
-year,id,name,team_name,base_price,base_price_in_cr,sold_price,sold_price_in_cr,purse_spent_in_cr,purse_left_in_cr
-2008,8166,Shane Warne,Rajasthan Royals,18054000,1.8054,18054000,1.8054,,
-2008,28081,Mahendra Singh Dhoni,Chennai Super Kings,16048000,1.6048,60180000,6.018,,
-2008,5390,Adam Gilchrist,Deccan Chargers,12036000,1.2036,28084000,2.8084,,
-2008,42655,Shoaib Akhtar,Kolkata Knight Riders,10030000,1.003,17051000,1.7051,,
-2008,49289,Mahela Jayawardene,Punjab Kings,10030000,1.003,19057000,1.9057,,
-2008,49636,Muttiah Muralitharan,Chennai Super Kings,10030000,1.003,24072000,2.4072,,
-2008,30176,Anil Kumble,Royal Challengers Bangalore,10030000,1.003,20060000,2.006,,
-2008,6565,Glenn McGrath,Delhi Capitals,14042000,1.4042,14042000,1.4042,,
-2008,29264,Harbhajan Singh,Mumbai Indians,10030000,1.003,34102000,3.4102,,
-2008,49209,Sanath Jayasuriya,Mumbai Indians,10030000,1.003,39117000,3.9117,,
-2008,50710,Kumar Sangakkara,Punjab Kings,10030000,1.003,28084000,2.8084,,
-2008,7133,Ricky Ponting,Kolkata Knight Riders,13440200,1.34402,16048000,1.6048,,
-2008,6278,Brett Lee,Punjab Kings,12036000,1.2036,36108000,3.6108,,
-2008,7702,Andrew Symonds,Deccan Chargers,10030000,1.003,54162000,5.4162,,
-2008,5939,Michael Hussey,Chennai Super Kings,10030000,1.003,10030000,1.003,,
-2008,38710,Daniel Vettori,Delhi Capitals,10030000,1.003,25075000,2.5075,,
-2008,5616,Matthew Hayden,Chennai Super Kings,9027000,0.9027,15045000,1.5045,,
-2008,37737,Brendon McCullum,Kolkata Knight Riders,7021000,0.7021,28084000,2.8084,,
-2008,38062,Jacob Oram,Chennai Super Kings,8024000,0.8024,27081000,2.7081,,
-2008,37000,Stephen Fleming,Chennai Super Kings,14042000,1.4042,14042000,1.4042,,
-2008,47270,Graeme Smith,Rajasthan Royals,10030000,1.003,10030000,1.003,,
-2008,45224,Herschelle Gibbs,Deccan Chargers,10030000,1.003,23069000,2.3069,,
-2008,51880,Chris Gayle,Kolkata Knight Riders,10030000,1.003,32096000,3.2096,,
-2008,42657,Shoaib Malik,Delhi Capitals,12036000,1.2036,20060000,2.006,,
-2008,42639,Shahid Afridi,Deccan Chargers,9027000,0.9027,27081000,2.7081,,
-2008,43652,Younis Khan,Rajasthan Royals,9027000,0.9027,9027000,0.9027,,
-2008,41411,Mohammad Asif,Delhi Capitals,9027000,0.9027,26078000,2.6078,,
-2008,45789,Jacques Kallis,Royal Challengers Bangalore,9027000,0.9027,36108000,3.6108,,
-2008,30102,Zaheer Khan,Royal Challengers Bangalore,8024000,0.8024,18054000,1.8054,,
-2008,34274,Sreesanth,Punjab Kings,8024000,0.8024,25075000,2.5075,,
-2008,30045,Dinesh Karthik,Delhi Capitals,8024000,0.8024,21063000,2.1063,,
-2008,44936,AB de Villiers,Delhi Capitals,8024000,0.8024,12036000,1.2036,,
-2008,44111,Mark Boucher,Royal Challengers Bangalore,8024000,0.8024,18054000,1.8054,,
-2008,32242,Parthiv Patel,Chennai Super Kings,6018000,0.6018,13039000,1.3039,,
-2008,41028,Kamran Akmal,Rajasthan Royals,6018000,0.6018,6018000,0.6018,,
-2008,55805,Tatenda Taibu,Kolkata Knight Riders,5015000,0.5015,5015000,0.5015,,
-2008,46248,Albie Morkel,Chennai Super Kings,9027000,0.9027,27081000,2.7081,,
-2008,26184,Ajit Agarkar,Kolkata Knight Riders,8024000,0.8024,14042000,1.4042,,
-2008,46774,Shaun Pollock,Mumbai Indians,8024000,0.8024,22066000,2.2066,,
-2008,32685,Irfan Pathan,Punjab Kings,8024000,0.8024,37111000,3.7111,,
-2008,38407,Scott Styris,Deccan Chargers,7021000,0.7021,7021000,0.7021,,
-2008,49638,Farveez Maharoof,Delhi Capitals,6018000,0.6018,9027000,0.9027,,
-2008,48472,Tillakaratne Dilshan,Delhi Capitals,6098240,0.609824,10030000,1.003,,
-2008,8291,Cameron White,Royal Challengers Bangalore,4012000,0.4012,20060000,2.006,,
-2008,32498,Yusuf Pathan,Rajasthan Royals,4012000,0.4012,19057000,1.9057,,
-2008,29976,Joginder Sharma,Chennai Super Kings,4012000,0.4012,9027000,0.9027,,
-2008,52969,Ramnaresh Sarwan,Punjab Kings,9027000,0.9027,9027000,0.9027,,
-2008,6128,Simon Katich,Punjab Kings,8024000,0.8024,8024000,0.8024,,
-2008,6256,Justin Langer,Rajasthan Royals,8024000,0.8024,8024000,0.8024,,
-2008,28763,Gautam Gambhir,Delhi Capitals,8826400,0.88264,29087000,2.9087,,
-2008,35582,Robin Uthappa,Mumbai Indians,8024000,0.8024,32096000,3.2096,,
-2008,51469,Shivnarine Chanderpaul,Royal Challengers Bangalore,8024000,0.8024,8024000,0.8024,,
-2008,30750,VVS Laxman,Deccan Chargers,6018000,0.6018,15045000,1.5045,,
-2008,29646,Wasim Jaffer,Royal Challengers Bangalore,6018000,0.6018,6018000,0.6018,,
-2008,34102,Rohit Sharma,Deccan Chargers,6018000,0.6018,30090000,3.009,,
-2008,44098,Loots Bosman,Mumbai Indians,6018000,0.6018,7021000,0.7021,,
-2008,29990,Mohammad Kaif,Rajasthan Royals,5015000,0.5015,27081000,2.7081,,
-2008,33335,Suresh Raina,Chennai Super Kings,5015000,0.5015,26078000,2.6078,,
-2008,35565,Manoj Tiwary,Delhi Capitals,4012000,0.4012,27081000,2.7081,,
-2008,50431,Chamara Silva,Deccan Chargers,4012000,0.4012,4012000,0.4012,,
-2008,5766,David Hussey,Kolkata Knight Riders,4012000,0.4012,25075000,2.5075,,
-2008,4185,Nathan Bracken,Royal Challengers Bangalore,9027000,0.9027,13039000,1.3039,,
-2008,35280,R P Singh,Deccan Chargers,8024000,0.8024,35105000,3.5105,,
-2008,30049,Murali Kartik,Kolkata Knight Riders,8024000,0.8024,17051000,1.7051,,
-2008,46592,Makhaya Ntini,Chennai Super Kings,8024000,0.8024,8024000,0.8024,,
-2008,49758,Lasith Malinga,Mumbai Indians,8024000,0.8024,14042000,1.4042,,
-2008,50804,Chaminda Vaas,Deccan Chargers,8024000,0.8024,8024000,0.8024,,
-2008,32391,Ramesh Powar,Punjab Kings,6018000,0.6018,6820400,0.68204,,
-2008,43524,Umar Gul,Kolkata Knight Riders,6018000,0.6018,6018000,0.6018,,
-2008,47492,Dale Steyn,Royal Challengers Bangalore,6018000,0.6018,13039000,1.3039,,
-2008,48835,Dilhara Fernando,Mumbai Indians,6018000,0.6018,6018000,0.6018,,
-2008,236779,Ishant Sharma,Kolkata Knight Riders,6018000,0.6018,38114000,3.8114,,
-2008,32966,Piyush Chawla,Punjab Kings,5015000,0.5015,16048000,1.6048,,
-2008,32965,Munaf Patel,Rajasthan Royals,4012000,0.4012,11033000,1.1033,,
-2008,51050,Nuwan Zoysa,Deccan Chargers,4012000,0.4012,4413200,0.44132,,
+No.,Category,Name,Nationality,Speciality,Base Price(in US$ thousands),Team,Auctioned Price(in US$ thousands)
+1,A,Shane Warne,Australia,Bowler,450,Rajasthan Royals,450.0
+2,A,Mahendra Singh Dhoni,India,Wicketkeeper,400,Chennai Super Kings,1500.0
+3,A,Adam Gilchrist,Australia,Wicket keeper,300,Deccan Chargers,700.0
+4,A,Shoaib Akhtar,Pakistan,Bowler,250,Kolkata Knight Riders,425.0
+5,A,Mahela Jayawardene,Sri Lanka,Batsman,250,Kings XI Punjab,475.0
+6,A,Muttiah Muralitharan,Sri Lanka,Bowler,250,Chennai Super Kings,600.0
+7,B,Anil Kumble,India,Bowler,250,Royal Challengers Bangalore,500.0
+8,B,Glenn McGrath[REC],Australia,Bowler,350,Delhi Daredevils,350.0
+9,B,Mohammed Yousuf[REC],Pakistan,Batsman,350,Unsold,
+10,B,Harbhajan Singh,India,Bowler,250,Mumbai Indians,850.0
+11,B,Sanath Jayasuriya,Sri Lanka,Allrounder,250,Mumbai Indians,975.0
+12,B,Kumar Sangakkara,Sri Lanka,Wicketkeeper-batsman,250,Kings XI Punjab,700.0
+13,C,Ricky Ponting,Australia,Batsman,335,Kolkata Knight Riders,400.0
+14,C,Brett Lee,Australia,Bowler,300,Kings XI Punjab,900.0
+15,C,Andrew Symonds,Australia,Allrounder,250,Deccan Chargers,1350.0
+16,C,Michael Hussey[REC],Australia,Batsman,250,Chennai Super Kings,250.0
+17,C,Daniel Vettori,New Zealand,Bowler,250,Delhi Daredevils,625.0
+18,C,Matthew Hayden,Australia,Batsman,225,Chennai Super Kings,375.0
+19,C,Brendon McCullum,New Zealand,Wicketkeeper,175,Kolkata Knight Riders,700.0
+20,C,Jacob Oram,New Zealand,Allrounder,200,Chennai Super Kings,675.0
+21,D,Stephen Fleming,New Zealand,Batsman,350,Chennai Super Kings,350.0
+22,D,Graeme Smith,South Africa,Batsman,250,Rajasthan Royals,250.0
+23,D,Herschelle Gibbs,South Africa,Batsman,250,Deccan Chargers,575.0
+24,D,Chris Gayle,West Indies,Allrounder,250,Kolkata Knight Riders,800.0
+25,D,Shoaib Malik,Pakistan,Allrounder,300,Delhi Daredevils,500.0
+26,D,Shahid Afridi,Pakistan,Allrounder,225,Deccan Chargers,675.0
+27,D,Younis Khan,Pakistan,Batsman,225,Rajasthan Royals,225.0
+28,D,Mohammad Asif,Pakistan,Bowler,225,Delhi Daredevils,650.0
+29,D,Jacques Kallis,South Africa,Allrounder,225,Royal Challengers Bangalore,900.0
+30,D,Zaheer Khan,India,Bowler,200,Royal Challengers Bangalore,450.0
+31,D,Sreesanth,India,Bowler,200,Kings XI Punjab,625.0
+32,E,Dinesh Karthik,India,Wicketkeeper,200,Delhi Daredevils,525.0
+33,E,AB de Villiers,South Africa,Wicketkeeper,200,Delhi Daredevils,300.0
+34,E,Mark Boucher,South Africa,Wicketkeeper,200,Royal Challengers Bangalore,450.0
+35,E,Parthiv Patel,India,Wicketkeeper,150,Chennai Super Kings,325.0
+36,E,Kamran Akmal,Pakistan,Wicketkeeper,150,Rajasthan Royals,150.0
+37,E,Tatenda Taibu[REC],Zimbabwe,Wicketkeeper,125,Kolkata Knight Riders,125.0
+38,F,Albie Morkel,South Africa,Allrounder,225,Chennai Super Kings,675.0
+39,F,Ajit Agarkar,India,Allrounder,200,Kolkata Knight Riders,350.0
+40,F,Shaun Pollock,South Africa,Allrounder,200,Mumbai Indians,550.0
+41,F,Irfan Pathan,India,Allrounder,200,Kings XI Punjab,925.0
+42,F,Scott Styris,New Zealand,Allrounder,175,Deccan Chargers,175.0
+43,F,Farveez Maharoof,Sri Lanka,Allrounder,150,Delhi Daredevils,225.0
+44,F,Tillakaratne Dilshan,Sri Lanka,Allrounder,152,Delhi Daredevils,250.0
+45,F,Cameron White,Australia,Allrounder,100,Royal Challengers Bangalore,500.0
+46,F,Yusuf Pathan,India,Allrounder,100,Rajasthan Royals,475.0
+47,F,Joginder Sharma,India,Allrounder,100,Chennai Super Kings,225.0
+48,G,Ramnaresh Sarwan[REC],West Indies,Batsman,225,Kings XI Punjab,225.0
+49,G,Simon Katich[REC],Australia,Batsman,200,Kings XI Punjab,200.0
+50,G,Justin Langer[REC],Australia,Batsman,200,Rajasthan Royals,200.0
+51,G,Gautam Gambhir,India,Batsman,220,Delhi Daredevils,725.0
+52,G,Robin Uthappa,India,Batsman,200,Mumbai Indians,800.0
+53,G,Shivnarine Chanderpaul[REC],West Indies,Batsman,200,Royal Challengers Bangalore,200.0
+54,G,Ashwell Prince[REC],South Africa,Batsman,175,Unsold,
+55,G,VVS Laxman,India,Batsman,150,Deccan Chargers,375.0
+56,G,Wasim Jaffer,India,Batsman,150,Royal Challengers Bangalore,150.0
+57,G,Rohit Sharma,India,Batsman,150,Deccan Chargers,750.0
+58,G,Loots Bosman[REC],South Africa,Batsman,150,Mumbai Indians,175.0
+59,G,Mohammad Kaif,India,Batsman,125,Rajasthan Royals,675.0
+60,G,Suresh Raina,India,Batsman,125,Chennai Super Kings,650.0
+61,G,Manoj Tiwary,India,Batsman,100,Delhi Daredevils,675.0
+62,G,Chamara Silva,Sri Lanka,Batsman,100,Deccan Chargers,100.0
+63,G,David Hussey,Australia,Batsman,100,Kolkata Knight Riders,625.0
+64,H,Nathan Bracken,Australia,Bowler,225,Royal Challengers Bangalore,325.0
+65,H,R P Singh,India,Bowler,200,Deccan Chargers,875.0
+66,H,Murali Kartik,India,Bowler,200,Kolkata Knight Riders,425.0
+67,H,Makhaya Ntini,South Africa,Bowler,200,Chennai Super Kings,200.0
+68,H,Lasith Malinga,Sri Lanka,Bowler,200,Mumbai Indians,350.0
+69,H,Chaminda Vaas,Sri Lanka,Bowler,200,Deccan Chargers,200.0
+70,H,Ramesh Powar,India,Bowler,150,Kings XI Punjab,170.0
+71,H,Umar Gul,Pakistan,Bowler,150,Kolkata Knight Riders,150.0
+72,H,Dale Steyn,South Africa,Bowler,150,Royal Challengers Bangalore,325.0
+73,H,Dilhara Fernando,Sri Lanka,Bowler,150,Mumbai Indians,150.0
+74,H,Ishant Sharma,India,Bowler,150,Kolkata Knight Riders,950.0
+75,H,Piyush Chawla,India,Bowler,125,Kings XI Punjab,400.0
+76,H,Munaf Patel,India,Bowler,100,Rajasthan Royals,275.0
+77,H,Nuwan Zoysa,Sri Lanka,Bowler,100,Deccan Chargers,110.0

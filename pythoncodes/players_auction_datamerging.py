@@ -18,8 +18,8 @@ import pandas as pd
 from pathlib import Path
 
 # ---- EDIT THESE ----------------------------------------------------------
-AUCTION_CSV = r"D:\DataEngineering\Final Year Project\processed_data\auction_data\auction_all_with_base_price.csv"
-STATS_CSV   = r"D:\DataEngineering\Final Year Project\processed_data\players_data\new_players_combined.csv"
+AUCTION_CSV = r"D:\DataEngineering\Final Year Project\processed_data\auction_all_with_base_price.csv"
+STATS_CSV   = r"D:\DataEngineering\Final Year Project\processed_data\new_players_combined.csv"
 OUTPUT_DIR  = r"D:\DataEngineering\Final Year Project\processed_data"
 # --------------------------------------------------------------------------
 
@@ -53,7 +53,7 @@ merged["has_prior_season"] = merged["season"].notna()
 merged = merged.drop(columns=["season"])     # == prior_season when matched; redundant
 
 Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
-merged.to_csv(Path(OUTPUT_DIR) / "final_with_status_auction_with_prior_stats.csv", index=False)
+merged.to_csv(Path(OUTPUT_DIR) / "final_3_with_status_auction_with_prior_stats.csv", index=False)
 
 # ======================= VERIFICATION =======================
 m = merged["has_prior_season"]

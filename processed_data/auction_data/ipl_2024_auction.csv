@@ -1,246 +1,246 @@
-year,team,purse_spent,purse_left,player_id,player_name,player_fullname,birthdate,type,cost_inr_lakh,cost_usd_000,status,transferred,overseas,sold_price_in_cr,sold_price
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1076713,Cameron Green,Cameron Green,,AR,1750,2108,New,True,True,17.5,175000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,253802,Virat Kohli,Virat Kohli,,BAT,1500,1807,Retained,False,False,15.0,150000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,670031,Alzarri Joseph,Alzarri Joseph,,BOW,1150,1385,New,False,True,11.5,115000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,325026,Glenn Maxwell,Glenn Maxwell,,AR,1100,1325,Retained,False,True,11.0,110000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,44828,Faf du Plessis,Faf du Plessis,,BAT,700,843,Retained,False,True,7.0,70000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,940973,Mohammed Siraj,Mohammed Siraj,,BOW,700,843,Retained,False,False,7.0,70000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,30045,Dinesh Karthik,Dinesh Karthik,,BAT/WK,550,662,Retained,False,False,5.5,55000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1159720,Yash Dayal,Yash Dayal,,BOW,500,602,New,False,False,5.0,50000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1123073,Anuj Rawat,Anuj Rawat,,BAT/WK,340,409,Retained,False,False,3.4,34000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,897549,Will Jacks,Will Jacks,,BAT,320,385,Retained,False,True,3.2,32000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,493773,Lockie Ferguson,Lockie Ferguson,,BOW,200,240,New,False,True,2.0,20000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,461632,Reece Topley,Reece Topley,,BOW,190,228,Retained,False,True,1.9,19000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,942367,Mayank Dagar,Mayank Dagar,,AR,180,216,New,True,False,1.8,18000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,550235,Tom Curran,Tom Curran,,AR,150,180,New,False,True,1.5,15000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,853265,Mahipal Lomror,Mahipal Lomror,,AR,95,114,Retained,False,False,0.95,9500000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1339027,Rajan Kumar,Rajan Kumar,,BOW,70,84,Retained,False,False,0.7,7000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,30288,Karn Sharma,Karn Sharma,,BOW,50,60,Retained,False,False,0.5,5000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1083851,Suyash Prabhudessai,Suyash Prabhudessai,,AR,30,36,Retained,False,False,0.3,3000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1057399,Manoj Bhandage,Manoj Bhandage,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1176959,Akash Deep,Akash Deep,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1287369,Saurav Chauhan,Saurav Chauhan,,BAT,20,24,New,False,False,0.2,2000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1350761,Himanshu Sharma,Himanshu Sharma,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,232292,Swapnil Singh,Swapnil Singh,,AR,20,24,New,False,False,0.2,2000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,777815,Vyshak Vijaykumar,Vyshak Vijaykumar,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,823703,Rajat Patidar,Rajat Patidar,,BAT,20,24,Retained,False,False,0.2,2000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,311592,Mitchell Starc,Mitchell Starc,,BOW,2475,2981,New,False,True,24.75,247500000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,276298,Andre Russell,Andre Russell,,AR,1600,1927,Retained,False,True,16.0,160000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,642519,Shreyas Iyer,Shreyas Iyer,,BAT,1225,1475,Retained,False,False,12.25,122500000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1108375,Varun Chakravarthy,Varun Chakravarthy,,BOW,1200,1445,Retained,False,False,12.0,120000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,604527,Nitish Rana,Nitish Rana,,AR,800,963,Retained,False,False,8.0,80000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,851403,Venkatesh Iyer,Venkatesh Iyer,,AR,800,963,Retained,False,False,8.0,80000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,230558,Sunil Narine,Sunil Narine,,BOW,600,722,Retained,False,True,6.0,60000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,298438,Jason Roy,Jason Roy,,BAT,280,337,Retained,False,True,2.8,28000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,974109,Mujeeb Ur Rahman,Mujeeb Ur Rahman,,BOW,200,240,New,False,True,2.0,20000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,914541,Sherfane Rutherford,Sherfane Rutherford,,BAT,150,180,New,False,True,1.5,15000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1039481,Gus Atkinson,Gus Atkinson,,BOW,100,120,New,False,True,1.0,10000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1209292,Vaibhav Arora,Vaibhav Arora,,BOW,60,72,Retained,False,False,0.6,6000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,723105,Rinku Singh,Rinku Singh,,BAT,55,66,Retained,False,False,0.55,5500000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1131754,Chetan Sakariya,Chetan Sakariya,,BOW,50,60,New,False,False,0.5,5000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,290630,Manish Pandey,Manish Pandey,,BAT,50,60,New,False,False,0.5,5000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,529436,KS Bharat,KS Bharat,,BAT/WK,50,60,New,False,False,0.5,5000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,974087,Rahmanullah Gurbaz,Rahmanullah Gurbaz,,BAT/WK,50,60,Retained,False,True,0.5,5000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1079470,Ramandeep Singh,Ramandeep Singh,,AR,20,24,New,False,False,0.2,2000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1079839,Anukul Roy,Anukul Roy,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1292495,Angkrish Raghuvanshi,Angkrish Raghuvanshi,,BAT,20,24,New,False,False,0.2,2000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1312645,Harshit Rana,Harshit Rana,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1340422,Sakib Hussain,Sakib Hussain,,BOW,20,24,New,False,False,0.2,2000000
-2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1350792,Suyash Sharma,Suyash Sharma,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Punjab Kings,95.85 cr,4.15 cr,662973,Sam Curran,Sam Curran,,AR,1850,2228,Retained,False,True,18.5,185000000
-2024,Punjab Kings,95.85 cr,4.15 cr,390481,Harshal Patel,Harshal Patel,,AR,1175,1415,New,False,False,11.75,117500000
-2024,Punjab Kings,95.85 cr,4.15 cr,403902,Liam Livingstone,Liam Livingstone,,AR,1150,1385,Retained,False,True,11.5,115000000
-2024,Punjab Kings,95.85 cr,4.15 cr,550215,Kagiso Rabada,Kagiso Rabada,,BOW,925,1114,Retained,False,True,9.25,92500000
-2024,Punjab Kings,95.85 cr,4.15 cr,28235,Shikhar Dhawan,Shikhar Dhawan,,BAT,825,993,Retained,False,False,8.25,82500000
-2024,Punjab Kings,95.85 cr,4.15 cr,318845,Rilee Rossouw,Rilee Rossouw,,BAT,800,963,New,False,True,8.0,80000000
-2024,Punjab Kings,95.85 cr,4.15 cr,297433,Jonny Bairstow,Jonny Bairstow,,BAT/WK,675,813,Retained,False,True,6.75,67500000
-2024,Punjab Kings,95.85 cr,4.15 cr,1064812,Rahul Chahar,Rahul Chahar,,BOW,525,632,Retained,False,False,5.25,52500000
-2024,Punjab Kings,95.85 cr,4.15 cr,247235,Chris Woakes,Chris Woakes,,AR,420,506,New,False,True,4.2,42000000
-2024,Punjab Kings,95.85 cr,4.15 cr,1125976,Arshdeep Singh,Arshdeep Singh,,BOW,400,481,Retained,False,False,4.0,40000000
-2024,Punjab Kings,95.85 cr,4.15 cr,1168641,Harpreet Brar,Harpreet Brar,,AR,380,457,Retained,False,False,3.8,38000000
-2024,Punjab Kings,95.85 cr,4.15 cr,826915,Nathan Ellis,Nathan Ellis,,BOW,75,90,Retained,False,True,0.75,7500000
-2024,Punjab Kings,95.85 cr,4.15 cr,1161024,Prabhsimran Singh,Prabhsimran Singh,,BAT/WK,60,72,Retained,False,False,0.6,6000000
-2024,Punjab Kings,95.85 cr,4.15 cr,290727,Rishi Dhawan,Rishi Dhawan,,AR,55,66,Retained,False,False,0.55,5500000
-2024,Punjab Kings,95.85 cr,4.15 cr,299572,Sikandar Raza,Sikandar Raza,,AR,50,60,Retained,False,True,0.5,5000000
-2024,Punjab Kings,95.85 cr,4.15 cr,340854,Harpreet Singh,Harpreet Singh,,BAT,40,48,Retained,False,False,0.4,4000000
-2024,Punjab Kings,95.85 cr,4.15 cr,1080008,Tanay Thyagarajan,Tanay Thyagarajan,,AR,20,24,New,False,False,0.2,2000000
-2024,Punjab Kings,95.85 cr,4.15 cr,1125958,Atharva Taide,Atharva Taide,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Punjab Kings,95.85 cr,4.15 cr,1131978,Ashutosh Sharma,Ashutosh Sharma,,AR,20,24,New,False,False,0.2,2000000
-2024,Punjab Kings,95.85 cr,4.15 cr,1155262,Vidwath Kaverappa,Vidwath Kaverappa,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Punjab Kings,95.85 cr,4.15 cr,1354639,Vishwanath Singh,Vishwanath Singh,,AR,20,24,New,False,False,0.2,2000000
-2024,Punjab Kings,95.85 cr,4.15 cr,1380113,Shivam Singh,Shivam Singh,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Punjab Kings,95.85 cr,4.15 cr,1412827,Prince Choudhary,Prince Choudhary,,BOW,20,24,New,False,False,0.2,2000000
-2024,Punjab Kings,95.85 cr,4.15 cr,377534,Shashank Singh,Shashank Singh,,AR,20,24,New,False,False,0.2,2000000
-2024,Punjab Kings,95.85 cr,4.15 cr,721867,Jitesh Sharma,Jitesh Sharma,,BAT/WK,20,24,Retained,False,False,0.2,2000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,234675,Ravindra Jadeja,Ravindra Jadeja,,AR,1600,1927,Retained,False,False,16.0,160000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,381743,Daryl Mitchell,Daryl Mitchell,,AR,1400,1686,New,False,True,14.0,140000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,447261,Deepak Chahar,Deepak Chahar,,BOW,1400,1686,Retained,False,False,14.0,140000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,28081,MS Dhoni,MS Dhoni,,BAT/WK,1200,1445,Retained,False,False,12.0,120000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1175489,Sameer Rizvi,Sameer Rizvi,,BAT,840,1012,New,False,False,8.4,84000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,8917,Moeen Ali,Moeen Ali,,AR,800,963,Retained,False,True,8.0,80000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1060380,Ruturaj Gaikwad,Ruturaj Gaikwad,,BAT,600,722,Retained,False,False,6.0,60000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,475281,Shardul Thakur,Shardul Thakur,,AR,400,481,New,False,False,4.0,40000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,714451,Shivam Dube,Shivam Dube,,AR,400,481,Retained,False,False,4.0,40000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,330902,Mustafizur Rahman,Mustafizur Rahman,,BOW,200,240,New,False,True,2.0,20000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,502714,Mitchell Santner,Mitchell Santner,,AR,190,228,Retained,False,True,1.9,19000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,959767,Rachin Ravindra,Rachin Ravindra,,AR,180,216,New,False,True,1.8,18000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1175429,Rajvardhan Hangargekar,Rajvardhan Hangargekar,,AR,150,180,Retained,False,False,1.5,15000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1252337,Prashant Solanki,Prashant Solanki,,BOW,120,144,Retained,False,False,1.2,12000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,379140,Devon Conway,Devon Conway,,BAT,100,120,Retained,False,True,1.0,10000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1138316,Maheesh Theekshana,Maheesh Theekshana,,BOW,70,84,Retained,False,True,0.7,7000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1292506,Nishant Sindhu,Nishant Sindhu,,AR,60,72,Retained,False,False,0.6,6000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,277916,Ajinkya Rahane,Ajinkya Rahane,,BAT,50,60,Retained,False,False,0.5,5000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1059570,Ajay Mandal,Ajay Mandal,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1125688,Mukesh Chowdhary,Mukesh Chowdhary,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1159722,Simarjeet Singh,Simarjeet Singh,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1194795,Matheesha Pathirana,Matheesha Pathirana,,BOW,20,24,Retained,False,True,0.2,2000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1292497,Shaik Rasheed,Shaik Rasheed,,BAT,20,24,Retained,False,False,0.2,2000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,1408675,Aravelly Avanish,Aravelly Avanish,,BAT/WK,20,24,New,False,False,0.2,2000000
-2024,Chennai Super Kings,99.00 cr,1.00 cr,822553,Tushar Deshpande,Tushar Deshpande,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,931581,Rishabh Pant,Rishabh Pant,,BAT/WK,1600,1927,Retained,False,False,16.0,160000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,554691,Axar Patel,Axar Patel,,AR,1200,1445,Retained,False,False,12.0,120000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,1070168,Prithvi Shaw,Prithvi Shaw,,BAT,800,963,Retained,False,False,8.0,80000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,1207295,Kumar Kushagra,Kumar Kushagra,,BAT/WK,720,867,New,False,False,7.2,72000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,272450,Mitchell Marsh,Mitchell Marsh,,AR,650,783,Retained,False,True,6.5,65000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,481979,Anrich Nortje,Anrich Nortje,,BOW,650,783,Retained,False,True,6.5,65000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,219889,David Warner,David Warner,,BAT,625,753,Retained,False,True,6.25,62500000
-2024,Delhi Capitals,90.10 cr,9.90 cr,926851,Mukesh Kumar,Mukesh Kumar,,BOW,550,662,Retained,False,False,5.5,55000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,942645,Khaleel Ahmed,Khaleel Ahmed,,BOW,525,632,Retained,False,False,5.25,52500000
-2024,Delhi Capitals,90.10 cr,9.90 cr,774223,Jhye Richardson,Jhye Richardson,,BOW,500,602,New,False,True,5.0,50000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,911707,Harry Brook,Harry Brook,,BAT,400,481,New,False,True,4.0,40000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,559235,Kuldeep Yadav,Kuldeep Yadav,,BOW,200,240,Retained,False,False,2.0,20000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,1159734,Sumit Kumar,Sumit Kumar,,AR,100,120,New,False,False,1.0,10000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,581379,Shai Hope,Shai Hope,,BAT/WK,75,90,New,False,True,0.75,7500000
-2024,Delhi Capitals,90.10 cr,9.90 cr,930189,Lalit Yadav,Lalit Yadav,,AR,65,78,Retained,False,False,0.65,6500000
-2024,Delhi Capitals,90.10 cr,9.90 cr,1292498,Yash Dhull,Yash Dhull,,AR,50,60,Retained,False,False,0.5,5000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,236779,Ishant Sharma,Ishant Sharma,,BOW,50,60,Retained,False,False,0.5,5000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,542023,Lungi Ngidi,Lungi Ngidi,,BOW,50,60,Retained,False,True,0.5,5000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,595978,Tristan Stubbs,Tristan Stubbs,,BAT/WK,50,60,New,False,True,0.5,5000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,777515,Praveen Dubey,Praveen Dubey,,AR,50,60,Retained,False,False,0.5,5000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,1161489,Rasikh Salam,Rasikh Salam,,BOW,20,24,New,False,False,0.2,2000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,1277545,Abishek Porel,Abishek Porel,,BAT/WK,20,24,Retained,False,False,0.2,2000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,1292520,Vicky Ostwal,Vicky Ostwal,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,1403198,Swastik Chikara,Swastik Chikara,,BAT,20,24,New,False,False,0.2,2000000
-2024,Delhi Capitals,90.10 cr,9.90 cr,642531,Ricky Bhui,Ricky Bhui,,BAT/WK,20,24,New,False,False,0.2,2000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,425943,Sanju Samson,Sanju Samson,,BAT/WK,1400,1686,Retained,False,False,14.0,140000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,308967,Jos Buttler,Jos Buttler,,BAT/WK,1000,1204,Retained,False,True,10.0,100000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,694211,Avesh Khan,Avesh Khan,,BOW,1000,1204,New,True,False,10.0,100000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,917159,Prasidh Krishna,Prasidh Krishna,,BOW,1000,1204,Retained,False,False,10.0,100000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,670025,Shimron Hetmyer,Shimron Hetmyer,,BAT,850,1024,Retained,False,True,8.5,85000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,277912,Trent Boult,Trent Boult,,BOW,800,963,Retained,False,True,8.0,80000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,820351,Rovman Powell,Rovman Powell,,BAT,740,891,New,False,True,7.4,74000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,430246,Yuzvendra Chahal,Yuzvendra Chahal,,BOW,650,783,Retained,False,False,6.5,65000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,1252585,Shubham Dubey,Shubham Dubey,,BAT,580,698,New,False,False,5.8,58000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,26421,R Ashwin,R Ashwin,,AR,500,602,Retained,False,False,5.0,50000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,1151278,Yashasvi Jaiswal,Yashasvi Jaiswal,,AR,400,481,Retained,False,False,4.0,40000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,1079434,Riyan Parag,Riyan Parag,,AR,380,457,Retained,False,False,3.8,38000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,700167,Navdeep Saini,Navdeep Saini,,BOW,260,313,Retained,False,False,2.6,26000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,379504,Adam Zampa,Adam Zampa,,BOW,150,180,Retained,False,True,1.5,15000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,438362,Sandeep Sharma,Sandeep Sharma,,BOW,50,60,Retained,False,False,0.5,5000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,698315,Donovan Ferreira,Donovan Ferreira,,BAT/WK,50,60,Retained,False,True,0.5,5000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,971349,Nandre Burger,Nandre Burger,,BOW,50,60,New,False,True,0.5,5000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,470633,Tom Kohler-Cadmore,Tom Kohler-Cadmore,,BAT/WK,40,48,New,False,True,0.4,4000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,1163695,Kuldeep Sen,Kuldeep Sen,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,1175488,Dhruv Jurel,Dhruv Jurel,,BAT/WK,20,24,Retained,False,False,0.2,2000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,1201536,Abid Mushtaq,Abid Mushtaq,,AR,20,24,New,False,False,0.2,2000000
-2024,Rajasthan Royals,99.80 cr,0.20 cr,1339031,Kunal Singh Rathore,Kunal Singh Rathore,,BAT/WK,20,24,Retained,False,False,0.2,2000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,34102,Rohit Sharma,Rohit Sharma,,BAT,1600,1927,Retained,False,False,16.0,160000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,720471,Ishan Kishan,Ishan Kishan,,BAT/WK,1525,1837,Retained,False,False,15.25,152500000
-2024,Mumbai Indians,98.95 cr,1.05 cr,625371,Hardik Pandya,Hardik Pandya,,AR,1500,1807,New,True,False,15.0,150000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,625383,Jasprit Bumrah,Jasprit Bumrah,,BOW,1200,1445,Retained,False,False,12.0,120000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,892749,Tim David,Tim David,,AR,825,993,Retained,False,True,8.25,82500000
-2024,Mumbai Indians,98.95 cr,1.05 cr,446507,Suryakumar Yadav,Suryakumar Yadav,,BAT,800,963,Retained,False,False,8.0,80000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,596010,Gerald Coetzee,Gerald Coetzee,,AR,500,602,New,False,True,5.0,50000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,955235,Nuwan Thushara,Nuwan Thushara,,BOW,480,578,New,False,True,4.8,48000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,793007,Dilshan Madushanka,Dilshan Madushanka,,BOW,460,554,New,False,True,4.6,46000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,1070665,Dewald Brevis,Dewald Brevis,,BAT,300,361,Retained,False,True,3.0,30000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,1170265,Tilak Varma,Tilak Varma,,AR,170,204,Retained,False,False,1.7,17000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,25913,Mohammad Nabi,Mohammad Nabi,,AR,150,180,New,False,True,1.5,15000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,272477,Jason Behrendorff,Jason Behrendorff,,BOW,75,90,Retained,False,True,0.75,7500000
-2024,Mumbai Indians,98.95 cr,1.05 cr,32966,Piyush Chawla,Piyush Chawla,,BOW,50,60,Retained,False,False,0.5,5000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,677077,Romario Shepherd,Romario Shepherd,,AR,50,60,New,True,True,0.5,5000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,1148776,Arjun Tendulkar,Arjun Tendulkar,,AR,30,36,Retained,False,False,0.3,3000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,1131607,Shams Mulani,Shams Mulani,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,1151273,Nehal Wadhera,Nehal Wadhera,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,1159843,Kumar Kartikeya,Kumar Kartikeya,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,1167965,Shivalik Sharma,Shivalik Sharma,,AR,20,24,New,False,False,0.2,2000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,1175428,Anshul Kamboj,Anshul Kamboj,,AR,20,24,New,False,False,0.2,2000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,1206039,Akash Madhwal,Akash Madhwal,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,1287032,Naman Dhir,Naman Dhir,,AR,20,24,New,False,False,0.2,2000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,344580,Shreyas Gopal,Shreyas Gopal,,BOW,20,24,New,False,False,0.2,2000000
-2024,Mumbai Indians,98.95 cr,1.05 cr,732293,Vishnu Vinod,Vishnu Vinod,,BAT/WK,20,24,Retained,False,False,0.2,2000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,489889,Pat Cummins,Pat Cummins,,AR,2050,2469,New,False,True,20.5,205000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,719715,Washington Sundar,Washington Sundar,,AR,875,1054,Retained,False,False,8.75,87500000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,446763,Rahul Tripathi,Rahul Tripathi,,BAT,850,1024,Retained,False,False,8.5,85000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,398438,Mayank Agarwal,Mayank Agarwal,,BAT,825,993,Retained,False,False,8.25,82500000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,530011,Travis Head,Travis Head,,BAT,680,819,New,False,True,6.8,68000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1070183,Abhishek Sharma,Abhishek Sharma,,AR,650,783,Retained,False,False,6.5,65000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,436757,Heinrich Klaasen,Heinrich Klaasen,,BAT/WK,525,632,Retained,False,True,5.25,52500000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,326016,Bhuvneshwar Kumar,Bhuvneshwar Kumar,,BOW,420,506,Retained,False,False,4.2,42000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,696401,Marco Jansen,Marco Jansen,,AR,420,506,Retained,False,True,4.2,42000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1175485,Abdul Samad,Abdul Samad,,AR,400,481,Retained,False,False,4.0,40000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1246528,Umran Malik,Umran Malik,,BOW,400,481,Retained,False,False,4.0,40000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,802575,T Natarajan,T Natarajan,,BOW,400,481,Retained,False,False,4.0,40000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,600498,Aiden Markram,Aiden Markram,,BAT,260,313,Retained,False,True,2.6,26000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1159711,Shahbaz Ahmed,Shahbaz Ahmed,,AR,240,289,New,True,False,2.4,24000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,390484,Jaydev Unadkat,Jaydev Unadkat,,BOW,160,192,New,False,False,1.6,16000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,784379,Wanindu Hasaranga,Wanindu Hasaranga,,AR,150,180,New,False,True,1.5,15000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,823509,Glenn Phillips,Glenn Phillips,,BAT/WK,150,180,Retained,False,True,1.5,15000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1081442,Mayank Markande,Mayank Markande,,BOW,50,60,Retained,False,False,0.5,5000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,974175,Fazalhaq Farooqi,Fazalhaq Farooqi,,BOW,50,60,Retained,False,True,0.5,5000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,732269,Upendra Yadav,Upendra Yadav,,BAT/WK,25,30,Retained,False,False,0.25,2500000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1132219,Sanvir Singh,Sanvir Singh,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1175458,Akash Singh,Akash Singh,,BOW,20,24,New,False,False,0.2,2000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1175496,Nitish Kumar Reddy,Nitish Kumar Reddy,,BAT/WK,20,24,Retained,False,False,0.2,2000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,851261,Anmolpreet Singh,Anmolpreet Singh,,BAT,20,24,Retained,False,False,0.2,2000000
-2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,919531,Jhathavedh Subramanyan,Jhathavedh Subramanyan,,BOW,20,24,New,False,False,0.2,2000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,422108,KL Rahul,KL Rahul,,BAT/WK,1700,2048,Retained,False,False,17.0,170000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,604302,Nicholas Pooran,Nicholas Pooran,,BAT/WK,1600,1927,Retained,False,True,16.0,160000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,325012,Marcus Stoinis,Marcus Stoinis,,AR,1000,1204,Retained,False,True,10.0,100000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,471342,Krunal Pandya,Krunal Pandya,,AR,825,993,Retained,False,False,8.25,82500000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,1119026,Devdutt Padikkal,Devdutt Padikkal,,BAT,775,933,New,True,False,7.75,77500000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,351588,Mark Wood,Mark Wood,,BOW,750,903,Retained,False,True,7.5,75000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,379143,Quinton de Kock,Quinton de Kock,,BAT/WK,675,813,Retained,False,True,6.75,67500000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,1079848,Shivam Mavi,Shivam Mavi,,BOW,640,771,New,False,False,6.4,64000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,497121,Deepak Hooda,Deepak Hooda,,AR,575,692,Retained,False,False,5.75,57500000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,1175441,Ravi Bishnoi,Ravi Bishnoi,,BOW,400,481,Retained,False,False,4.0,40000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,1151286,Manimaran Sidharth,Manimaran Sidharth,,BOW,240,289,New,False,False,2.4,24000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,308251,David Willey,David Willey,,AR,200,240,New,False,True,2.0,20000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,500268,Ashton Turner,Ashton Turner,,BAT,100,120,New,False,True,1.0,10000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,424377,K Gowtham,K Gowtham,,AR,90,108,Retained,False,False,0.9,9000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,31107,Amit Mishra,Amit Mishra,,BOW,50,60,Retained,False,False,0.5,5000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,348056,Kyle Mayers,Kyle Mayers,,AR,50,60,Retained,False,True,0.5,5000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,793447,Naveen-ul-Haq,Naveen-ul-Haq,,BOW,50,60,Retained,False,True,0.5,5000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,1070196,Yash Thakur,Yash Thakur,,BOW,45,54,Retained,False,False,0.45,4500000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,1132005,Mohsin Khan,Mohsin Khan,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,1151270,Ayush Badoni,Ayush Badoni,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,1206052,Yudhvir Singh,Yudhvir Singh,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,1244751,Arshad Khan,Arshad Khan,,AR,20,24,New,False,False,0.2,2000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,1292563,Mayank Yadav,Mayank Yadav,,BOW,20,24,Retained,False,False,0.2,2000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,1403153,Arshin Kulkarni,Arshin Kulkarni,,AR,20,24,New,False,False,0.2,2000000
-2024,Lucknow Super Giants,99.05 cr,0.95 cr,956871,Prerak Mankad,Prerak Mankad,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,793463,Rashid Khan,Rashid Khan,,BOW,1500,1807,Retained,False,True,15.0,150000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,1123718,Spencer Johnson,Spencer Johnson,,BOW,1000,1204,New,False,True,10.0,100000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,423838,Rahul Tewatia,Rahul Tewatia,,AR,900,1084,Retained,False,False,9.0,90000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,1070173,Shubman Gill,Shubman Gill,,BAT,800,963,Retained,False,False,8.0,80000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,719719,M Shahrukh Khan,M Shahrukh Khan,,AR,740,891,New,False,False,7.4,74000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,481896,Mohammed Shami,Mohammed Shami,,BOW,625,753,Retained,False,False,6.25,62500000
-2024,Gujarat Titans,92.15 cr,7.85 cr,376116,Umesh Yadav,Umesh Yadav,,BOW,580,698,New,False,False,5.8,58000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,928067,Josh Little,Josh Little,,BOW,440,530,Retained,False,True,4.4,44000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,1350762,Robin Minz,Robin Minz,,BAT/WK,360,433,New,False,False,3.6,36000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,1048739,R Sai Kishore,R Sai Kishore,,BOW,300,361,Retained,False,False,3.0,30000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,321777,David Miller,David Miller,,BAT,300,361,Retained,False,True,3.0,30000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,778963,Abhinav Manohar,Abhinav Manohar,,BAT,260,313,Retained,False,False,2.6,26000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,230193,Matthew Wade,Matthew Wade,,BAT/WK,240,289,Retained,False,True,2.4,24000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,1175457,Sushant Mishra,Sushant Mishra,,BOW,220,265,New,False,False,2.2,22000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,277906,Kane Williamson,Kane Williamson,,BAT,200,240,Retained,False,True,2.0,20000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,279810,Wriddhiman Saha,Wriddhiman Saha,,BAT/WK,190,228,Retained,False,False,1.9,19000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,447587,Jayant Yadav,Jayant Yadav,,AR,170,204,Retained,False,False,1.7,17000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,477021,Vijay Shankar,Vijay Shankar,,AR,140,168,Retained,False,False,1.4,14000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,1122918,Kartik Tyagi,Kartik Tyagi,,BOW,60,72,New,False,False,0.6,6000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,537119,Mohit Sharma,Mohit Sharma,,BOW,50,60,Retained,False,False,0.5,5000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,819429,Azmatullah Omarzai,Azmatullah Omarzai,,AR,50,60,New,False,True,0.5,5000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,1182529,Noor Ahmad,Noor Ahmad,,BOW,30,36,Retained,False,True,0.3,3000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,1111917,Darshan Nalkande,Darshan Nalkande,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,1151288,Sai Sudharsan,Sai Sudharsan,,AR,20,24,Retained,False,False,0.2,2000000
-2024,Gujarat Titans,92.15 cr,7.85 cr,1175426,Manav Suthar,Manav Suthar,,BOW,20,24,New,False,False,0.2,2000000
+year,team,purse_spent,purse_left,player_id,player_name,player_fullname,birthdate,type,cost_inr_lakh,cost_usd,status,transferred,overseas,sold_price_in_cr,sold_price
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1076713,Cameron Green,Cameron Green,,AR,1750,2108000,New,TRUE,TRUE,17.5,175000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,253802,Virat Kohli,Virat Kohli,,BAT,1500,1807000,Retained,FALSE,FALSE,15,150000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,670031,Alzarri Joseph,Alzarri Joseph,,BOW,1150,1385000,New,FALSE,TRUE,11.5,115000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,325026,Glenn Maxwell,Glenn Maxwell,,AR,1100,1325000,Retained,FALSE,TRUE,11,110000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,44828,Faf du Plessis,Faf du Plessis,,BAT,700,843000,Retained,FALSE,TRUE,7,70000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,940973,Mohammed Siraj,Mohammed Siraj,,BOW,700,843000,Retained,FALSE,FALSE,7,70000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,30045,Dinesh Karthik,Dinesh Karthik,,BAT/WK,550,662000,Retained,FALSE,FALSE,5.5,55000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1159720,Yash Dayal,Yash Dayal,,BOW,500,602000,New,FALSE,FALSE,5,50000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1123073,Anuj Rawat,Anuj Rawat,,BAT/WK,340,409000,Retained,FALSE,FALSE,3.4,34000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,897549,Will Jacks,Will Jacks,,BAT,320,385000,Retained,FALSE,TRUE,3.2,32000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,493773,Lockie Ferguson,Lockie Ferguson,,BOW,200,240000,New,FALSE,TRUE,2,20000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,461632,Reece Topley,Reece Topley,,BOW,190,228000,Retained,FALSE,TRUE,1.9,19000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,942367,Mayank Dagar,Mayank Dagar,,AR,180,216000,New,TRUE,FALSE,1.8,18000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,550235,Tom Curran,Tom Curran,,AR,150,180000,New,FALSE,TRUE,1.5,15000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,853265,Mahipal Lomror,Mahipal Lomror,,AR,95,114000,Retained,FALSE,FALSE,0.95,9500000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1339027,Rajan Kumar,Rajan Kumar,,BOW,70,84000,Retained,FALSE,FALSE,0.7,7000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,30288,Karn Sharma,Karn Sharma,,BOW,50,60000,Retained,FALSE,FALSE,0.5,5000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1083851,Suyash Prabhudessai,Suyash Prabhudessai,,AR,30,36000,Retained,FALSE,FALSE,0.3,3000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1057399,Manoj Bhandage,Manoj Bhandage,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1176959,Akash Deep,Akash Deep,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1287369,Saurav Chauhan,Saurav Chauhan,,BAT,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,1350761,Himanshu Sharma,Himanshu Sharma,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,232292,Swapnil Singh,Swapnil Singh,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,777815,Vyshak Vijaykumar,Vyshak Vijaykumar,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Royal Challengers Bangalore,97.15 cr,2.85 cr,823703,Rajat Patidar,Rajat Patidar,,BAT,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,311592,Mitchell Starc,Mitchell Starc,,BOW,2475,2981000,New,FALSE,TRUE,24.75,247500000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,276298,Andre Russell,Andre Russell,,AR,1600,1927000,Retained,FALSE,TRUE,16,160000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,642519,Shreyas Iyer,Shreyas Iyer,,BAT,1225,1475000,Retained,FALSE,FALSE,12.25,122500000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1108375,Varun Chakravarthy,Varun Chakravarthy,,BOW,1200,1445000,Retained,FALSE,FALSE,12,120000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,604527,Nitish Rana,Nitish Rana,,AR,800,963000,Retained,FALSE,FALSE,8,80000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,851403,Venkatesh Iyer,Venkatesh Iyer,,AR,800,963000,Retained,FALSE,FALSE,8,80000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,230558,Sunil Narine,Sunil Narine,,BOW,600,722000,Retained,FALSE,TRUE,6,60000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,298438,Jason Roy,Jason Roy,,BAT,280,337000,Retained,FALSE,TRUE,2.8,28000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,974109,Mujeeb Ur Rahman,Mujeeb Ur Rahman,,BOW,200,240000,New,FALSE,TRUE,2,20000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,914541,Sherfane Rutherford,Sherfane Rutherford,,BAT,150,180000,New,FALSE,TRUE,1.5,15000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1039481,Gus Atkinson,Gus Atkinson,,BOW,100,120000,New,FALSE,TRUE,1,10000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1209292,Vaibhav Arora,Vaibhav Arora,,BOW,60,72000,Retained,FALSE,FALSE,0.6,6000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,723105,Rinku Singh,Rinku Singh,,BAT,55,66000,Retained,FALSE,FALSE,0.55,5500000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1131754,Chetan Sakariya,Chetan Sakariya,,BOW,50,60000,New,FALSE,FALSE,0.5,5000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,290630,Manish Pandey,Manish Pandey,,BAT,50,60000,New,FALSE,FALSE,0.5,5000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,529436,KS Bharat,KS Bharat,,BAT/WK,50,60000,New,FALSE,FALSE,0.5,5000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,974087,Rahmanullah Gurbaz,Rahmanullah Gurbaz,,BAT/WK,50,60000,Retained,FALSE,TRUE,0.5,5000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1079470,Ramandeep Singh,Ramandeep Singh,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1079839,Anukul Roy,Anukul Roy,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1292495,Angkrish Raghuvanshi,Angkrish Raghuvanshi,,BAT,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1312645,Harshit Rana,Harshit Rana,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1340422,Sakib Hussain,Sakib Hussain,,BOW,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Kolkata Knight Riders,98.65 cr,1.35 cr,1350792,Suyash Sharma,Suyash Sharma,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Punjab Kings,95.85 cr,4.15 cr,662973,Sam Curran,Sam Curran,,AR,1850,2228000,Retained,FALSE,TRUE,18.5,185000000
+2024,Punjab Kings,95.85 cr,4.15 cr,390481,Harshal Patel,Harshal Patel,,AR,1175,1415000,New,FALSE,FALSE,11.75,117500000
+2024,Punjab Kings,95.85 cr,4.15 cr,403902,Liam Livingstone,Liam Livingstone,,AR,1150,1385000,Retained,FALSE,TRUE,11.5,115000000
+2024,Punjab Kings,95.85 cr,4.15 cr,550215,Kagiso Rabada,Kagiso Rabada,,BOW,925,1114000,Retained,FALSE,TRUE,9.25,92500000
+2024,Punjab Kings,95.85 cr,4.15 cr,28235,Shikhar Dhawan,Shikhar Dhawan,,BAT,825,993000,Retained,FALSE,FALSE,8.25,82500000
+2024,Punjab Kings,95.85 cr,4.15 cr,318845,Rilee Rossouw,Rilee Rossouw,,BAT,800,963000,New,FALSE,TRUE,8,80000000
+2024,Punjab Kings,95.85 cr,4.15 cr,297433,Jonny Bairstow,Jonny Bairstow,,BAT/WK,675,813000,Retained,FALSE,TRUE,6.75,67500000
+2024,Punjab Kings,95.85 cr,4.15 cr,1064812,Rahul Chahar,Rahul Chahar,,BOW,525,632000,Retained,FALSE,FALSE,5.25,52500000
+2024,Punjab Kings,95.85 cr,4.15 cr,247235,Chris Woakes,Chris Woakes,,AR,420,506000,New,FALSE,TRUE,4.2,42000000
+2024,Punjab Kings,95.85 cr,4.15 cr,1125976,Arshdeep Singh,Arshdeep Singh,,BOW,400,481000,Retained,FALSE,FALSE,4,40000000
+2024,Punjab Kings,95.85 cr,4.15 cr,1168641,Harpreet Brar,Harpreet Brar,,AR,380,457000,Retained,FALSE,FALSE,3.8,38000000
+2024,Punjab Kings,95.85 cr,4.15 cr,826915,Nathan Ellis,Nathan Ellis,,BOW,75,90000,Retained,FALSE,TRUE,0.75,7500000
+2024,Punjab Kings,95.85 cr,4.15 cr,1161024,Prabhsimran Singh,Prabhsimran Singh,,BAT/WK,60,72000,Retained,FALSE,FALSE,0.6,6000000
+2024,Punjab Kings,95.85 cr,4.15 cr,290727,Rishi Dhawan,Rishi Dhawan,,AR,55,66000,Retained,FALSE,FALSE,0.55,5500000
+2024,Punjab Kings,95.85 cr,4.15 cr,299572,Sikandar Raza,Sikandar Raza,,AR,50,60000,Retained,FALSE,TRUE,0.5,5000000
+2024,Punjab Kings,95.85 cr,4.15 cr,340854,Harpreet Singh,Harpreet Singh,,BAT,40,48000,Retained,FALSE,FALSE,0.4,4000000
+2024,Punjab Kings,95.85 cr,4.15 cr,1080008,Tanay Thyagarajan,Tanay Thyagarajan,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Punjab Kings,95.85 cr,4.15 cr,1125958,Atharva Taide,Atharva Taide,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Punjab Kings,95.85 cr,4.15 cr,1131978,Ashutosh Sharma,Ashutosh Sharma,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Punjab Kings,95.85 cr,4.15 cr,1155262,Vidwath Kaverappa,Vidwath Kaverappa,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Punjab Kings,95.85 cr,4.15 cr,1354639,Vishwanath Singh,Vishwanath Singh,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Punjab Kings,95.85 cr,4.15 cr,1380113,Shivam Singh,Shivam Singh,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Punjab Kings,95.85 cr,4.15 cr,1412827,Prince Choudhary,Prince Choudhary,,BOW,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Punjab Kings,95.85 cr,4.15 cr,377534,Shashank Singh,Shashank Singh,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Punjab Kings,95.85 cr,4.15 cr,721867,Jitesh Sharma,Jitesh Sharma,,BAT/WK,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,234675,Ravindra Jadeja,Ravindra Jadeja,,AR,1600,1927000,Retained,FALSE,FALSE,16,160000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,381743,Daryl Mitchell,Daryl Mitchell,,AR,1400,1686000,New,FALSE,TRUE,14,140000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,447261,Deepak Chahar,Deepak Chahar,,BOW,1400,1686000,Retained,FALSE,FALSE,14,140000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,28081,MS Dhoni,MS Dhoni,,BAT/WK,1200,1445000,Retained,FALSE,FALSE,12,120000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1175489,Sameer Rizvi,Sameer Rizvi,,BAT,840,1012000,New,FALSE,FALSE,8.4,84000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,8917,Moeen Ali,Moeen Ali,,AR,800,963000,Retained,FALSE,TRUE,8,80000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1060380,Ruturaj Gaikwad,Ruturaj Gaikwad,,BAT,600,722000,Retained,FALSE,FALSE,6,60000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,475281,Shardul Thakur,Shardul Thakur,,AR,400,481000,New,FALSE,FALSE,4,40000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,714451,Shivam Dube,Shivam Dube,,AR,400,481000,Retained,FALSE,FALSE,4,40000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,330902,Mustafizur Rahman,Mustafizur Rahman,,BOW,200,240000,New,FALSE,TRUE,2,20000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,502714,Mitchell Santner,Mitchell Santner,,AR,190,228000,Retained,FALSE,TRUE,1.9,19000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,959767,Rachin Ravindra,Rachin Ravindra,,AR,180,216000,New,FALSE,TRUE,1.8,18000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1175429,Rajvardhan Hangargekar,Rajvardhan Hangargekar,,AR,150,180000,Retained,FALSE,FALSE,1.5,15000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1252337,Prashant Solanki,Prashant Solanki,,BOW,120,144000,Retained,FALSE,FALSE,1.2,12000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,379140,Devon Conway,Devon Conway,,BAT,100,120000,Retained,FALSE,TRUE,1,10000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1138316,Maheesh Theekshana,Maheesh Theekshana,,BOW,70,84000,Retained,FALSE,TRUE,0.7,7000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1292506,Nishant Sindhu,Nishant Sindhu,,AR,60,72000,Retained,FALSE,FALSE,0.6,6000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,277916,Ajinkya Rahane,Ajinkya Rahane,,BAT,50,60000,Retained,FALSE,FALSE,0.5,5000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1059570,Ajay Mandal,Ajay Mandal,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1125688,Mukesh Chowdhary,Mukesh Chowdhary,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1159722,Simarjeet Singh,Simarjeet Singh,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1194795,Matheesha Pathirana,Matheesha Pathirana,,BOW,20,24000,Retained,FALSE,TRUE,0.2,2000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1292497,Shaik Rasheed,Shaik Rasheed,,BAT,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,1408675,Aravelly Avanish,Aravelly Avanish,,BAT/WK,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Chennai Super Kings,99.00 cr,1.00 cr,822553,Tushar Deshpande,Tushar Deshpande,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,931581,Rishabh Pant,Rishabh Pant,,BAT/WK,1600,1927000,Retained,FALSE,FALSE,16,160000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,554691,Axar Patel,Axar Patel,,AR,1200,1445000,Retained,FALSE,FALSE,12,120000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,1070168,Prithvi Shaw,Prithvi Shaw,,BAT,800,963000,Retained,FALSE,FALSE,8,80000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,1207295,Kumar Kushagra,Kumar Kushagra,,BAT/WK,720,867000,New,FALSE,FALSE,7.2,72000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,272450,Mitchell Marsh,Mitchell Marsh,,AR,650,783000,Retained,FALSE,TRUE,6.5,65000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,481979,Anrich Nortje,Anrich Nortje,,BOW,650,783000,Retained,FALSE,TRUE,6.5,65000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,219889,David Warner,David Warner,,BAT,625,753000,Retained,FALSE,TRUE,6.25,62500000
+2024,Delhi Capitals,90.10 cr,9.90 cr,926851,Mukesh Kumar,Mukesh Kumar,,BOW,550,662000,Retained,FALSE,FALSE,5.5,55000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,942645,Khaleel Ahmed,Khaleel Ahmed,,BOW,525,632000,Retained,FALSE,FALSE,5.25,52500000
+2024,Delhi Capitals,90.10 cr,9.90 cr,774223,Jhye Richardson,Jhye Richardson,,BOW,500,602000,New,FALSE,TRUE,5,50000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,911707,Harry Brook,Harry Brook,,BAT,400,481000,New,FALSE,TRUE,4,40000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,559235,Kuldeep Yadav,Kuldeep Yadav,,BOW,200,240000,Retained,FALSE,FALSE,2,20000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,1159734,Sumit Kumar,Sumit Kumar,,AR,100,120000,New,FALSE,FALSE,1,10000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,581379,Shai Hope,Shai Hope,,BAT/WK,75,90000,New,FALSE,TRUE,0.75,7500000
+2024,Delhi Capitals,90.10 cr,9.90 cr,930189,Lalit Yadav,Lalit Yadav,,AR,65,78000,Retained,FALSE,FALSE,0.65,6500000
+2024,Delhi Capitals,90.10 cr,9.90 cr,1292498,Yash Dhull,Yash Dhull,,AR,50,60000,Retained,FALSE,FALSE,0.5,5000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,236779,Ishant Sharma,Ishant Sharma,,BOW,50,60000,Retained,FALSE,FALSE,0.5,5000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,542023,Lungi Ngidi,Lungi Ngidi,,BOW,50,60000,Retained,FALSE,TRUE,0.5,5000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,595978,Tristan Stubbs,Tristan Stubbs,,BAT/WK,50,60000,New,FALSE,TRUE,0.5,5000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,777515,Praveen Dubey,Praveen Dubey,,AR,50,60000,Retained,FALSE,FALSE,0.5,5000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,1161489,Rasikh Salam,Rasikh Salam,,BOW,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,1277545,Abishek Porel,Abishek Porel,,BAT/WK,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,1292520,Vicky Ostwal,Vicky Ostwal,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,1403198,Swastik Chikara,Swastik Chikara,,BAT,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Delhi Capitals,90.10 cr,9.90 cr,642531,Ricky Bhui,Ricky Bhui,,BAT/WK,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,425943,Sanju Samson,Sanju Samson,,BAT/WK,1400,1686000,Retained,FALSE,FALSE,14,140000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,308967,Jos Buttler,Jos Buttler,,BAT/WK,1000,1204000,Retained,FALSE,TRUE,10,100000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,694211,Avesh Khan,Avesh Khan,,BOW,1000,1204000,New,TRUE,FALSE,10,100000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,917159,Prasidh Krishna,Prasidh Krishna,,BOW,1000,1204000,Retained,FALSE,FALSE,10,100000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,670025,Shimron Hetmyer,Shimron Hetmyer,,BAT,850,1024000,Retained,FALSE,TRUE,8.5,85000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,277912,Trent Boult,Trent Boult,,BOW,800,963000,Retained,FALSE,TRUE,8,80000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,820351,Rovman Powell,Rovman Powell,,BAT,740,891000,New,FALSE,TRUE,7.4,74000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,430246,Yuzvendra Chahal,Yuzvendra Chahal,,BOW,650,783000,Retained,FALSE,FALSE,6.5,65000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,1252585,Shubham Dubey,Shubham Dubey,,BAT,580,698000,New,FALSE,FALSE,5.8,58000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,26421,R Ashwin,R Ashwin,,AR,500,602000,Retained,FALSE,FALSE,5,50000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,1151278,Yashasvi Jaiswal,Yashasvi Jaiswal,,AR,400,481000,Retained,FALSE,FALSE,4,40000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,1079434,Riyan Parag,Riyan Parag,,AR,380,457000,Retained,FALSE,FALSE,3.8,38000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,700167,Navdeep Saini,Navdeep Saini,,BOW,260,313000,Retained,FALSE,FALSE,2.6,26000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,379504,Adam Zampa,Adam Zampa,,BOW,150,180000,Retained,FALSE,TRUE,1.5,15000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,438362,Sandeep Sharma,Sandeep Sharma,,BOW,50,60000,Retained,FALSE,FALSE,0.5,5000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,698315,Donovan Ferreira,Donovan Ferreira,,BAT/WK,50,60000,Retained,FALSE,TRUE,0.5,5000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,971349,Nandre Burger,Nandre Burger,,BOW,50,60000,New,FALSE,TRUE,0.5,5000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,470633,Tom Kohler-Cadmore,Tom Kohler-Cadmore,,BAT/WK,40,48000,New,FALSE,TRUE,0.4,4000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,1163695,Kuldeep Sen,Kuldeep Sen,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,1175488,Dhruv Jurel,Dhruv Jurel,,BAT/WK,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,1201536,Abid Mushtaq,Abid Mushtaq,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Rajasthan Royals,99.80 cr,0.20 cr,1339031,Kunal Singh Rathore,Kunal Singh Rathore,,BAT/WK,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,34102,Rohit Sharma,Rohit Sharma,,BAT,1600,1927000,Retained,FALSE,FALSE,16,160000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,720471,Ishan Kishan,Ishan Kishan,,BAT/WK,1525,1837000,Retained,FALSE,FALSE,15.25,152500000
+2024,Mumbai Indians,98.95 cr,1.05 cr,625371,Hardik Pandya,Hardik Pandya,,AR,1500,1807000,New,TRUE,FALSE,15,150000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,625383,Jasprit Bumrah,Jasprit Bumrah,,BOW,1200,1445000,Retained,FALSE,FALSE,12,120000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,892749,Tim David,Tim David,,AR,825,993000,Retained,FALSE,TRUE,8.25,82500000
+2024,Mumbai Indians,98.95 cr,1.05 cr,446507,Suryakumar Yadav,Suryakumar Yadav,,BAT,800,963000,Retained,FALSE,FALSE,8,80000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,596010,Gerald Coetzee,Gerald Coetzee,,AR,500,602000,New,FALSE,TRUE,5,50000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,955235,Nuwan Thushara,Nuwan Thushara,,BOW,480,578000,New,FALSE,TRUE,4.8,48000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,793007,Dilshan Madushanka,Dilshan Madushanka,,BOW,460,554000,New,FALSE,TRUE,4.6,46000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,1070665,Dewald Brevis,Dewald Brevis,,BAT,300,361000,Retained,FALSE,TRUE,3,30000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,1170265,Tilak Varma,Tilak Varma,,AR,170,204000,Retained,FALSE,FALSE,1.7,17000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,25913,Mohammad Nabi,Mohammad Nabi,,AR,150,180000,New,FALSE,TRUE,1.5,15000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,272477,Jason Behrendorff,Jason Behrendorff,,BOW,75,90000,Retained,FALSE,TRUE,0.75,7500000
+2024,Mumbai Indians,98.95 cr,1.05 cr,32966,Piyush Chawla,Piyush Chawla,,BOW,50,60000,Retained,FALSE,FALSE,0.5,5000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,677077,Romario Shepherd,Romario Shepherd,,AR,50,60000,New,TRUE,TRUE,0.5,5000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,1148776,Arjun Tendulkar,Arjun Tendulkar,,AR,30,36000,Retained,FALSE,FALSE,0.3,3000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,1131607,Shams Mulani,Shams Mulani,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,1151273,Nehal Wadhera,Nehal Wadhera,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,1159843,Kumar Kartikeya,Kumar Kartikeya,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,1167965,Shivalik Sharma,Shivalik Sharma,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,1175428,Anshul Kamboj,Anshul Kamboj,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,1206039,Akash Madhwal,Akash Madhwal,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,1287032,Naman Dhir,Naman Dhir,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,344580,Shreyas Gopal,Shreyas Gopal,,BOW,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Mumbai Indians,98.95 cr,1.05 cr,732293,Vishnu Vinod,Vishnu Vinod,,BAT/WK,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,489889,Pat Cummins,Pat Cummins,,AR,2050,2469000,New,FALSE,TRUE,20.5,205000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,719715,Washington Sundar,Washington Sundar,,AR,875,1054000,Retained,FALSE,FALSE,8.75,87500000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,446763,Rahul Tripathi,Rahul Tripathi,,BAT,850,1024000,Retained,FALSE,FALSE,8.5,85000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,398438,Mayank Agarwal,Mayank Agarwal,,BAT,825,993000,Retained,FALSE,FALSE,8.25,82500000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,530011,Travis Head,Travis Head,,BAT,680,819000,New,FALSE,TRUE,6.8,68000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1070183,Abhishek Sharma,Abhishek Sharma,,AR,650,783000,Retained,FALSE,FALSE,6.5,65000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,436757,Heinrich Klaasen,Heinrich Klaasen,,BAT/WK,525,632000,Retained,FALSE,TRUE,5.25,52500000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,326016,Bhuvneshwar Kumar,Bhuvneshwar Kumar,,BOW,420,506000,Retained,FALSE,FALSE,4.2,42000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,696401,Marco Jansen,Marco Jansen,,AR,420,506000,Retained,FALSE,TRUE,4.2,42000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1175485,Abdul Samad,Abdul Samad,,AR,400,481000,Retained,FALSE,FALSE,4,40000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1246528,Umran Malik,Umran Malik,,BOW,400,481000,Retained,FALSE,FALSE,4,40000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,802575,T Natarajan,T Natarajan,,BOW,400,481000,Retained,FALSE,FALSE,4,40000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,600498,Aiden Markram,Aiden Markram,,BAT,260,313000,Retained,FALSE,TRUE,2.6,26000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1159711,Shahbaz Ahmed,Shahbaz Ahmed,,AR,240,289000,New,TRUE,FALSE,2.4,24000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,390484,Jaydev Unadkat,Jaydev Unadkat,,BOW,160,192000,New,FALSE,FALSE,1.6,16000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,784379,Wanindu Hasaranga,Wanindu Hasaranga,,AR,150,180000,New,FALSE,TRUE,1.5,15000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,823509,Glenn Phillips,Glenn Phillips,,BAT/WK,150,180000,Retained,FALSE,TRUE,1.5,15000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1081442,Mayank Markande,Mayank Markande,,BOW,50,60000,Retained,FALSE,FALSE,0.5,5000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,974175,Fazalhaq Farooqi,Fazalhaq Farooqi,,BOW,50,60000,Retained,FALSE,TRUE,0.5,5000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,732269,Upendra Yadav,Upendra Yadav,,BAT/WK,25,30000,Retained,FALSE,FALSE,0.25,2500000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1132219,Sanvir Singh,Sanvir Singh,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1175458,Akash Singh,Akash Singh,,BOW,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,1175496,Nitish Kumar Reddy,Nitish Kumar Reddy,,BAT/WK,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,851261,Anmolpreet Singh,Anmolpreet Singh,,BAT,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Sunrisers Hyderabad,96.80 cr,3.20 cr,919531,Jhathavedh Subramanyan,Jhathavedh Subramanyan,,BOW,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,422108,KL Rahul,KL Rahul,,BAT/WK,1700,2048000,Retained,FALSE,FALSE,17,170000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,604302,Nicholas Pooran,Nicholas Pooran,,BAT/WK,1600,1927000,Retained,FALSE,TRUE,16,160000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,325012,Marcus Stoinis,Marcus Stoinis,,AR,1000,1204000,Retained,FALSE,TRUE,10,100000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,471342,Krunal Pandya,Krunal Pandya,,AR,825,993000,Retained,FALSE,FALSE,8.25,82500000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,1119026,Devdutt Padikkal,Devdutt Padikkal,,BAT,775,933000,New,TRUE,FALSE,7.75,77500000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,351588,Mark Wood,Mark Wood,,BOW,750,903000,Retained,FALSE,TRUE,7.5,75000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,379143,Quinton de Kock,Quinton de Kock,,BAT/WK,675,813000,Retained,FALSE,TRUE,6.75,67500000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,1079848,Shivam Mavi,Shivam Mavi,,BOW,640,771000,New,FALSE,FALSE,6.4,64000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,497121,Deepak Hooda,Deepak Hooda,,AR,575,692000,Retained,FALSE,FALSE,5.75,57500000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,1175441,Ravi Bishnoi,Ravi Bishnoi,,BOW,400,481000,Retained,FALSE,FALSE,4,40000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,1151286,Manimaran Sidharth,Manimaran Sidharth,,BOW,240,289000,New,FALSE,FALSE,2.4,24000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,308251,David Willey,David Willey,,AR,200,240000,New,FALSE,TRUE,2,20000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,500268,Ashton Turner,Ashton Turner,,BAT,100,120000,New,FALSE,TRUE,1,10000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,424377,K Gowtham,K Gowtham,,AR,90,108000,Retained,FALSE,FALSE,0.9,9000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,31107,Amit Mishra,Amit Mishra,,BOW,50,60000,Retained,FALSE,FALSE,0.5,5000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,348056,Kyle Mayers,Kyle Mayers,,AR,50,60000,Retained,FALSE,TRUE,0.5,5000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,793447,Naveen-ul-Haq,Naveen-ul-Haq,,BOW,50,60000,Retained,FALSE,TRUE,0.5,5000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,1070196,Yash Thakur,Yash Thakur,,BOW,45,54000,Retained,FALSE,FALSE,0.45,4500000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,1132005,Mohsin Khan,Mohsin Khan,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,1151270,Ayush Badoni,Ayush Badoni,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,1206052,Yudhvir Singh,Yudhvir Singh,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,1244751,Arshad Khan,Arshad Khan,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,1292563,Mayank Yadav,Mayank Yadav,,BOW,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,1403153,Arshin Kulkarni,Arshin Kulkarni,,AR,20,24000,New,FALSE,FALSE,0.2,2000000
+2024,Lucknow Super Giants,99.05 cr,0.95 cr,956871,Prerak Mankad,Prerak Mankad,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,793463,Rashid Khan,Rashid Khan,,BOW,1500,1807000,Retained,FALSE,TRUE,15,150000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,1123718,Spencer Johnson,Spencer Johnson,,BOW,1000,1204000,New,FALSE,TRUE,10,100000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,423838,Rahul Tewatia,Rahul Tewatia,,AR,900,1084000,Retained,FALSE,FALSE,9,90000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,1070173,Shubman Gill,Shubman Gill,,BAT,800,963000,Retained,FALSE,FALSE,8,80000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,719719,M Shahrukh Khan,M Shahrukh Khan,,AR,740,891000,New,FALSE,FALSE,7.4,74000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,481896,Mohammed Shami,Mohammed Shami,,BOW,625,753000,Retained,FALSE,FALSE,6.25,62500000
+2024,Gujarat Titans,92.15 cr,7.85 cr,376116,Umesh Yadav,Umesh Yadav,,BOW,580,698000,New,FALSE,FALSE,5.8,58000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,928067,Josh Little,Josh Little,,BOW,440,530000,Retained,FALSE,TRUE,4.4,44000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,1350762,Robin Minz,Robin Minz,,BAT/WK,360,433000,New,FALSE,FALSE,3.6,36000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,1048739,R Sai Kishore,R Sai Kishore,,BOW,300,361000,Retained,FALSE,FALSE,3,30000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,321777,David Miller,David Miller,,BAT,300,361000,Retained,FALSE,TRUE,3,30000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,778963,Abhinav Manohar,Abhinav Manohar,,BAT,260,313000,Retained,FALSE,FALSE,2.6,26000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,230193,Matthew Wade,Matthew Wade,,BAT/WK,240,289000,Retained,FALSE,TRUE,2.4,24000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,1175457,Sushant Mishra,Sushant Mishra,,BOW,220,265000,New,FALSE,FALSE,2.2,22000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,277906,Kane Williamson,Kane Williamson,,BAT,200,240000,Retained,FALSE,TRUE,2,20000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,279810,Wriddhiman Saha,Wriddhiman Saha,,BAT/WK,190,228000,Retained,FALSE,FALSE,1.9,19000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,447587,Jayant Yadav,Jayant Yadav,,AR,170,204000,Retained,FALSE,FALSE,1.7,17000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,477021,Vijay Shankar,Vijay Shankar,,AR,140,168000,Retained,FALSE,FALSE,1.4,14000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,1122918,Kartik Tyagi,Kartik Tyagi,,BOW,60,72000,New,FALSE,FALSE,0.6,6000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,537119,Mohit Sharma,Mohit Sharma,,BOW,50,60000,Retained,FALSE,FALSE,0.5,5000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,819429,Azmatullah Omarzai,Azmatullah Omarzai,,AR,50,60000,New,FALSE,TRUE,0.5,5000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,1182529,Noor Ahmad,Noor Ahmad,,BOW,30,36000,Retained,FALSE,TRUE,0.3,3000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,1111917,Darshan Nalkande,Darshan Nalkande,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,1151288,Sai Sudharsan,Sai Sudharsan,,AR,20,24000,Retained,FALSE,FALSE,0.2,2000000
+2024,Gujarat Titans,92.15 cr,7.85 cr,1175426,Manav Suthar,Manav Suthar,,BOW,20,24000,New,FALSE,FALSE,0.2,2000000
