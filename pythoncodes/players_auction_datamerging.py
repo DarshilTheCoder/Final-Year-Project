@@ -52,8 +52,17 @@ merged = auc.merge(
 merged["has_prior_season"] = merged["season"].notna()
 merged = merged.drop(columns=["season"])     # == prior_season when matched; redundant
 
+static_cols = ["nationality", "player_role", "batting_style", "bowling_style", "birthdate", "international_career","t20_start", "t20_end", "odi_start", "odi_end"]
+
+player_static = stats.groupby("player_id")[static_cols].first().reset_index()  # first non-null per player
+
+merged = merged.merge(player_static, on="player_id", how="left", suffixes=("", "_fill"))
+for col in static_cols:
+    merged[col] = merged[col].fillna(merged[col + "_fill"])   # only fill where the lagged join left it blank
+    merged = merged.drop(columns=[col + "_fill"])
+
 Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
-merged.to_csv(Path(OUTPUT_DIR) / "final_3_with_status_auction_with_prior_stats.csv", index=False)
+merged.to_csv(Path(OUTPUT_DIR) / "final_4_with_status_auction_with_prior_stats.csv", index=False)
 
 # ======================= VERIFICATION =======================
 m = merged["has_prior_season"]

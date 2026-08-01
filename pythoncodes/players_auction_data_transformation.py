@@ -2,8 +2,8 @@ import pandas as pd
 import datetime as dt
 
 
-INPUT_DIR = r'D:\DataEngineering\Final Year Project\processed_data\final_3_with_status_auction_with_prior_stats.csv'
-OUTPUT_DIR = r'D:\DataEngineering\Final Year Project\processed_data\final_modelling_ready_dataset.csv'
+INPUT_DIR = r'D:\DataEngineering\Final Year Project\processed_data\final_4_with_status_auction_with_prior_stats.csv'
+OUTPUT_DIR = r'D:\DataEngineering\Final Year Project\processed_data\final_3_modelling_ready_dataset.csv'
 YEAR_RANGE = [2008,2011,2014,2018,2022,2025]
 
 def is_mega_auction(data):
@@ -43,9 +43,17 @@ def is_capped(data):
     # capped = has an international debut AND it happened in/by the auction year
     data['is_capped'] = data['int_value'].notna() & (data['int_value'] <= data['year'])
     return data
+
+def age_during_auction(data):
+    birth = pd.to_datetime(data["birthdate"], errors="coerce")
+    data["age_during_auction"] = data["year"] - birth.dt.year
+    return data
+
+
 data = pd.read_csv(INPUT_DIR)
 data = is_mega_auction(data)
 data = is_capped(data)
+data = age_during_auction(data)
 data = changing_team_name(data)
 print(data.columns)
 data.to_csv(OUTPUT_DIR,index=False)
