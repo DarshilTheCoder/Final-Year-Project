@@ -57,11 +57,23 @@ def getting_overseasvalue_from_nationality(data):
     data['overseas2'] = ov.fillna(nat)   # fillna touches only blanks; auction values win
     return data
 
+
+def changing_label_of_auction_result(data):
+    # only fill the EMPTY rows; 'sold' and 'unsold' are left exactly as they are.
+    # the empties are the ones left blank earlier: retained / RTM / transferred.
+    blank = data['auction_result'].isna()
+    status_lc = data['status'].astype(str).str.strip().str.lower()
+    data.loc[blank & (status_lc == 'rtm'),        'auction_result'] = 'sold'         # RTM -> sold
+    data.loc[blank & (status_lc == 'retained'),   'auction_result'] = 'retained'     # Retained -> retained
+    data.loc[blank & (data['transferred'] == 1),  'auction_result'] = 'transferred'  # transferred -> transferred
+    return data
+
 data = pd.read_csv(INPUT_DIR)
 data = is_mega_auction(data)
 data = is_capped(data)
 data = age_during_auction(data)
 data = getting_overseasvalue_from_nationality(data)
+data = changing_label_of_auction_result(data)
 data = changing_team_name(data)
 print(data.columns)
 data.to_csv(OUTPUT_DIR,index=False)
