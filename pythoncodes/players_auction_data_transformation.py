@@ -3,7 +3,7 @@ import datetime as dt
 
 
 INPUT_DIR = r'D:\DataEngineering\Final Year Project\processed_data\final_4_with_status_auction_with_prior_stats.csv'
-OUTPUT_DIR = r'D:\DataEngineering\Final Year Project\processed_data\final_3_modelling_ready_dataset.csv'
+OUTPUT_DIR = r'D:\DataEngineering\Final Year Project\processed_data\final_4_modelling_ready_dataset.csv'
 YEAR_RANGE = [2008,2011,2014,2018,2022,2025]
 
 def is_mega_auction(data):
@@ -49,11 +49,19 @@ def age_during_auction(data):
     data["age_during_auction"] = data["year"] - birth.dt.year
     return data
 
+def getting_overseasvalue_from_nationality(data):
+    # keep the auction 'overseas' exactly as-is (as a nullable boolean), only fill the blanks.
+    # True = non-Indian, False = Indian, left blank if nationality is unknown too.
+    ov  = data['overseas'].map({1.0: True, 0.0: False, True: True, False: False}).astype('boolean')
+    nat = data['nationality'].ne('India').where(data['nationality'].notna()).astype('boolean')
+    data['overseas2'] = ov.fillna(nat)   # fillna touches only blanks; auction values win
+    return data
 
 data = pd.read_csv(INPUT_DIR)
 data = is_mega_auction(data)
 data = is_capped(data)
 data = age_during_auction(data)
+data = getting_overseasvalue_from_nationality(data)
 data = changing_team_name(data)
 print(data.columns)
 data.to_csv(OUTPUT_DIR,index=False)
