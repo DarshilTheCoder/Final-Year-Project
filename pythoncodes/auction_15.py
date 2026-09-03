@@ -1,4 +1,4 @@
-""""""
+"""This auction python file is used to scrap the 2015 auction html file"""
 import re
 import pandas as pd
 from bs4 import BeautifulSoup

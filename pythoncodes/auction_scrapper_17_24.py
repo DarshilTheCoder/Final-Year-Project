@@ -33,10 +33,5 @@ else:
         f.write(html)
     print("Saved. Length:", len(html))
 
-    # # quick self-check: how many team blocks made it into the saved HTML?
-    # from bs4 import BeautifulSoup
-    # soup = BeautifulSoup(html, 'html.parser')
-    # teams = soup.select("div[id^='team_']")
-    # print(f"Team blocks captured: {len(teams)}")   # want 10
 
 driver.quit()

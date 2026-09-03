@@ -1,5 +1,6 @@
-"""
 
+"""This is the main html_parser file which basically parse the players html pages 
+which we get using player_scrapper.py and stored it into data dictionary. 
 """
 
 import os
@@ -20,40 +21,38 @@ TEAMS = {
 }
 
 
-#parse_table is the function which is used to parse the table of Batting & Fielding and Bowling statistics of each player. 
+
 def parse_table(table):
-#headers list comprehension will help to define the header of the tables
+
     headers = [th.get_text(strip=True).lower() for th in table.find_all('th')]
-    # print(headers) 
+    
     season_dict = {}
-    #following for loop will help to traverse each row by row and cells help to get the value of each cell
+    
     for row in table.find_all('tr', class_='ds-bg-fill-canvas'):
         cells = row.find_all('td')
         tournament = cells[0].find('span').get_text(strip=True)
-        if not tournament.startswith('IPL '):        # keep IPL rows only
+        if not tournament.startswith('IPL '):        
             continue
-        #as I just want the data of IPL and not other leagues, as it is not useful in price prediction of IPL auction.
+        
         year = tournament.replace('IPL ', '')
         row_dict = {}
-        #storing each cell value against it's header
+        
         for header, cell in zip(headers, cells):
             span = cell.find('span')
             row_dict[header] = span.get_text(strip=True) if span else cell.get_text(strip=True)
         season_dict[year] = row_dict
-        #now the full result of that perticular year has been store inside season_dict. 
+    
     return season_dict
 
 
 
-#bio_value function is used to get the each players bio
+
 def bio_value(soup, label):
     p = soup.find('p', string=label)
     return p.find_next_sibling().get_text(" ", strip=True) if p else None
 
 
 def get_nationality(soup):
-    """Nationality from the JSON-LD block. Reset per player so a page without
-    the Person node does NOT inherit the previous player's nationality."""
     nationality = None
     for tag in soup.find_all('script', type='application/ld+json'):
         data = json.loads(tag.string)
@@ -63,7 +62,7 @@ def get_nationality(soup):
                 nationality = n['nationality'].get('name')
     return nationality
 
-#format_debut_last fucntion is used to return (debut_str,last_str) for headers like ODI matches and all. It has been written with the help of an AI, especially the regex part as it was getting difficult to extract that particular data. 
+
 def format_debut_last(soup, format_label):
     """(debut, last) text for a heading like 'ODI Matches'. soup is passed in
     now (no hidden global), so it works from inside parse_one_player()."""
@@ -81,7 +80,7 @@ def format_debut_last(soup, format_label):
     return None, None
 
 
-#tail_date function is used extract the date from the string. 
+
 def tail_date(match_str):
     if not match_str:
         return None
@@ -90,23 +89,23 @@ def tail_date(match_str):
     return m.group(1) if m else match_str
 
 
-#intl_career function is just to get players' international career data, which is available on players profile
+
 def intl_career(soup):
     node = soup.find(string=re.compile('INTL CAREER'))
     if not node:
         return '-'                                 
     value =  node.replace('INTL CAREER:', '').strip() 
-    # print(value) 
+
     return value
 
 
-#below function is used to parse one player data at a time and extract its data and return it into record form such that it gets apped in the all_record list
+
 def parse_one_player(path):
     with open(path, 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f.read(), 'html.parser')
 
     slug = os.path.basename(path).replace('.html', '')
-    playerid = slug.rsplit('-', 1)[1]                 # id is the trailing number
+    playerid = slug.rsplit('-', 1)[1]                 
 
     odi_debut, odi_last = format_debut_last(soup, 'ODI Matches')
     t20i_debut, t20i_last = format_debut_last(soup, 'T20I Matches')
@@ -142,7 +141,7 @@ def parse_one_player(path):
     return record
 
 
-#below function is used to flatten the data that we get from the above function, such that it get easy to convert into csv format
+
 def rows_from_records(records):
     rows = []
     for record in records:

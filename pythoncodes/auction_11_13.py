@@ -8,7 +8,6 @@ def parse_auction_flat_table(html_path):
     file = open(html_path, encoding='utf-8').read()
     soup = BeautifulSoup(file, 'html.parser')
 
-   #data here was in table format, which inside this class table-caption
     cap = soup.select_one('aside.inline-table h2.table-caption') or soup.find('h2', class_='table-caption')
     if cap and not year:
         m = re.search(r'(20\d{2})', cap.get_text())
@@ -22,9 +21,8 @@ def parse_auction_flat_table(html_path):
             continue #just to make sure that each row have all 
         raw_name, country, team, cost = cells[0], cells[1], cells[2], cells[3]
 
-        #as retained is joined in the name only that's why.
         is_ret = '(retained)' in raw_name.lower()
-        #here I used an AI for regex to get the name of the player.
+
         player_name = re.sub(r'\s*\(retained\)\s*', '', raw_name, flags=re.I).strip()
 
         rows.append({

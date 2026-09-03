@@ -1,8 +1,9 @@
+"""This auction python file is used to scrap the 2012 auction html file"""
+
 from bs4 import BeautifulSoup
 import re, pandas as pd
 
 def looks_like_name(s):
-    # permissive: keeps "AB de Villiers"; rejects narrative fragments and $-lines
     return (s[:1].isupper() and '$' not in s and len(s) < 40
             and not s.startswith(('-', 'to ', 'bid ', 'and ', 'It ', 'Bought ')))
 
@@ -10,7 +11,7 @@ def parse_auction_prose(html_path, year=None):
     soup = BeautifulSoup(open(html_path, encoding='utf-8').read(), 'html.parser')
     article = soup.select_one('article.ci-story') or soup.find('article')
 
-    link_ids = {}                                  # IDs only exist for linked (Bought) players
+    link_ids = {}                                  
     for a in article.select('a[href*="/player/"]'):
         m = re.search(r'/player/(\d+)', a['href'])
         if m: link_ids[a.get_text(strip=True)] = m.group(1)

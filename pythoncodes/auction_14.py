@@ -16,7 +16,7 @@ def parse_auction_2014_format(html_path):
         h3 = team.find('h3')
         team_name = h3.get_text(strip=True) if h3 else None
 
-        # purse from plain <h4> "Total spent: N" / "Total available: N"  (raw rupees)
+   
         purse_spent = purse_left = None
         for h4 in team.find_all('h4'):
             txt = h4.get_text(" ", strip=True)
@@ -26,40 +26,40 @@ def parse_auction_2014_format(html_path):
                 purse_left = txt.split(':', 1)[1].strip()
 
         for li in team.select('ul.table > li'):
-            a = li.select_one('a[href*="player"]')          # link WRAPS span.name here
+            a = li.select_one('a[href*="player"]')         
             if not a or not a.get('href'):
                 continue
             
-            #regex is used to get the id of the player from the player link
+          
             m = re.search(r'/player/(\d+)', a['href'])
             player_id   = m.group(1) if m else None
             name_span   = li.select_one('span.name')
             player_name = name_span.get_text(strip=True) if name_span else a.get_text(strip=True)
 
             mids    = [mm.get_text(strip=True) for mm in li.select('span.mid')]
-            country = mids[0] if len(mids) >= 1 else None     # CTRY column (2014-only)
-            ptype   = mids[1] if len(mids) >= 2 else None     # TYPE column
+            country = mids[0] if len(mids) >= 1 else None     
+            ptype   = mids[1] if len(mids) >= 2 else None     
             dolr = li.select_one('span.dolr')
             last = li.select_one('span.last')
 
-            rtm = bool(li.select_one('span[style*="cc0000" i]'))   # RTM = red inline span
+            rtm = bool(li.select_one('span[style*="cc0000" i]'))   
 
             rows.append({
                 'year':           year,
                 'team':           team_name,
-                'purse_spent':    purse_spent,                 # raw rupees (as-is)
+                'purse_spent':    purse_spent,                
                 'purse_left':     purse_left,
                 'player_id':      player_id,
                 'player_name':    player_name,
                 'player_fullname':player_name,
                 'birthdate':      None,
-                'country':        country,                     # extra column this format gives you
+                'country':        country,                     
                 'type':           ptype,
                 'cost_inr_lakh':  dolr.get_text(strip=True) if dolr else None,
                 'cost_usd_000':   last.get_text(strip=True) if last else None,
-                'status':         'RTM' if rtm else 'New',     # no retained marker in 2014
-                'transferred':    False,                       # concept not present
-                'overseas':       (country or '').upper() not in ('IND', 'INDIA'),  # derived from country
+                'status':         'RTM' if rtm else 'New',     
+                'transferred':    False,                       
+                'overseas':       (country or '').upper() not in ('IND', 'INDIA'),  
             })
     return pd.DataFrame(rows)
 

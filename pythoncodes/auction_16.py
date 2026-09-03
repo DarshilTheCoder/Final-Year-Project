@@ -1,4 +1,5 @@
-"""This python file is used to parse the 2016 auction html file, here I used lot of AI to write the code, as the data was not in any structured format. Everything was written in line by line form and not in any table form"""
+"""This python file is used to parse the 2016 auction html file."""
+
 import re
 import pandas as pd
 from bs4 import BeautifulSoup

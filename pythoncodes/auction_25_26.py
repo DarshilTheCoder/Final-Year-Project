@@ -1,3 +1,6 @@
+"""This python file is used to parse the 2025 and 2026 auction html files."""
+
+
 import json, pandas as pd
 from bs4 import BeautifulSoup
 
@@ -6,8 +9,8 @@ def parse_auction_new_format(html_path):
     data = json.loads(soup.find('script', id='__NEXT_DATA__').string)
     content = data['props']['appPageProps']['data']['content']
 
-    teams = content['teams']                 # team summary cards
-    teams_players = content['teamsPlayers']  # dict keyed by team id (as string)
+    teams = content['teams']                 
+    teams_players = content['teamsPlayers']  
 
     rows = []
     for t in teams:
@@ -21,11 +24,10 @@ def parse_auction_new_format(html_path):
         players_bought = f"{t['slotsBooked']}/{t['totalSlots']}"
         overseas_buys  = f"{t['overseasSlotsBooked']}/{t['totalOverseasSlots']}"
 
-        # players for this team — teamsPlayers keys are STRINGS, team id is int
         for p in teams_players.get(str(team_id), []):
             dob = p['player'].get('dateOfBirth')
 
-            # three-way status: Retained / RTM / New (mutually exclusive)
+            
             if p.get('isRetained'):
                 status = 'Retained'
             elif p.get('isMtc'):
@@ -44,8 +46,8 @@ def parse_auction_new_format(html_path):
                 'player_fullname':p['player']['longName'],
                 'birthdate':      f"{dob['year']:04d}-{dob['month']:02d}-{dob['date']:02d}" if dob else None,
                 'type':           p.get('playerRoleType'),
-                'base_price':     p.get('basePrice'),      # raw (0 = retained); clean later
-                'sold_price':     p.get('soldPrice'),      # raw rupees
+                'base_price':     p.get('basePrice'),     
+                'sold_price':     p.get('soldPrice'),      
                 'sold_price_cr':  (p.get('soldPrice') or 0) / 1e7,
                 'status':         status,
                 'transferred':    p.get('isTransferred', False),
