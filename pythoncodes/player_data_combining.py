@@ -6,8 +6,8 @@ import pandas as pd
 from pathlib import Path
 
 
-INPUT_DIR  = r"D:\DataEngineering\Final Year Project\processed_data\players_data"
-OUTPUT_DIR = r"D:\DataEngineering\Final Year Project\processed_data\players_data"
+INPUT_DIR  = r"/Users/umerkarachiwala/Desktop/Darshil'sFinalYearProject/Final-Year-Project/processed_data/players_data"
+OUTPUT_DIR = r"/Users/umerkarachiwala/Desktop/Darshil'sFinalYearProject/Final-Year-Project/processed_data/players_data"
 
 
 
@@ -56,11 +56,46 @@ if not team_files:
 players = pd.concat([pd.read_csv(f, dtype=str) for f in team_files], ignore_index=True)
 print(f"Raw combined rows: {len(players)}")
 
+
+# check for duplicate (player_id, year) groups with conflicting values
+dupe_keys = players[players.duplicated(['player_id','year'], keep=False)]
+nun = dupe_keys.groupby(['player_id','year']).nunique(dropna=False)
+conflict_cols = (nun > 1).sum().sort_values(ascending=False)
+print("\nColumns where duplicate (player_id, year) groups disagree:")
+print(conflict_cols[conflict_cols > 0].to_string())
+
+# how many (player_id, year) duplicate groups have conflicting values?
+dupe_keys = players[players.duplicated(['player_id','year'], keep=False)]
+conflicts = (dupe_keys.groupby(['player_id','year']).nunique(dropna=False) > 1).any(axis=1).sum()
+print("duplicate groups with conflicting values:", conflicts)
+
+
 # 3. dedup player-seasons (a player at multiple franchises appears in multiple files)
+before_rows    = len(players)
+before_players = players['player_id'].nunique()
+
 players = (players
         .drop_duplicates(subset=['player_id', 'year'], keep='first')
         .reset_index(drop=True))
-print(f"After dedup: {len(players)} player-seasons, {players['player_id'].nunique()} players")
+
+after_rows    = len(players)
+after_players = players['player_id'].nunique()
+
+dedup_summary = pd.DataFrame(
+    {"Count": [before_rows,
+               before_players,
+               before_rows - after_rows,
+               after_rows,
+               after_players]},
+    index=["Total rows (before dedup)",
+           "Unique players (before dedup)",
+           "Duplicate rows dropped",
+           "Remaining rows (after dedup)",
+           "Unique players (after dedup)"],
+)
+print("\n--- Deduplication summary ---")
+print(dedup_summary.to_string())
+print()
 
 # 4. clean, then tidy the id column
 players = clean_stats(players)
@@ -68,5 +103,5 @@ players['player_id'] = pd.to_numeric(players['player_id'], errors='coerce').asty
 
 out_dir = Path(OUTPUT_DIR)
 out_dir.mkdir(parents=True, exist_ok=True)
-players.to_csv(out_dir / 'new_players_combined.csv', index=False)
-print(f"Cleaned & saved -> {out_dir / 'new_players_combined.csv'}")
+players.to_csv(out_dir / 'new_players_combined2.csv', index=False)
+print(f"Cleaned & saved -> {out_dir / 'new_players_combined2.csv'}")
