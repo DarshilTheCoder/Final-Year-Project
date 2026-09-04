@@ -1,14 +1,6 @@
 """
 GROUP C parser  ->  2025, 2026
-
-These pages are not articles at all - the players sit in a real table:
-    <table class="ds-table">
-      <thead>  Players | Base | Sold
-      <tbody>  one <tr> per player
-The "Base" column is already in crores (0.30 means 30 lakh), and the player
-link in each row carries the id.
-
-Output: base_prices_group_c.csv
+To parse the unsold players from the HTML pages downloaded from the IPL website.
 """
 
 import re
@@ -17,19 +9,16 @@ from pathlib import Path
 import pandas as pd
 from bs4 import BeautifulSoup
 
-# ---- EDIT THESE ----------------------------------------------------------
+
 PAGES_DIR  = r"D:\DataEngineering\Final Year Project\pythoncodes\data\unsold_page2"
 OUTPUT_CSV = r"D:\DataEngineering\Final Year Project\pythoncodes\data\unsold_page2/unsold_with_base_price_2.csv"
 YEARS      = [2025, 2026]
-# --------------------------------------------------------------------------
 
 
 def get_year(filename):
     return int(re.search(r"(20\d\d)", filename).group(1))
 
-
 def get_player_id(href):
-    """/cricketers/rs-ambrish-1489146 -> 1489146"""
     if not href:
         return None
     m = re.search(r"-(\d+)$", href.rstrip("/"))
@@ -55,14 +44,14 @@ for path in sorted(Path(PAGES_DIR).glob("*.html")):
     for row in table.select("tbody tr"):
         cells = [cell.get_text(" ", strip=True) for cell in row.find_all("td")]
         if len(cells) < 3:
-            continue                              # not a player row
+            continue                            
 
         link = row.find("a", href=True)
         rows.append({
             "year": year,
-            "player_name": cells[0],               # Players column
+            "player_name": cells[0],               
             "player_id": get_player_id(link["href"] if link else None),
-            "base_price_in_cr": to_number(cells[1]),   # Base column, already crores
+            "base_price_in_cr": to_number(cells[1]),  
             "status": "unsold" if cells[2].lower() == "unsold" else "sold",
             "source_text": " | ".join(cells),
         })

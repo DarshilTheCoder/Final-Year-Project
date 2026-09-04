@@ -1,3 +1,6 @@
+"""This file is used to parse the skipped players' data from the html files and store it into a csv file called skipped_players.csv"""
+
+
 import os
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -5,11 +8,11 @@ import json,re
 
 
 def parse_table(table):
-    #   headers: gives the table header
+
         headers = [th.get_text(strip=True) for th in table.find_all('th')]
         print(headers)
         season_dict = {}
-        # rows: only this table's season rows
+
         for row in table.find_all('tr', class_='ds-bg-fill-canvas'):
             cells = row.find_all('td')
             tournament = cells[0].find('span').get_text(strip=True)
@@ -17,7 +20,7 @@ def parse_table(table):
                 continue
             year = tournament.replace('IPL ', '')
 
-            # pairing each header with its cell
+
             row_dict = {}
             for header, cell in zip(headers, cells):
                 span = cell.find('span')
@@ -27,24 +30,22 @@ def parse_table(table):
         return season_dict
     
 def bio_value(soup, label):
-        p = soup.find('p', string=label)      # the label <p>
+        p = soup.find('p', string=label)      
         return p.find_next_sibling().get_text(" ", strip=True) if p else None
     
-#intl_career function is just to get players' international career data, which is available on players profile
+
 def intl_career(soup):
         node = soup.find(string=re.compile('INTL CAREER'))
         if not node:
-            return '-'  #if player don't have international history                                   
+            return '-'                                 
         value =  node.replace('INTL CAREER:', '').strip() 
-        # print(value) 
         return value
 
 def format_debut_last(format_label):
-        """Return (debut_str, last_str) for a format heading like 'ODI Matches'."""
+
         heading = soup.find(string=re.compile(r'^\s*' + re.escape(format_label) + r'\s*$'))
         if not heading:
             return None, None
-        # climb to the block that holds this format's debut/last grid
         block = heading.find_parent('div')
         for _ in range(5):
             if block is None:
@@ -58,8 +59,6 @@ def format_debut_last(format_label):
 def tail_date(match_str):
         if not match_str:
             return None
-        # last ' - ' splits ground info from the date portion
-        # return match_str.rsplit(' - ', 1)[-2].strip()
         m = re.search(r'([A-Z][a-z]+ \d{1,2}, \d{4})', match_str)
         return m.group(1) if m else match_str
 
@@ -83,10 +82,7 @@ with open(f'{dir_name}/{file[0]}','r') as f:
     bat_style = bio_value(soup,'Batting Style')
     bowl_style = bio_value(soup,'Bowling Style')
     intl = intl_career(soup)
-    # print(role)
-    # print(full_name)
-    # print(born)
-    # print(age)
+
 
     for tag in soup.find_all('script', type='application/ld+json'):
         data = json.loads(tag.string)
@@ -94,7 +90,7 @@ with open(f'{dir_name}/{file[0]}','r') as f:
         for n in nodes:
             if n.get('@type') == 'Person':
                 nationality = n['nationality']['name']
-    # print(nationality)
+
     
 
     odi_debut, odi_last = format_debut_last('ODI Matches')
@@ -104,28 +100,19 @@ with open(f'{dir_name}/{file[0]}','r') as f:
     t20i_debut, t20i_last = format_debut_last('T20I Matches')
     t20i_debut_date = tail_date(t20i_debut)
     t20i_last_date  = tail_date(t20i_last)
-    # print(odi_debut_date)
-    # print(odi_last_date)
-    # print(t20i_debut_date)
-    # print(t20i_last_date)
+
     t20_heading = soup.find(lambda tag: tag.name == 'h2' and 'T20 Stats' in tag.get_text())
-    # print(t20_heading.get_text())
-    t20_section = t20_heading.find_parent('div', class_='ds-w-full')   # the wrapper
-    # print(t20_section)
+    t20_section = t20_heading.find_parent('div', class_='ds-w-full')   
     headers = t20_section.find_all('th', class_='ds-bg-fill-content-alternate')
-    # print(headers)
-    tables = t20_section.find_all('table')   # [batting, bowling]
+    tables = t20_section.find_all('table')  
     batting = parse_table(tables[0])
     bowling = parse_table(tables[1])
     record = {'player_id':playerid,'name':player_name,"batting": batting, "bowling": bowling, "birthdate":born,'age':age,'nationality':nationality, 'odi_debut_date':odi_debut_date, 'odi_last_date':odi_last_date,'t20i_debut_date':t20i_debut_date,'t20i_last_date':t20i_last_date,'player_role':role, 'batting_style':bat_style,'bowling_style':bowl_style,'international_career':intl}
-    # print(record)
-    # print(len(tables))
-    # print(f'BATTING TABLE = {tables[0]}')
-    # print(f'BOWLING TABLE = {tables[1]}')
+
 
 rows = []
 for year, bat in record['batting'].items():
-    bowl = record['bowling'].get(year, {})          # matching bowling for that year
+    bowl = record['bowling'].get(year, {})         
     rows.append({
         'player_id':   record['player_id'],
         'player_name': record['name'],

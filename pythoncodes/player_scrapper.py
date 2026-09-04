@@ -15,7 +15,7 @@ with open('data/players_list.txt','r') as file:
         slug = link.split('/')[-1]
         print(slug)
         driver2.get(link)
-        "onetrust-accept-btn-handler is because whenever first time my request will go then some cookies will come in return when browser gets closed, due to which I was unable to perform click event."
+        
         try:
             WebDriverWait(driver2, 5).until(
                 EC.element_to_be_clickable((By.ID, "onetrust-accept-btn-handler"))
@@ -25,7 +25,6 @@ with open('data/players_list.txt','r') as file:
         if "Access Denied" in driver2.page_source:
             print('You are Blocked')
         else:
-            "i.icon-expand_more-filled I used and I waited untill this particular tag load by website, otherwise it just return normal html page which might missing the statistics information"
             WebDriverWait(driver2, 15).until(
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, "i.icon-expand_more-filled"))
             )

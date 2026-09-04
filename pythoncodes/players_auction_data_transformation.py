@@ -1,3 +1,6 @@
+"""This file is used to add some more features to the final_4_with_status_auction_with_prior_stats.csv file and then store it into final_4_modelling_ready_dataset.csv file which is ready for modelling"""
+
+
 import pandas as pd
 import datetime as dt
 
@@ -7,40 +10,21 @@ OUTPUT_DIR = r'D:\DataEngineering\Final Year Project\processed_data\final_4_mode
 YEAR_RANGE = [2008,2011,2014,2018,2022,2025]
 
 def is_mega_auction(data):
-    # data = pd.read_csv(INPUT_DIR)
     data['is_mega_auction'] = None
-    # print(data.columns)
-    # print(data.iloc[0])
     data['is_mega_auction'] = data['year'].isin(YEAR_RANGE)
-    # print(data.iloc[0])
     return data
 
 def changing_team_name(data):
-    # data = pd.read_csv(INPUT_DIR)
-    # for team in data['team'].unique():
-    #     print(repr(team))
-    # print(data['team'].unique())
     proper_team_name = {'Royal Challengers Bangalore': 'Royal Challengers Bengaluru',
                         'Delhi Daredevils':'Delhi Capitals',
                         'Kings XI Punjab':'Punjab Kings',
                         'Pune Warriors':'Pune Warriors India',
                         'Kochi':'Kochi Tuskers Kerala'}
     data['team'] = data['team'].replace(proper_team_name)
-    # print(data.columns)
-    # print(data['full_team_name'].where(data['full_team_name']=='Royal Challengers Bengaluru'))
-    # print(data.iloc[68:70])
     return data
 
 def is_capped(data):
-    # data = pd.read_csv(INPUT_DIR)
-    # print(data.iloc[1])
-    # value =  data.iloc[150]['international_career']
-    # print(value)
-    # print(value.split()[0])
-    # print(value.dtype)
-    # print(data.iloc[150]['year'])
     data['int_value'] = data['international_career'].str.extract(r'(\d{4})').astype('Int64')
-    # capped = has an international debut AND it happened in/by the auction year
     data['is_capped'] = data['int_value'].notna() & (data['int_value'] <= data['year'])
     return data
 
@@ -50,22 +34,18 @@ def age_during_auction(data):
     return data
 
 def getting_overseasvalue_from_nationality(data):
-    # keep the auction 'overseas' exactly as-is (as a nullable boolean), only fill the blanks.
-    # True = non-Indian, False = Indian, left blank if nationality is unknown too.
     ov  = data['overseas'].map({1.0: True, 0.0: False, True: True, False: False}).astype('boolean')
     nat = data['nationality'].ne('India').where(data['nationality'].notna()).astype('boolean')
-    data['overseas2'] = ov.fillna(nat)   # fillna touches only blanks; auction values win
+    data['overseas2'] = ov.fillna(nat)   
     return data
 
 
 def changing_label_of_auction_result(data):
-    # only fill the EMPTY rows; 'sold' and 'unsold' are left exactly as they are.
-    # the empties are the ones left blank earlier: retained / RTM / transferred.
     blank = data['auction_result'].isna()
     status_lc = data['status'].astype(str).str.strip().str.lower()
-    data.loc[blank & (status_lc == 'rtm'),        'auction_result'] = 'sold'         # RTM -> sold
-    data.loc[blank & (status_lc == 'retained'),   'auction_result'] = 'retained'     # Retained -> retained
-    data.loc[blank & (data['transferred'] == 1),  'auction_result'] = 'transferred'  # transferred -> transferred
+    data.loc[blank & (status_lc == 'rtm'),        'auction_result'] = 'sold'         
+    data.loc[blank & (status_lc == 'retained'),   'auction_result'] = 'retained'     
+    data.loc[blank & (data['transferred'] == 1),  'auction_result'] = 'transferred'  
     return data
 
 data = pd.read_csv(INPUT_DIR)
